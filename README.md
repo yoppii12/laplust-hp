@@ -1,0 +1,41 @@
+# laplust-hp
+
+株式会社LAplust コーポレートサイト（laplust.com）再構築プロジェクトのリポジトリ。
+
+現行サイトは Studio.Design 上で運用されており、本プロジェクトはこれを Next.js（静的出力）＋ Markdown/Git 運用へ再構築するものです。詳細な背景・要件は `docs/` 配下の一次資料を参照してください。
+
+## 一次資料
+
+| ファイル | 位置づけ |
+|---|---|
+| `docs/260715_HP再構築要件定義書.docx` | 正式な要件定義書（社内レビュー済み）。**要件はこちらを正とする** |
+| `docs/260901_ClaudeCode向けハンドオフ資料.md` | 検討経緯・技術的発見・未決事項の補足資料 |
+
+## 技術スタック（確定事項）
+
+- **フロントエンド**: Next.js（静的出力中心。SSR/ISRに依存しない）
+- **コンテンツ管理**: Markdown＋Git（frontmatter形式）。SaaS型CMSは不採用
+- **ホスティング**: Netlify（先行導入。将来さくらVPS等への移行余地あり）
+- **計測**: GA4／GTM／Google Search Console（Looker Studioで可視化）
+- **問い合わせフォーム**: Netlify Functions → Google Sheets API → GWSスプレッドシート
+- **動画配信**: AWS S3＋CloudFront または YouTube限定公開（サイト本体・Gitには動画を置かない）
+- **ドメイン**: laplust.com を継続利用（SEO維持のため変更しない）
+
+## ディレクトリ構成
+
+```
+docs/            一次資料・調査結果（サイト棚卸し等）
+site/            Next.js プロジェクト本体
+  content/       Markdownコンテンツ（ニュースリリース等）
+```
+
+## デザインルール
+
+- `#FFFFFF`: ベースカラー
+- `#171A31`: メインカラー
+- `#F05A22`: アクセントカラー（1ファイル中で3%未満）
+
+## 運用ルール
+
+- 出力ファイル名は `yymmdd_(資料名)` 形式とし、名称に「LAplust」を含めない
+- ニュースリリースの追加は「Markdownファイル追加 → git push → 自動ビルド・公開」で完結させる
