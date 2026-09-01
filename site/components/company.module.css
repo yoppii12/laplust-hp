@@ -1,0 +1,144 @@
+.tabBar {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 32px auto 0;
+  width: fit-content;
+  padding: 4px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: #fff;
+}
+
+.tabBar a {
+  padding: 8px 32px;
+  border-radius: 999px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.tabBar a.isActive {
+  background: var(--color-main);
+  color: #fff;
+}
+
+.band {
+  margin-top: 48px;
+  background: var(--color-bg-light);
+  padding: 8px 0 80px;
+}
+
+.article {
+  max-width: 980px;
+  margin: 40px auto 0;
+  background: #fff;
+  padding: 72px 88px;
+}
+
+@media (max-width: 767px) {
+  .article {
+    padding: 40px 24px;
+  }
+}
+
+.articleTitle {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.label {
+  display: block;
+  margin-top: 48px;
+  font-family: var(--font-en);
+  font-size: 13px;
+  color: var(--color-gray);
+  letter-spacing: 0.05em;
+}
+
+.mission {
+  margin-top: 12px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.9;
+}
+
+.text {
+  margin-top: 12px;
+}
+
+.philosophyTitle {
+  margin-top: 28px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.philosophyText {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--color-gray);
+}
+
+/* 会社概要テーブル */
+.infoRow {
+  display: flex;
+  gap: 32px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 14px;
+}
+
+.infoRow dt {
+  flex: 0 0 160px;
+  font-weight: 500;
+}
+
+.infoRow dd {
+  flex: 1;
+}
+
+.infoRow a {
+  color: var(--color-blue);
+  text-decoration: underline;
+}
+
+/* メンバー */
+.member {
+  display: flex;
+  gap: 40px;
+  padding: 36px 0;
+  align-items: flex-start;
+}
+
+.memberPhoto {
+  flex: 0 0 180px;
+  width: 180px;
+  height: 180px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background: var(--color-bg-light);
+}
+
+.memberRole {
+  font-size: 13px;
+  color: var(--color-gray);
+}
+
+.memberName {
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.memberBio {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 2;
+  color: var(--color-gray);
+}
+
+@media (max-width: 599px) {
+  .member {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

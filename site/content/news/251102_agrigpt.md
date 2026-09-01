@@ -1,0 +1,184 @@
+---
+slug: "agrigpt"
+title: "スーパー農家 トミさん/AgriGPT"
+date: 2025-11-02
+category: other
+description: "概要スーパー農家である「トミさん」が農業・家庭菜園を行う上での栽培・病害・経営・販売促進・商品開発に関するお困りごとに回答します。OpenAI社が開発・提供する生成系AIを農業特化向けにカスタマイズし... "
+ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1080_5b214a3d-ac76-4508-a8a5-b252411781b2.webp"
+---
+
+### 概要
+
+* * *
+
+**スーパー農家である「トミさん」が農業・家庭菜園を行う上での栽培・病害・経営・販売促進・商品開発に関するお困りごとに回答します。OpenAI社が開発・提供する生成系AIを農業特化向けにカスタマイズし提供することで使いやすさと手軽さを追求しました。**
+
+下記のリンクからLINE公式アカウントを無料でお試しいただけます。
+
+**スーパー農家 トミさん**
+
+トミさんは最先端AIです。ありとあらゆる情報を学習し、生産者様の活動の一助になるよう生み出されました。
+
+### 課題
+
+生産者は日々生産・経営・販売促進・品質向上・病害等の課題に直面します。
+
+**その道のプロに聞かなければ解決しない課題**や**長時間インターネットで調べ物をしても解決できない課題**に囲まれています。圃場に出て日々作物の生育に精を出し、定植から収穫・梱包などたくさんの業務があるなかでイレギュラーな課題に直面し続けると**休む暇もありません。**
+
+また、**新規に就農した生産者ははじめての経験ばかりで日々迫りくる課題に戸惑う**場面も少なくありません。課題を解決しないままでいると最悪の場合、その年一年間売り上げが得られないなんてこともあり得ます。
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x683_b52d8a41-320a-4393-9c2b-701fad043d0c.webp)
+
+### 解決策
+
+[**【スーパー農家 トミさん】**](https://lin.ee/TQOpJN2)**が力強くサポート**
+
+> 農業の始め方を相談したり・・・ プロの農家のトミさんが親身に回答！
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1762_eba25042-d545-4649-b4b4-607806c4ed5c.webp)
+
+> 収穫までに困ったことがあったら・・・ いつでも丁寧に教えてくれるから安心！
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1671_7de46034-8c51-4fc2-9173-c5ea9eaed087.webp)
+
+> 食害の対策を聞いてみたり・・・ 病害虫の知識も豊富なトミさん！
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1722_cfd0d64d-4716-4a0d-92a3-b60012140363.webp)
+
+> 農作物の病気を誰かに相談したい・・・ 原因や対策から収量改善までトミさんがアドバイス！
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1708_74b4cb47-eaf2-434a-9d50-3d781218e3c3.webp)
+
+> 農業に関する知識を深めたり・・・ トミさんから分かりやすく学べます！
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1726_a7718d7d-86af-4af6-9a34-c6f777f4cd0e.webp)
+
+> 申請手続きが難しくて分からない・・・ トミさんが手続きの手伝いもします！
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1699_3f1e3bcc-eb9c-4ee8-91d6-4c3c5dcc11b5.webp)
+
+> 病気の予防方法について尋ねたり・・・ トミさんは予防のプロでもあります！
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1988_8a969fbd-4638-4d21-9c25-33cd971a6aec.webp)
+
+> 販売単価を上げる方法を聞いてみたり・・・ トミさんの経験から儲かる経営を後押し！
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1934_f4d4f7c1-d50a-4f99-9c0a-91275ece6224.webp)
+
+> 新規就農におけるヒントを得たり・・・ トミさんは新規就農者の気持ちもわかります。
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1977_1cb272f9-ec05-4ad5-9a08-c18a31853932.webp)
+
+> 新商品開発の指針を得たり・・・ 商品企画の進め方にも助言できるトミさん。
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1991_60ada190-52ff-467a-92ef-f9a1e5af0a7c.webp)
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1977_a717acd0-5b58-4ea1-94bc-0dc1cfec436c.webp)
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1977_e5d2475f-4625-4176-8113-d8cd5e711384.webp)
+
+### はじめ方
+
+①LINEがインストールされたスマートフォンをご用意ください。
+
+②[**こちらをクリック**](https://lin.ee/TQOpJN2)するか、スマートフォンのカメラでQRコードを読み取り**「追加」**をクリックします。
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1080_471c67f9-2881-4050-957c-9f5fa0f8cb99.webp)
+
+③これで準備が整いました！トミさんからメッセージが届くので**「トミさん、初めまして！」**と挨拶してみましょう！
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1746_437e73bd-4001-4db7-8b1e-3fc02e4db964.webp)
+
+### 効果
+
+* * *
+
+`実際にご利用いただいたお客様の声を掲載予定です。今しばらくお待ちください。`
+
+> ※トミさんに質問した際の回答の妥当性は30年以上農業に従事されている専業農家様にご確認いただいております。今後も専門家の皆様のお力をお借りしながら回答の確からしさを向上させます。
+
+### メディア掲載
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x577_c75f65b4-3c26-4285-ae32-ca9abc96c24d.webp)
+
+**長崎の果樹　2024年5月号掲載**
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-587x619_7c7bea26-9778-47ad-a0e7-863584a91414.webp)
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-604x897_a1d83105-02be-4522-9bfa-a7a5fad0a693.webp)
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-600x888_5403c723-8c9e-42c3-922d-c217af4a218c.webp)
+
+掲載先
+
+記事一覧
+
+PR TIMES
+
+[https://prtimes.jp/main/html/rd/p/000000001.000067251.html](https://prtimes.jp/main/html/rd/p/000000001.000067251.html)
+
+NBC長崎放送
+
+[https://newsdig.tbs.co.jp/articles/nbc/541183?display=1&mwplay=1](https://newsdig.tbs.co.jp/articles/nbc/541183?display=1&mwplay=1)
+
+長崎新聞
+
+[https://nordot.app/1043342622603494080?c=174761113988793844](https://nordot.app/1043342622603494080?c=174761113988793844)
+
+日本農業新聞
+
+[https://www.agrinews.co.jp/farming/index/165590](https://www.agrinews.co.jp/farming/index/165590)
+
+Yahoo!ニュース
+
+[https://news.yahoo.co.jp/articles/70444215bc204617c9cc6e0a57339de34f9c941b](https://news.yahoo.co.jp/articles/70444215bc204617c9cc6e0a57339de34f9c941b)
+
+### 開発の想い
+
+日本で起きている慢性的な人口減少、**農業だけでなく各産業分野で発生している後継者不足に対して、まずは手軽に生産性を上げていく仕組みを準備していくことが急務**だと考えています。そして**新しく農業に挑戦する人を支えていくこと**も長期的に日本の農業を持続可能なものにしていくうえで必要な活動だと思います。AIを用いた先端ITの力で少しでも生産者さんを支える力になり日本の持続可能な農業を実現し、将来的に食に困る状況を回避できればとおもい開発に至りました。
+
+**少しでも多くの人に使ってほしい、誰もが使いやすいように提供したい**、そんな思いをもってLINE公式アカウント[【スーパー農家 トミさん】](https://lin.ee/TQOpJN2)という形でお届けすることにしました。まずは[無料プラン](https://lin.ee/TQOpJN2)でお試しください。
+
+### 【β版】としての提供
+
+農業に特化した生成系のAIは、β版として利用いただく皆様からの広範囲の潜在的な入力・質問を受け取り、応答を行います。これによりAIが皆様の期待に適切に沿っているかどうか評価されます。正確・不正確な情報の中から利用いただく皆様の目的や課題に適しているかどうか評価・検討され、調整が繰り返されることでパフォーマンスが常に向上されていくよう開発をすすめてまいります。
+
+> ✅ ご利用上の注意事項
+> 
+> ・回答した情報の正確性・妥当性については、それを保証するものではありません。
+> 
+> ・本サービスによる回答は、データベース構築時点の情報であり、最新の情報ではない可能性があります。
+> 
+> ・名前や住所、電話番号などの個人情報や機密情報は入力しないようにご注意ください。（質問分の中に人物名が必要な場合はAさんなど適宜置き換えたうえで質問してください。）
+
+### **Agri-GPTが不適切な回答を行った例（要改善項目）**
+
+たまねぎの収量増加を目指して、具体的な品種について質問を行いました。
+
+**①「玉ねぎ」の収量増加について質問**
+
+文法にやや誤りがありますが大枠として適切な回答を行っている状況です。
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-529x685_f1acf0de-adf7-4765-b1d3-2be47cae14e7.webp)
+
+**②上記の２について適切な品種に関して教えてほしいと依頼**
+
+1,2,3ともっともらしい回答をしてくれましたが実際にはない品種です。このような「でっち上げ」がGPTで発生する事象として確認されています
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-532x621_2127daf1-b5af-4654-beb4-267c11cdc221.webp)
+
+**③さらに回答の誤りを指摘したうえで、再度、生育率の良い玉ねぎの品種について質問**
+
+こちらについても品種に誤りがありました。もっともらしい回答をしている点に注意が必要です。
+
+![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-530x627_c0399c4a-c1ed-49bf-a7e4-ae7ef18fc4c2.webp)
+
+**以上のことから、ご利用上の注意点を十分にご留意の上、ご利用いただけますと幸いです。**
+
+**最終的なご判断はご自身でいただくようお願いいたします。トミさんは常に改善を進めてまいります。**
+
+[利用規約](https://laplust.com/tomi_terms)
+
+[プライバシーポリシー](https://laplust.com/tomi_privacy)
+
+[特定商品取引法に基づく表記](https://laplust.com/tomi_tokusho)
