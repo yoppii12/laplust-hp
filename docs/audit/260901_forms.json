@@ -1,0 +1,268 @@
+[
+  {
+    "page": "/contact",
+    "action": "https://laplust.com/contact",
+    "method": "get",
+    "fields": [
+      {
+        "tag": "select",
+        "type": "select-one",
+        "name": "お問い合わせ種別",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "お名前",
+        "placeholder": "お名前を入力してください",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "会社名",
+        "placeholder": "会社名を入力してください",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "name": "メールアドレス",
+        "placeholder": "mail@example.com",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "name": "メールアドレス（確認）",
+        "placeholder": "mail@example.com",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "電話番号",
+        "placeholder": "09012345678",
+        "required": false
+      },
+      {
+        "tag": "textarea",
+        "type": "textarea",
+        "name": "お問い合わせ内容",
+        "placeholder": "お問い合わせ内容を入力してください",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "プライバシーポリシー",
+        "placeholder": "",
+        "required": true
+      }
+    ]
+  },
+  {
+    "page": "/LA-Eye",
+    "action": "https://laplust.com/LA-Eye",
+    "method": "get",
+    "fields": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "お名前",
+        "placeholder": "お名前を入力してください",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "会社名",
+        "placeholder": "会社名を入力してください",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "name": "メールアドレス",
+        "placeholder": "mail@example.com",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "電話番号",
+        "placeholder": "09012345678",
+        "required": false
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "name": "資料請求目的",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "プライバシーポリシー",
+        "placeholder": "",
+        "required": true
+      }
+    ]
+  },
+  {
+    "page": "/LA-Eye",
+    "action": "https://laplust.com/LA-Eye",
+    "method": "get",
+    "fields": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "お名前",
+        "placeholder": "お名前を入力してください",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "会社名",
+        "placeholder": "会社名を入力してください",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "name": "メールアドレス",
+        "placeholder": "mail@example.com",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "電話番号",
+        "placeholder": "09012345678",
+        "required": false
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "name": "資料請求目的",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "プライバシーポリシー",
+        "placeholder": "",
+        "required": true
+      }
+    ]
+  },
+  {
+    "page": "/la-oca",
+    "action": "https://laplust.com/la-oca",
+    "method": "get",
+    "fields": [
+      {
+        "tag": "input",
+        "type": "email",
+        "name": "メールアドレス",
+        "placeholder": "mail@example.com",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "プライバシーポリシー",
+        "placeholder": "",
+        "required": true
+      }
+    ]
+  },
+  {
+    "page": "/LA-Eye/contact",
+    "action": "https://laplust.com/LA-Eye/contact",
+    "method": "get",
+    "fields": [
+      {
+        "tag": "input",
+        "type": "radio",
+        "name": "Radio",
+        "placeholder": "",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "radio",
+        "name": "Radio",
+        "placeholder": "",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "radio",
+        "name": "Radio",
+        "placeholder": "",
+        "required": false
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "name": "お問い合わせ種別",
+        "placeholder": "",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "お名前",
+        "placeholder": "お名前を入力してください",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "会社名",
+        "placeholder": "会社名を入力してください",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "name": "メールアドレス",
+        "placeholder": "mail@example.com",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "name": "メールアドレス（確認）",
+        "placeholder": "mail@example.com",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "電話番号",
+        "placeholder": "09012345678",
+        "required": true
+      },
+      {
+        "tag": "textarea",
+        "type": "textarea",
+        "name": "お問い合わせ内容",
+        "placeholder": "お問い合わせ内容を入力してください",
+        "required": true
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "プライバシーポリシー",
+        "placeholder": "",
+        "required": true
+      }
+    ]
+  }
+]
