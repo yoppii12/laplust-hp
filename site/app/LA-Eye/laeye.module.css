@@ -1,0 +1,1598 @@
+/* ============================================================
+   LA-Eye 製品LP専用スタイル
+   ベース #FFFFFF / メイン #171A31 / アクセント #F05A22
+   ============================================================ */
+
+.page {
+  background: #fff;
+  color: var(--color-main);
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* 共通セクションタイトル（Comparison / Features / Works / Flow / FAQ） */
+.sectionTitleEn {
+  font-family: var(--font-en);
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.sectionTitleJa {
+  margin-top: 2px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ============================================================
+   ヘッダー（固定白ヘッダー + 先頭透過ヘッダーの二層構造）
+   ============================================================ */
+.headerFixed,
+.headerTop {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 75px;
+  padding: 0 32px;
+  width: 100%;
+}
+
+.headerFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.headerTop {
+  position: relative;
+  z-index: 3;
+  background: transparent;
+}
+
+.headerLogo {
+  display: block;
+  flex: none;
+}
+
+.headerLogo img {
+  width: 122px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.headerNavWrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.headerNav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-right: 12px;
+}
+
+.headerNav a {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.headerNav a:hover {
+  opacity: 0.7;
+}
+
+.headerFixed .headerNav a {
+  color: var(--color-main);
+}
+
+.headerTop .headerNav a {
+  color: #fff;
+}
+
+.headerContact,
+.headerRequest {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 22px;
+  border-radius: 32px;
+  color: #fff;
+  white-space: nowrap;
+  transition: opacity 0.2s ease;
+}
+
+.headerContact:hover,
+.headerRequest:hover {
+  opacity: 0.85;
+}
+
+.headerContact {
+  background: var(--color-main);
+}
+
+.headerRequest {
+  background: var(--color-accent);
+}
+
+.headerContact svg,
+.headerRequest svg {
+  width: 18px;
+  height: 18px;
+}
+
+.headerContact p,
+.headerRequest p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  background: none;
+  border: none;
+}
+
+.burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.burgerDark span {
+  background: var(--color-main);
+}
+
+.burgerLight span {
+  background: #fff;
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 8px 24px 24px;
+  box-shadow: 0 8px 16px rgba(23, 26, 49, 0.12);
+}
+
+.mobileMenu a {
+  padding: 12px 0;
+  font-size: 15px;
+  color: var(--color-main);
+  border-bottom: 1px solid var(--color-border);
+}
+
+@media (max-width: 959px) {
+  .headerNavWrap {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+}
+
+/* ============================================================
+   ヒーロー
+   ============================================================ */
+.hero {
+  position: relative;
+  z-index: 2;
+  margin-top: -75px; /* 透過ヘッダーの背面に回す（現行と同じ構造） */
+  background:
+    linear-gradient(rgba(10, 12, 28, 0.35), rgba(10, 12, 28, 0.35)),
+    url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-3912x2046_v-frms_webp_ff589077-07d2-445f-a6c2-26507117afb8_regular.webp')
+      center / cover no-repeat;
+  overflow: hidden;
+}
+
+.heroInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 48px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 130px 40px 48px;
+}
+
+.heroLeft {
+  flex: 1;
+  min-width: 0;
+  color: #fff;
+}
+
+.heroBadge {
+  position: relative;
+  display: inline-block;
+  padding: 8px 24px;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.heroBadge::after {
+  content: '';
+  position: absolute;
+  left: 26px;
+  bottom: -12px;
+  border: 8px solid transparent;
+  border-top: 10px solid var(--color-accent);
+  border-left-width: 4px;
+  border-right-width: 12px;
+}
+
+.heroTitle {
+  margin-top: 26px;
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+}
+
+.heroRuby {
+  display: flex;
+  gap: 4px;
+  margin-top: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  line-height: 1;
+}
+
+.heroName {
+  margin-top: 2px;
+  font-family: var(--font-en);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+}
+
+.heroDesc {
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.heroProduct {
+  width: 470px;
+  max-width: 100%;
+  margin-top: 28px;
+}
+
+.heroForm {
+  flex: none;
+  width: 424px;
+  max-width: 100%;
+}
+
+@media (max-width: 959px) {
+  .hero {
+    margin-top: -75px;
+  }
+
+  .heroInner {
+    flex-direction: column;
+    padding-top: 110px;
+  }
+
+  .heroTitle {
+    font-size: 34px;
+  }
+
+  .heroName {
+    font-size: 32px;
+  }
+
+  .heroForm {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+/* ============================================================
+   資料請求フォームカード
+   ============================================================ */
+.reqCard {
+  overflow: hidden;
+  border-radius: 8px;
+  border: 2px solid var(--color-accent);
+  background: #fff;
+  color: var(--color-main);
+}
+
+.reqCardHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 13px 16px;
+  background: var(--color-accent);
+}
+
+.reqCardHead p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.reqCardHead span {
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--color-accent);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.reqCardBody {
+  padding: 22px 26px 26px;
+}
+
+.reqLead {
+  margin-bottom: 18px;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.reqField {
+  margin-bottom: 14px;
+}
+
+.reqLabel {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.reqLabel i {
+  margin-left: 2px;
+  color: #e60000;
+  font-style: normal;
+}
+
+.reqInput,
+.reqSelect {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg-light);
+  color: var(--color-main);
+  font-family: var(--font-ja);
+  font-size: 14px;
+}
+
+.reqInput::placeholder {
+  color: #b5b5b5;
+}
+
+.reqSelectWrap {
+  position: relative;
+}
+
+.reqSelect {
+  appearance: none;
+  background: #fff;
+}
+
+.reqSelectWrap svg {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%);
+  color: var(--color-main);
+  pointer-events: none;
+}
+
+.reqAgree {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0 0;
+  font-size: 13px;
+}
+
+.reqAgree a {
+  color: var(--color-blue);
+  text-decoration: underline;
+}
+
+.reqError {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #e60000;
+}
+
+.reqSubmit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 32px;
+  background: linear-gradient(90deg, #ff5d23, #ff6b36 82%);
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+
+.reqSubmit:hover {
+  opacity: 0.85;
+}
+
+.reqSubmit:disabled {
+  opacity: 0.6;
+}
+
+.reqSubmit svg {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+
+.reqSubmit span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.reqSubmit small {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.reqDone {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* ============================================================
+   導入企業ロゴ
+   ============================================================ */
+.logos {
+  padding: 24px 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.logosTrack {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  width: max-content;
+  animation: logosScroll 40s linear infinite;
+}
+
+.logosTrack img {
+  height: 44px;
+  width: auto;
+  flex: none;
+}
+
+@keyframes logosScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ============================================================
+   LA-Eyeとは
+   ============================================================ */
+.about {
+  padding: 88px 40px 72px;
+  text-align: center;
+}
+
+.aboutName {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  line-height: 1;
+}
+
+.aboutEnWrap {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-accent);
+}
+
+.aboutRuby {
+  display: flex;
+  gap: 2px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  line-height: 1.6;
+}
+
+.aboutEn {
+  font-family: var(--font-en);
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+
+.aboutWa {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-main);
+  padding-bottom: 2px;
+}
+
+.aboutHeadline {
+  margin-top: 18px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.7;
+}
+
+.aboutHeadline code {
+  font-family: var(--font-ja);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.aboutSub {
+  margin-top: 14px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.aboutVideo {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto 0;
+  border-radius: 8px;
+  background: #000;
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 64px 24px 56px;
+  }
+
+  .aboutHeadline {
+    font-size: 22px;
+  }
+
+  .aboutHeadline code {
+    font-size: 18px;
+  }
+}
+
+/* ============================================================
+   Comparison 比較表
+   ============================================================ */
+.comparison {
+  padding: 88px 0 96px;
+  background: var(--color-bg-light);
+}
+
+.compScroll {
+  margin-top: 36px;
+  overflow-x: auto;
+}
+
+.compTable {
+  position: relative;
+  min-width: 860px;
+  padding: 0 0 2px;
+}
+
+.compHeadRow,
+.compRow {
+  display: grid;
+  grid-template-columns: 24% 38% 38%;
+}
+
+.compHeadItem {
+  background: transparent;
+}
+
+.compHeadGeneric,
+.compHeadLaeye {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 76px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.compHeadLaeye {
+  color: var(--color-accent);
+  font-family: var(--font-en);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.compRow {
+  margin-top: 2px;
+}
+
+.compItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 92px;
+  padding: 12px 16px;
+  background: var(--color-main);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.compGeneric,
+.compLaeye {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 14px 24px;
+  text-align: center;
+}
+
+.compGeneric {
+  background: #fff;
+}
+
+.compGenericAlt {
+  background: #e9e9e9;
+}
+
+.compGeneric img {
+  width: 28px;
+  height: 28px;
+}
+
+.compGeneric p {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-main);
+}
+
+.compLaeye {
+  background: #fff;
+}
+
+.compRow:nth-child(odd) .compLaeye {
+  background: #efefef;
+}
+
+.compLaeye p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ◎（二重丸）アイコン */
+.compDouble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--color-accent);
+  border-radius: 50%;
+}
+
+.compDouble span {
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--color-accent);
+  border-radius: 50%;
+}
+
+/* LA-Eye列を囲むオレンジ枠 */
+.compLaeyeFrame {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 38%;
+  height: 100%;
+  border: 2px solid var(--color-accent);
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .comparison {
+    padding: 64px 0 72px;
+  }
+}
+
+/* ============================================================
+   こんな悩みはありませんか？
+   ============================================================ */
+.worries {
+  position: relative;
+  padding: 80px 40px 96px;
+  background: #171c36;
+  color: #fff;
+}
+
+.worriesTitle {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+.worriesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  max-width: 1100px;
+  margin: 56px auto 0;
+}
+
+.worriesItem {
+  text-align: center;
+}
+
+.worriesItem img {
+  width: 68px;
+  height: 68px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.worriesItemTitle {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.worriesItemDesc {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.worriesNotch {
+  position: absolute;
+  left: 50%;
+  bottom: -28px;
+  transform: translateX(-50%);
+  border-left: 44px solid transparent;
+  border-right: 44px solid transparent;
+  border-top: 28px solid #171c36;
+}
+
+@media (max-width: 767px) {
+  .worriesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   Features
+   ============================================================ */
+.features {
+  padding: 104px 0 88px;
+  background: #fff;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.featureCard {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding: 8px 48px 8px 8px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.featureCardReverse {
+  flex-direction: row-reverse;
+  padding: 8px 8px 8px 48px;
+}
+
+.featureImage {
+  width: 55%;
+  flex: none;
+  border-radius: 4px;
+}
+
+.featureText {
+  flex: 1;
+  padding: 32px 0;
+}
+
+.featureNo {
+  color: var(--color-accent);
+  font-family: var(--font-en);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.featureTitle {
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.featureDesc {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 2.1;
+}
+
+@media (max-width: 767px) {
+  .featureCard,
+  .featureCardReverse {
+    flex-direction: column;
+    gap: 0;
+    padding: 8px;
+  }
+
+  .featureImage {
+    width: 100%;
+  }
+
+  .featureText {
+    padding: 24px 16px;
+  }
+}
+
+/* その他の機能・特徴 */
+.otherTitle {
+  margin-top: 96px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.otherGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 32px;
+}
+
+.otherCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 22px 24px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.otherCheck {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  color: var(--color-accent);
+}
+
+.otherCheck svg {
+  width: 100%;
+  height: 100%;
+}
+
+.otherCard p {
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+@media (max-width: 767px) {
+  .otherGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   資料DL訴求バンド
+   ============================================================ */
+.ctaBand {
+  padding: 72px 24px 64px;
+  background: var(--color-main);
+  color: #fff;
+  text-align: center;
+}
+
+.ctaLead {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.ctaTitle {
+  margin-top: 8px;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 32px;
+  padding: 14px 32px;
+  border-radius: 32px;
+  background: linear-gradient(90deg, #ff5d23, #ff6b36 82%);
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+
+.ctaButton:hover {
+  opacity: 0.85;
+}
+
+.ctaButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+.ctaButton p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.ctaContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+  color: #fff;
+}
+
+.ctaContact:hover {
+  opacity: 0.8;
+}
+
+.ctaContact svg {
+  width: 18px;
+  height: 18px;
+}
+
+.ctaContact p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ============================================================
+   Works 活用方法の一例
+   ============================================================ */
+.works {
+  padding: 88px 0 80px;
+  background: var(--color-bg-light);
+}
+
+.worksCarousel {
+  margin-top: 36px;
+}
+
+.worksTrack {
+  display: flex;
+  gap: 24px;
+  padding: 4px 40px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.worksCard {
+  flex: none;
+  width: 264px;
+  padding: 20px 20px 24px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.worksCardTitle {
+  min-height: 3.2em;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.worksCardImage {
+  margin-top: 8px;
+  aspect-ratio: 528 / 316;
+  border-radius: 4px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.worksCardDesc {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.worksNav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.worksNav button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--color-main);
+}
+
+.worksNav button:hover {
+  background: var(--color-border);
+}
+
+.worksNav svg {
+  width: 20px;
+  height: 20px;
+}
+
+.worksMore {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.worksMore a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 32px;
+  border-radius: 32px;
+  background: var(--color-main);
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+
+.worksMore a:hover {
+  opacity: 0.85;
+}
+
+.worksMore p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.worksMore svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ============================================================
+   Flow ご利用の流れ
+   ============================================================ */
+.flow {
+  padding: 88px 0 96px;
+  background: #fff;
+}
+
+.flowList {
+  margin-top: 36px;
+}
+
+.flowCard {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  padding: 28px 48px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.flowStep {
+  flex: none;
+  text-align: center;
+  color: var(--color-accent);
+  font-family: var(--font-en);
+}
+
+.flowStep p:first-child {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  line-height: 1;
+}
+
+.flowNum {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.flowBody h3 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.flowBody p {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.flowArrow {
+  display: block;
+  width: 116px;
+  margin: 14px auto;
+}
+
+@media (max-width: 767px) {
+  .flowCard {
+    gap: 24px;
+    padding: 24px;
+  }
+}
+
+/* ============================================================
+   FAQ
+   ============================================================ */
+.faq {
+  padding: 88px 0 96px;
+  background: var(--color-bg-light);
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 36px;
+}
+
+.faqItem {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.faqButton {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 18px 24px;
+  border: none;
+  background: none;
+  text-align: left;
+}
+
+.faqButton:hover {
+  background: var(--color-border);
+}
+
+.faqQ {
+  flex: none;
+  color: var(--color-accent);
+  font-family: var(--font-en);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.faqQuestion {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-main);
+}
+
+.faqArrow,
+.faqArrowOpen {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  color: var(--color-main);
+  transition: transform 0.2s ease;
+  transform: rotate(180deg);
+}
+
+.faqArrowOpen {
+  transform: rotate(0deg);
+}
+
+.faqAnswer {
+  padding: 18px 24px 22px;
+  border-top: 1px solid var(--color-border);
+}
+
+.faqAnswer p {
+  font-size: 13px;
+  line-height: 2;
+}
+
+/* ============================================================
+   Document download 資料請求
+   ============================================================ */
+.download {
+  padding: 88px 40px 96px;
+  background: var(--color-main);
+  color: #fff;
+}
+
+.downloadTitleEn {
+  text-align: center;
+}
+
+.downloadTitleJa {
+  margin-top: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.downloadInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  max-width: 1100px;
+  margin: 48px auto 0;
+}
+
+.downloadCard {
+  flex: 1;
+  min-width: 0;
+  padding: 32px;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--color-main);
+}
+
+.downloadLead {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.downloadLead code {
+  color: var(--color-accent);
+  font-family: var(--font-ja);
+  font-weight: 700;
+}
+
+.downloadCard img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.downloadRecTitle {
+  margin-top: 24px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.downloadRecList {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.downloadRecList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.downloadDone {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+  color: var(--color-accent);
+}
+
+.downloadDone svg {
+  width: 100%;
+  height: 100%;
+}
+
+.downloadRecList p {
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.downloadForm {
+  flex: none;
+  width: 424px;
+  max-width: 100%;
+}
+
+@media (max-width: 959px) {
+  .downloadInner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .downloadCard {
+    width: 100%;
+  }
+}
+
+/* ============================================================
+   会社情報
+   ============================================================ */
+.company {
+  padding: 80px 40px;
+  background: #fff;
+}
+
+.companyInner {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.companyInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1;
+}
+
+.companyInfo h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.companyInfo p {
+  font-size: 14px;
+  line-height: 2;
+}
+
+.companyLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.companyLink:hover {
+  opacity: 0.7;
+}
+
+.companyLink p {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.companyLink img {
+  width: 20px;
+  height: auto;
+}
+
+.companyMap {
+  width: 62%;
+  flex: none;
+}
+
+.companyMap iframe {
+  display: block;
+  width: 100%;
+  height: 320px;
+  border: 0;
+}
+
+@media (max-width: 959px) {
+  .companyInner {
+    flex-direction: column;
+  }
+
+  .companyMap {
+    width: 100%;
+  }
+}
+
+/* ============================================================
+   上へ戻る
+   ============================================================ */
+.toTop {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+  height: 1px;
+}
+
+.toTop a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 60px;
+  height: 60px;
+  margin-top: -60px;
+  border-radius: 4px 0 0 0;
+  background: #171c36;
+}
+
+.toTop a span {
+  display: block;
+  width: 16px;
+  height: 2px;
+  background: #fff;
+}
+
+.toTop a span:first-child {
+  transform: translateX(-5px) rotate(-45deg);
+}
+
+.toTop a span:last-child {
+  margin-top: -7px;
+  transform: translateX(5px) rotate(45deg);
+}
+
+/* ============================================================
+   フッター
+   ============================================================ */
+.footer {
+  background: var(--color-main);
+  color: #fff;
+  padding: 56px 0 40px;
+}
+
+.footerInner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.footerFollow {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footerFollow p {
+  font-family: var(--font-en);
+  font-size: 14px;
+  letter-spacing: 0.06em;
+}
+
+.footerFollow a {
+  display: inline-flex;
+  color: #fff;
+}
+
+.footerFollow a:hover {
+  opacity: 0.7;
+}
+
+.footerFollow svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.footerDivider {
+  height: 1px;
+  margin: 24px 0;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.footerNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+}
+
+.footerNav a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footerNav a:hover {
+  opacity: 0.7;
+}
+
+.footerBottom {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+}
+
+.footerBottom img {
+  width: 150px;
+  height: auto;
+}
+
+.footerBottom a {
+  font-family: var(--font-en);
+  font-size: 13px;
+  color: #fff;
+}
+
+.footerBottom a:hover {
+  opacity: 0.7;
+}
+
+.footerCopyright {
+  margin-top: 40px;
+  font-family: var(--font-en);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
