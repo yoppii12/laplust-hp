@@ -1,0 +1,31 @@
+/* デザイントークン（社内デザインルール準拠） */
+:root {
+  --color-base: #ffffff; /* ベースカラー */
+  --color-main: #171a31; /* メインカラー */
+  --color-accent: #f05a22; /* アクセントカラー（使用は全体の3%未満に留める） */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--color-base);
+  color: var(--color-main);
+  font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP',
+    Meiryo, sans-serif;
+  line-height: 1.8;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
