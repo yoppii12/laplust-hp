@@ -1,0 +1,209 @@
+/* Technology ページ（現行 laplust.com/technology の再現） */
+
+.main {
+  padding-top: calc(var(--header-height) + 40px);
+}
+
+/* ヒーロー画像 */
+.hero {
+  max-width: 1120px;
+  margin: 48px auto 0;
+  padding: 0 40px;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* 本文カラム（1カラム・約600px） */
+.article {
+  max-width: 690px;
+  margin: 24px auto 0;
+  padding: 0 40px;
+}
+
+/* セクション見出し（h2） */
+.article :is(h2).secTitle {
+  margin: 72px 0 28px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.subTitle {
+  font-weight: 700;
+}
+
+/* オレンジ強調（現行サイトの code 装飾） */
+.em {
+  color: var(--color-accent);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* point コールアウト */
+.point {
+  margin: 36px 0;
+  padding: 26px 30px;
+  border-radius: 10px;
+  background: #fdefe8;
+}
+
+.pointLabel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.bulb {
+  width: 15px;
+  height: 15px;
+  flex: none;
+  fill: var(--color-main);
+}
+
+.bulbInline {
+  display: inline-block;
+  vertical-align: -2px;
+  margin-right: 6px;
+}
+
+/* アコーディオン */
+.acc {
+  margin: 14px 0;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.accBtn {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  background: none;
+  color: var(--color-main);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.accArrow {
+  flex: none;
+  width: 9px;
+  height: 10px;
+  margin-top: 8px;
+  fill: var(--color-main);
+  transition: transform 0.2s ease;
+}
+
+.accArrowOpen {
+  transform: rotate(90deg);
+}
+
+.accBody {
+  padding: 4px 26px 22px;
+}
+
+/* FAQ */
+.faqQ {
+  flex: none;
+  font-weight: 700;
+}
+
+.faqA {
+  display: flex;
+  gap: 10px;
+  padding: 0 26px 18px;
+}
+
+.faqA > :first-child {
+  flex: none;
+  font-weight: 700;
+}
+
+.faqA p {
+  margin: 0;
+}
+
+/* テーブル（横スクロール許容） */
+.tblWrap {
+  overflow-x: auto;
+  margin: 24px 0;
+}
+
+.tblWrap table {
+  margin: 0;
+  min-width: 100%;
+}
+
+.tblWrap th {
+  white-space: nowrap;
+}
+
+.wideTbl table {
+  min-width: 640px;
+}
+
+/* 区分グループのセル */
+.groupCell {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+/* 他社比較表のCTI列ハイライト */
+.ctiColHead {
+  background: #f3d9cc !important;
+}
+
+.ctiCol {
+  background: #fdf1ea;
+}
+
+/* 選ぶべき理由（番号付きリスト） */
+.reasonList {
+  margin: 12px 0;
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+
+.reasonList li {
+  margin: 10px 0;
+}
+
+.reasonList li > span {
+  display: block;
+  font-weight: 400;
+}
+
+/* 図版 */
+.figure {
+  margin: 36px 0;
+}
+
+.figure img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .hero,
+  .article {
+    padding: 0 24px;
+  }
+
+  .article :is(h2).secTitle {
+    font-size: 22px;
+  }
+}
