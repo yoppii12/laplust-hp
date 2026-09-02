@@ -2,6 +2,8 @@ import Link from 'next/link';
 import SiteHeader from '@/components/SiteHeader';
 import SiteFooter from '@/components/SiteFooter';
 import NewsCard from '@/components/NewsCard';
+import ScrollReveal from '@/components/ScrollReveal';
+import LazyVideo from '@/components/LazyVideo';
 import { getAllNews } from '@/lib/news';
 import styles from './page.module.css';
 
@@ -27,6 +29,7 @@ export default function Home() {
   return (
     <>
       <SiteHeader transparent />
+      <ScrollReveal />
       <main>
         {/* ヒーロー */}
         <section className={styles.hero}>
@@ -59,7 +62,7 @@ export default function Home() {
         </section>
 
         {/* News */}
-        <section className={styles.section} id="news">
+        <section className={styles.section} id="news" data-reveal>
           <div className="container">
             <div className={styles.sectionHead}>
               <h2 className={styles.sectionTitle}>News</h2>
@@ -81,15 +84,15 @@ export default function Home() {
         {/* Business */}
         <section className={styles.section} id="business">
           <div className="container">
-            <h2 className={styles.sectionTitle}>Business</h2>
-            <p className={styles.businessLead}>
+            <h2 className={styles.sectionTitle} data-reveal>Business</h2>
+            <p className={styles.businessLead} data-reveal>
               LAplustは、動画や画像解析に特化した機械学習/深層学習技術の研究開発を行い、実践知を蓄積し、課題解決するためのプロダクトを社会実装しています。
               Core Tech
               Interfaceに蓄積した実践知をLA-Eyeをはじめとするプロダクトや各課題に活用/直販し、2つの活動に好循環を生むことで、社会の活動を根底から支えます。
             </p>
 
             {/* 研究開発とプロダクトの循環図 */}
-            <div className={styles.diagram}>
+            <div className={styles.diagram} data-reveal>
               <div
                 className={styles.diagramCircle}
                 style={{ backgroundImage: `url(${ASSETS.circle})` }}
@@ -116,7 +119,7 @@ export default function Home() {
             </div>
 
             {/* プロダクト: ワンクリックアノテーション */}
-            <div className={styles.productRow}>
+            <div className={styles.productRow} data-reveal>
               <div className={styles.productCard}>
                 <h3 className={styles.productCardTitle}>
                   LAplust
@@ -132,12 +135,12 @@ export default function Home() {
                 </Link>
               </div>
               <div className={styles.productVideo}>
-                <video src={ASSETS.ocaVideo} autoPlay muted loop playsInline />
+                <LazyVideo src={ASSETS.ocaVideo} />
               </div>
             </div>
 
             {/* プロダクト: LA-Eye/不良品判定 */}
-            <div className={`${styles.productRow} ${styles.productRowReverse}`}>
+            <div className={`${styles.productRow} ${styles.productRowReverse}`} data-reveal>
               <div className={styles.productCard}>
                 <h3 className={styles.productCardTitle}>LA-Eye/不良品判定</h3>
                 <p className={styles.productCardKana}>エル エーアイ</p>
@@ -149,12 +152,13 @@ export default function Home() {
                 </Link>
               </div>
               <div className={styles.productVideo}>
-                <video src={ASSETS.laeyeVideo} autoPlay muted loop playsInline />
+                <LazyVideo src={ASSETS.laeyeVideo} />
               </div>
             </div>
 
             {/* LA-Eye 紹介バンド */}
             <div
+              data-reveal
               className={styles.laeyeBand}
               style={{ backgroundImage: `url(${ASSETS.laeyeBand})` }}
             >
@@ -174,7 +178,7 @@ export default function Home() {
             </div>
 
             {/* 事業リンクカード */}
-            <div className={styles.bizCards}>
+            <div className={styles.bizCards} data-reveal>
               <Link href="/dx_system" className={styles.bizCard}>
                 <div
                   className={styles.bizCardImage}
@@ -202,8 +206,9 @@ export default function Home() {
         {/* Technology */}
         <section className={styles.section}>
           <div className="container">
-            <h2 className={styles.sectionTitle}>Technology</h2>
+            <h2 className={styles.sectionTitle} data-reveal>Technology</h2>
             <div
+              data-reveal
               className={styles.techBand}
               style={{ backgroundImage: `url(${ASSETS.techBand})` }}
             >

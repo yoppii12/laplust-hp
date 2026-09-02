@@ -84,10 +84,11 @@ button {
   z-index: 100;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 44px;
   height: var(--header-height);
   padding: 0 40px 0 24px;
-  background: var(--color-base);
+  /* 現行版準拠: 背景は透明（ページ背景に馴染ませる） */
+  background: transparent;
 }
 
 .site-header--transparent {
@@ -108,10 +109,12 @@ button {
   background-image: url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp');
 }
 
+/* メニューはロゴの右隣に左寄せで並べる（現行版準拠） */
 .site-header__nav {
   display: flex;
   align-items: center;
   gap: 36px;
+  margin-right: auto;
 }
 
 .site-header__nav a {
@@ -129,13 +132,20 @@ button {
   opacity: 0.6;
 }
 
-/* スクロール時に出現する固定ヘッダー */
+/* スクロール時に出現する固定ヘッダー（現行版準拠: 背景透明・紺文字） */
 .site-header--sticky {
   position: fixed;
-  background: var(--color-base);
-  box-shadow: 0 1px 6px rgba(23, 26, 49, 0.08);
+  background: transparent;
   transform: translateY(-100%);
   transition: transform 0.3s ease;
+}
+
+.site-header--sticky .site-header__nav a {
+  color: var(--color-main);
+}
+
+.site-header--sticky .site-header__burger span {
+  background: var(--color-main);
 }
 
 .site-header--sticky.is-visible {
@@ -149,6 +159,7 @@ button {
   gap: 6px;
   width: 40px;
   height: 40px;
+  margin-left: auto;
   background: none;
   border: none;
 }
@@ -163,6 +174,26 @@ button {
 
 .site-header--transparent .site-header__burger span {
   background: #fff;
+}
+
+/* スクロール連動フェードイン（現行版の「下から浮き出す」表示） */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+[data-reveal].is-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 @media (max-width: 959px) {

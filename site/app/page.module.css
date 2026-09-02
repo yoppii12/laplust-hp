@@ -28,19 +28,25 @@
 }
 
 .heroTitle {
-  font-size: 40px;
+  font-size: 46px;
   font-weight: 500;
   letter-spacing: 0.08em;
-  line-height: 2;
+  line-height: 1.9;
 }
 
 .heroSub {
-  margin-top: 16px;
+  margin-top: 20px;
   font-family: var(--font-en);
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.06em;
   line-height: 1.9;
   opacity: 0.9;
+}
+
+@media (max-width: 767px) {
+  .heroTitle {
+    font-size: 28px;
+  }
 }
 
 .heroBtn {
@@ -103,7 +109,6 @@
 /* ============ Business ============ */
 .businessLead {
   margin-top: 24px;
-  max-width: 880px;
 }
 
 /* 循環図 */
@@ -172,24 +177,31 @@
   }
 }
 
-/* プロダクト行（テキストカード＋動画） */
+/* プロダクト行（全幅動画の上にテキストカードをオーバーレイ表示） */
 .productRow {
-  display: flex;
+  position: relative;
   margin-top: 64px;
 }
 
-.productRowReverse {
-  flex-direction: row-reverse;
-}
-
 .productCard {
-  flex: 0 0 36%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 380px;
+  max-width: 42%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 56px 48px;
   background: var(--color-main);
   color: #fff;
+}
+
+.productRowReverse .productCard {
+  left: auto;
+  right: 0;
 }
 
 .productCardTitle {
@@ -226,21 +238,23 @@
 }
 
 .productVideo {
-  flex: 1;
-  min-width: 0;
   background: var(--color-bg-light);
 }
 
 .productVideo video {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
 @media (max-width: 767px) {
-  .productRow,
-  .productRowReverse {
-    flex-direction: column;
+  /* モバイルはオーバーレイをやめて縦積み */
+  .productCard {
+    position: static;
+    transform: none;
+    width: 100%;
+    max-width: none;
+    padding: 40px 24px;
   }
 }
 
@@ -294,23 +308,31 @@
 
 .bizCard {
   display: block;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  padding-bottom: 24px;
+  transition: box-shadow 0.2s ease;
+}
+
+.bizCard:hover {
+  box-shadow: 0 4px 16px rgba(23, 26, 49, 0.1);
 }
 
 .bizCardImage {
   aspect-ratio: 3 / 2;
   background-size: cover;
   background-position: center;
-  border-radius: 4px;
 }
 
 .bizCardTitle {
-  margin-top: 20px;
+  margin: 20px 24px 0;
   font-size: 18px;
   font-weight: 700;
 }
 
 .bizCardDesc {
-  margin-top: 8px;
+  margin: 8px 24px 0;
   font-size: 13px;
   color: var(--color-gray);
 }
@@ -320,7 +342,8 @@
   position: relative;
   margin-top: 40px;
   margin-bottom: 96px;
-  padding: 120px 64px;
+  padding: 200px 64px;
+  min-height: 620px;
   background-color: var(--color-main);
   background-size: cover;
   background-position: center;
@@ -328,8 +351,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   border-radius: 4px;
+  overflow: hidden;
+}
+
+/* 背景画像を暗くして説明文の可読性を確保（現行版準拠） */
+.techBand::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(23, 26, 49, 0.55);
+}
+
+.techBand > * {
+  position: relative;
+  z-index: 1;
 }
 
 .techBandTitle {
