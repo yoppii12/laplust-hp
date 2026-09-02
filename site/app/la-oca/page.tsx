@@ -801,29 +801,6 @@ export default function LaOcaPage() {
                 </div>
               </div>
             </div>
-            <p className={styles.priceNote}>
-              ※オンプレミス対応やカスタマイズについてご希望の場合はお問い合わせください。
-            </p>
-          </div>
-        </section>
-
-        {/* ============ 実績スタッツ（現行サイト同様モバイルのみ表示） ============ */}
-        <section className={styles.stats}>
-          <div>
-            <p className={styles.statNum}>
-              95<span>%</span>
-            </p>
-            <p className={styles.statLabel}>工数削減率</p>
-          </div>
-          <div>
-            <p className={styles.statNum}>
-              5<span>秒</span>
-            </p>
-            <p className={styles.statLabel}>処理時間</p>
-          </div>
-          <div>
-            <p className={styles.statNum}>複数業界</p>
-            <p className={styles.statLabel}>対応分野</p>
           </div>
         </section>
 
