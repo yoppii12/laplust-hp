@@ -27,25 +27,42 @@
   padding: 0 24px;
 }
 
+/* 現行実測: PC 48px/22px 固定、狭い画面では画面幅に連動して縮小（折返しさせない） */
 .heroTitle {
-  font-size: 46px;
+  font-size: 48px;
   font-weight: 500;
   letter-spacing: 0.08em;
   line-height: 1.9;
+  white-space: nowrap;
 }
 
 .heroSub {
   margin-top: 20px;
   font-family: var(--font-en);
-  font-size: 16px;
+  font-size: 22px;
   letter-spacing: 0.06em;
   line-height: 1.9;
   opacity: 0.9;
+  white-space: nowrap;
 }
 
 @media (max-width: 767px) {
   .heroTitle {
-    font-size: 28px;
+    font-size: 6.4vw;
+  }
+
+  .heroSub {
+    font-size: 2.8vw;
+  }
+}
+
+@media (max-width: 540px) {
+  .heroTitle {
+    font-size: 6.8vw;
+  }
+
+  .heroSub {
+    font-size: 3.2vw;
   }
 }
 

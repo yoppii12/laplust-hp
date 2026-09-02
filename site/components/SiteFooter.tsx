@@ -58,8 +58,13 @@ export default function SiteFooter() {
         </nav>
         <div className="site-footer__bottom">
           <Link href="/" className="site-footer__logo" aria-label="LAplust" />
-          <Link href="/privacy_policy">Privacy policy</Link>
-          <Link href="/site_policy">Site policy</Link>
+          {/* 現行版準拠: ポリシー2リンクは新しいタブで開く */}
+          <a href="/privacy_policy" target="_blank" rel="noopener">
+            Privacy policy
+          </a>
+          <a href="/site_policy" target="_blank" rel="noopener">
+            Site policy
+          </a>
           <p className="site-footer__copyright">
             Copyright © 2025 LAplust, Inc. All rights reserved.
           </p>
