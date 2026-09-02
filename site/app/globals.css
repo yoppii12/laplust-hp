@@ -321,19 +321,20 @@ button {
   }
 }
 
-/* ページ上部へ戻るボタン */
+/* ページ上部へ戻るボタン（現行実測: 右下密着・60px角・左上のみ4px角丸・#171C36） */
 .scroll-top {
   position: fixed;
   right: 0;
-  bottom: 120px;
+  bottom: 0;
   z-index: 90;
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-main);
+  background: #171c36;
   border: none;
+  border-radius: 4px 0 0 0;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;

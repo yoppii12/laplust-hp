@@ -1,3 +1,9 @@
+/* Companyページのタイトルは現行実測28px（News/Contactの40pxとは異なる） */
+.pageTitle {
+  font-size: 28px;
+  font-weight: 500;
+}
+
 .tabBar {
   display: flex;
   justify-content: center;
@@ -13,7 +19,7 @@
 .tabBar a {
   padding: 8px 32px;
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 16px;
   white-space: nowrap;
 }
 
@@ -42,40 +48,42 @@
 }
 
 .articleTitle {
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 .label {
   display: block;
   margin-top: 48px;
   font-family: var(--font-en);
-  font-size: 13px;
-  color: var(--color-gray);
+  font-size: 16px;
+  color: rgba(23, 26, 49, 0.5);
   letter-spacing: 0.05em;
 }
 
 .mission {
   margin-top: 12px;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1.9;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.8;
 }
 
 .text {
   margin-top: 12px;
+  font-size: 24px;
+  line-height: 1.8;
 }
 
 .philosophyTitle {
   margin-top: 28px;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .philosophyText {
   margin-top: 8px;
-  font-size: 14px;
-  color: var(--color-gray);
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 /* 会社概要テーブル */
@@ -84,7 +92,7 @@
   gap: 32px;
   padding: 28px 0;
   border-bottom: 1px solid var(--color-border);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .infoRow dt {
@@ -109,36 +117,62 @@
   align-items: flex-start;
 }
 
-.memberPhoto {
+/* ホバーで2枚目の写真に切り替わる（現行版の挙動を再現） */
+.memberPhotoWrap {
+  position: relative;
   flex: 0 0 180px;
   width: 180px;
   height: 180px;
-  aspect-ratio: 1;
+}
+
+.memberPhoto,
+.memberPhotoHover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   background: var(--color-bg-light);
 }
 
+.memberPhotoHover {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.memberPhotoWrap:hover .memberPhotoHover {
+  opacity: 1;
+}
+
 .memberRole {
-  font-size: 13px;
-  color: var(--color-gray);
+  font-size: 16px;
 }
 
 .memberName {
   margin-top: 6px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .memberBio {
   margin-top: 12px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 2;
-  color: var(--color-gray);
 }
 
 @media (max-width: 599px) {
   .member {
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mission {
+    font-size: 32px;
+  }
+
+  .text {
+    font-size: 18px;
   }
 }

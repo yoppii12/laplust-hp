@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import SiteHeader from './SiteHeader';
+import ScrollReveal from './ScrollReveal';
 import SiteFooter from './SiteFooter';
 import styles from './company.module.css';
 
@@ -10,30 +11,35 @@ const MEMBERS = [
     role: '代表取締役 CEO',
     name: '田中 宏樹',
     photo: `${GCS}/s-464x464_webp_33980486-69dc-43cd-8acf-810adbca05ee.webp`,
+    hoverPhoto: `${GCS}/s-520x520_webp_ad1edf3f-6778-4e99-a576-d2799b51b7d0.webp`,
     bio: '高専にて電気電子工学を専攻しカオス理論を研究。 電波塔などの無線設備の保守・工事に従事。その傍、かねてより関心を寄せていた機械学習を独学で勉強。 独自の機械学習ライブラリを開発し、LAplustを創設。',
   },
   {
     role: '取締役 COO / Co-Founder',
     name: '原崎 芳加',
     photo: `${GCS}/s-464x464_webp_3b0b9cb6-e180-4ba3-8384-4a04236ff530.webp`,
+    hoverPhoto: `${GCS}/s-520x520_webp_71154c98-8a6d-45a7-9dcf-e730aa16296a.webp`,
     bio: '学生時代は水中ロボットへの組込開発に没頭し モノ作りのおもしろさと可能性を知る。横河電機株式会社にて、産業向けIoTを提供する新会社の立ち上げを行い、製造現場に入り込みIoTサービスの新規事業開発を実施。',
   },
   {
     role: '取締役 CTO / Co-Founder',
     name: '井手 雄太',
     photo: `${GCS}/s-464x464_webp_9c573c59-47ea-493a-8c44-d0a985eab009.webp`,
+    hoverPhoto: `${GCS}/s-520x520_webp_255ab5de-d365-4e62-b981-4991551db5bd.webp`,
     bio: '高専にて電気電子工学を専攻後、造船所にて貿易貨物船の電気設計を担当。 心機一転、退職を決意し、単身でフィリピンおよびオーストラリアに移住。 語学と多民族国家の文化・価値観を吸収し、「世界視」を携えCEO田中、COO原崎と共に(株)LAplustを設立',
   },
   {
     role: '取締役CPO',
     name: '田中 真人',
     photo: `${GCS}/s-464x464_webp_7b330dd9-9470-43f7-a524-b41f990a443c.webp`,
+    hoverPhoto: `${GCS}/s-520x520_webp_522c02da-a309-464d-ad58-df450ed55572.webp`,
     bio: '幼少期からものづくりが好きで、高専にて電子制御工学を専攻し、その後、大学へ編入し機械工学やロボット工学なども学ぶ。現在は、重工メーカーにてドローンやAUVの研究開発に従事する傍ら、LAplustにて組み込み・制御系を担当。',
   },
   {
     role: '取締役CPMO',
     name: '中村 匡希',
     photo: `${GCS}/s-464x464_webp_187053a3-da3c-4c63-b3db-acc198ac3e33.webp`,
+    hoverPhoto: `${GCS}/s-520x520_webp_270c2d8d-ac59-4d44-94e3-5fbb12b88cd4.webp`,
     bio: '高専にて電気電子工学を専攻後、県内電機メーカーに就職し新製品の試作組立/工程設計を担当。2024年2月、LAplustに加入。プロジェクト管理を担当。',
   },
 ];
@@ -63,9 +69,12 @@ export default function CompanyContent({
   return (
     <>
       <SiteHeader />
+      <ScrollReveal />
       <main style={{ paddingTop: 'calc(var(--header-height) + 48px)' }}>
-        <h1 className="page-title">Company</h1>
-        <nav className={styles.tabBar}>
+        <h1 className={`page-title ${styles.pageTitle}`} data-reveal>
+          Company
+        </h1>
+        <nav className={styles.tabBar} data-reveal>
           {tabs.map((t) => (
             <Link key={t.key} href={t.href} className={t.key === activeKey ? styles.isActive : ''}>
               {t.label}
@@ -76,7 +85,7 @@ export default function CompanyContent({
         <div className={styles.band}>
           <div className="container">
             {/* 経営方針 */}
-            <article className={styles.article} id="management">
+            <article className={styles.article} id="management" data-reveal>
               <h2 className={styles.articleTitle}>経営方針</h2>
               <span className={styles.label}>Our Mission</span>
               <p className={styles.mission}>
@@ -109,7 +118,7 @@ export default function CompanyContent({
             </article>
 
             {/* 会社概要 */}
-            <article className={styles.article} id="information">
+            <article className={styles.article} id="information" data-reveal>
               <h2 className={styles.articleTitle}>会社概要</h2>
               <dl style={{ marginTop: 24 }}>
                 <div className={styles.infoRow}>
@@ -148,12 +157,20 @@ export default function CompanyContent({
             </article>
 
             {/* メンバー */}
-            <article className={styles.article} id="member">
+            <article className={styles.article} id="member" data-reveal>
               <h2 className={styles.articleTitle}>メンバー</h2>
               <ul>
                 {MEMBERS.map((m) => (
-                  <li key={m.name} className={styles.member}>
-                    <img className={styles.memberPhoto} src={m.photo} alt={m.name} loading="lazy" />
+                  <li key={m.name} className={styles.member} data-reveal>
+                    <div className={styles.memberPhotoWrap}>
+                      <img className={styles.memberPhoto} src={m.photo} alt={m.name} loading="lazy" />
+                      <img
+                        className={styles.memberPhotoHover}
+                        src={m.hoverPhoto}
+                        alt=""
+                        loading="lazy"
+                      />
+                    </div>
                     <div>
                       <p className={styles.memberRole}>{m.role}</p>
                       <h3 className={styles.memberName}>{m.name}</h3>
