@@ -504,13 +504,8 @@ export default function LaEyePage() {
                     <p>{f.desc}</p>
                   </div>
                 </div>
-                {i < FLOW.length - 1 && (
-                  <img
-                    className={styles.flowArrow}
-                    src={`${ASSET}/s-554x194_webp_bb0e00f3-cdb1-4697-a530-8cc9645581a6.webp`}
-                    alt=""
-                  />
-                )}
+                {/* カード間の橙下向き三角（現行実測に合わせCSSで描画） */}
+                {i < FLOW.length - 1 && <div className={styles.flowArrow} aria-hidden="true" />}
               </div>
             ))}
           </div>
@@ -566,7 +561,7 @@ export default function LaEyePage() {
         <div className={styles.companyInner}>
           <div className={styles.companyInfo}>
             <h2>会社情報</h2>
-            <div>
+            <div className={styles.companyAddress}>
               <p>株式会社LAplust（ラプラス / LAplust Inc.）</p>
               <p>
                 〒850-0051
