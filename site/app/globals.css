@@ -613,6 +613,10 @@ button {
   justify-content: center;
   gap: 8px;
   margin: 72px auto;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
   font-family: var(--font-en);
   font-size: 16px;
   font-weight: 400;
@@ -719,15 +723,23 @@ button {
   line-height: 2;
 }
 
+/* 見出しは現行版の実測値に一致させる（h3のオレンジ帯が現行CMS記事の見出しデザイン） */
 .rich-text h2 {
-  margin: 48px 0 16px;
-  font-size: 24px;
+  margin: 40px 0;
+  border-bottom: 1px solid rgba(23, 26, 49, 0.5);
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
   line-height: 1.6;
 }
 
 .rich-text h3 {
-  margin: 36px 0 12px;
-  font-size: 19px;
+  margin: 40px 0 0;
+  padding-left: 16px;
+  border-left: 8px solid #ff5d23;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   line-height: 1.6;
 }
 
