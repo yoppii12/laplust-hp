@@ -1,7 +1,23 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { Open_Sans, Lato } from 'next/font/google';
 import { LaOcaHeader, LaOcaFaq, LaOcaTrialForm } from './LaOcaClient';
 import styles from './laoca.module.css';
+
+// 現行LPの実測フォント（Open Sans / Lato）。このページ配下のみで使用する
+const openSans = Open_Sans({
+  weight: ['300', '400', '500', '600', '700', '800'],
+  subsets: ['latin'],
+  variable: '--font-oca-en',
+  display: 'swap',
+});
+
+const lato = Lato({
+  weight: ['300', '400', '700'],
+  subsets: ['latin'],
+  variable: '--font-oca-lato',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: {
@@ -116,45 +132,110 @@ function LaEyePromo() {
   );
 }
 
-/* ---------- 比較表 ---------- */
+/* ---------- 比較表（現行実測: 列単位のカード構成・◎○はCSS円） ---------- */
+type CompMark = 'double' | 'single' | '✕' | '△' | 'ー';
 type CompCell = {
-  mark: string;
-  main: React.ReactNode;
-  note?: React.ReactNode;
+  mark: CompMark;
+  main?: React.ReactNode;
+  note?: string;
+  small?: boolean; // 説明系の長文セル（実測15px）
 };
 
-const COMPARISON_ROWS: { label: string; laplust: CompCell; manual: CompCell; outsource: CompCell }[] = [
+const COMP_LABELS = ['作業時間', 'システムコスト', '使いやすさ', '品質', '工数'];
+
+const COMP_LAPLUST: CompCell[] = [
   {
-    label: '作業時間',
-    laplust: { mark: '◎', main: '1秒/件' },
-    manual: { mark: '△', main: '100秒/件' },
-    outsource: { mark: '✕', main: '20‐30日', note: '（ダブルチェック含む）' },
+    mark: 'double',
+    main: (
+      <>
+        <em>1</em>秒<em>/</em>件
+      </>
+    ),
   },
   {
-    label: 'システムコスト',
-    laplust: { mark: '◎', main: '9,980円', note: '（クラウド型で安価）' },
-    manual: { mark: '◎', main: '0円', note: '※人件費が別途発生' },
-    outsource: { mark: '✕', main: '1,500,000円', note: '（専用環境必要）' },
+    mark: 'single',
+    main: (
+      <>
+        <em>9,980</em>円
+      </>
+    ),
+    note: '（クラウド型で安価）',
   },
   {
-    label: '使いやすさ',
-    laplust: { mark: '◎', main: 'Webで登録するだけで利用開始' },
-    manual: { mark: '✕', main: '細かなすり合わせや要件定義が必須' },
-    outsource: { mark: '△', main: '要見積もり、専門環境の準備に1‐2ヶ月' },
+    mark: 'double',
+    main: (
+      <>
+        Webで登録するだけで
+        <br />
+        利用開始
+      </>
+    ),
   },
+  { mark: 'double', main: '一律高品質' },
   {
-    label: '品質',
-    laplust: { mark: '◎', main: '一律高品質' },
-    manual: { mark: '△', main: '作業者により変動' },
-    outsource: { mark: '○', main: '上がるが限定的' },
-  },
-  {
-    label: '工数',
-    laplust: { mark: '◎', main: '99%削減' },
-    manual: { mark: 'ー', main: '' },
-    outsource: { mark: '△', main: '下がるがダブルチェック必須' },
+    mark: 'double',
+    main: (
+      <>
+        <em>99%</em>削減
+      </>
+    ),
   },
 ];
+
+const COMP_MANUAL: CompCell[] = [
+  { mark: '△', main: '100秒/件' },
+  { mark: 'double', main: '0円', note: '※人件費が別途発生' },
+  {
+    mark: '✕',
+    main: (
+      <>
+        細かなすり合わせや
+        <br />
+        要件定義が必須
+      </>
+    ),
+    small: true,
+  },
+  { mark: '△', main: '作業者により変動', small: true },
+  { mark: 'ー' },
+];
+
+const COMP_OUTSOURCE: CompCell[] = [
+  { mark: '✕', main: '20‐30日', note: '（ダブルチェック含む）' },
+  { mark: '✕', main: '1,500,000円', note: '（専用環境必要）' },
+  {
+    mark: '△',
+    main: (
+      <>
+        要見積もり、専門環境の
+        <br />
+        準備に1‐2ヶ月
+      </>
+    ),
+    small: true,
+  },
+  { mark: 'single', main: '上がるが限定的', small: true },
+  { mark: '△', main: '下がるがダブルチェック必須', small: true },
+];
+
+function Mark({ mark }: { mark: CompMark }) {
+  if (mark === 'double') return <span className={styles.markDouble} role="img" aria-label="二重丸" />;
+  if (mark === 'single') return <span className={styles.markSingle} role="img" aria-label="丸" />;
+  if (mark === 'ー') return <span className={styles.markDash}>ー</span>;
+  return <span className={styles.markText}>{mark}</span>;
+}
+
+function CompCellView({ cell }: { cell: CompCell }) {
+  return (
+    <div className={styles.compCell}>
+      <Mark mark={cell.mark} />
+      {cell.main && (
+        <p className={cell.small ? styles.compMainSmall : styles.compMain}>{cell.main}</p>
+      )}
+      {cell.note && <p className={styles.compNote}>{cell.note}</p>}
+    </div>
+  );
+}
 
 /* ---------- 導入事例（デスクトップ表示カード） ---------- */
 const RESULT_CARDS = [
@@ -279,13 +360,12 @@ const TESTIMONIALS = [
 
 export default function LaOcaPage() {
   return (
-    <div className={styles.page} id="top">
+    <div className={`${styles.page} ${openSans.variable} ${lato.variable}`} id="top">
       <LaOcaHeader />
       <main>
         {/* ============ ヒーロー ============ */}
         <section className={styles.hero}>
-          <div className={styles.container}>
-            <div className={styles.heroInner}>
+          <div className={styles.heroInner}>
               <div className={styles.heroText}>
                 <p className={styles.heroSub}>特許出願済みの独自技術で</p>
                 <p className={styles.heroTitle}>
@@ -293,7 +373,8 @@ export default function LaOcaPage() {
                   <br />
                   工数を
                   <strong>
-                    <em>99</em>％削減
+                    <em>99</em>
+                    <span className={styles.heroPct}>％</span>削減
                   </strong>
                 </p>
                 <div className={styles.heroBadges}>
@@ -337,7 +418,6 @@ export default function LaOcaPage() {
                   <p className={styles.videoLabel}>After</p>
                 </div>
               </div>
-            </div>
           </div>
         </section>
 
@@ -371,30 +451,36 @@ export default function LaOcaPage() {
             />
             <div className={styles.problemCards}>
               <div className={styles.problemCard}>
-                <img
-                  src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_2c7e804e-e286-466e-9648-a92fddce8ad2.webp`}
-                  alt=""
-                />
+                <div className={styles.problemIconCircle}>
+                  <img
+                    src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_2c7e804e-e286-466e-9648-a92fddce8ad2.webp`}
+                    alt=""
+                  />
+                </div>
                 <h3>多大な工数</h3>
                 <p>
                   AI開発の90％以上が教師データ作成に費やされ、1点のアノテーションに約100秒もかかってしまいます
                 </p>
               </div>
               <div className={styles.problemCard}>
-                <img
-                  src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_ee28a452-4d97-46dc-b6dd-bde2abde4aa2.webp`}
-                  alt=""
-                />
+                <div className={styles.problemIconCircle}>
+                  <img
+                    src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_ee28a452-4d97-46dc-b6dd-bde2abde4aa2.webp`}
+                    alt=""
+                  />
+                </div>
                 <h3>品質のばらつき</h3>
                 <p>
                   手作業によるアノテーションは作業者によって品質にばらつきが生じ、AIの精度向上の妨げとなります
                 </p>
               </div>
               <div className={styles.problemCard}>
-                <img
-                  src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_b26235f4-fc7b-45fe-8a21-6f9e41f4fc26.webp`}
-                  alt=""
-                />
+                <div className={styles.problemIconCircle}>
+                  <img
+                    src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_b26235f4-fc7b-45fe-8a21-6f9e41f4fc26.webp`}
+                    alt=""
+                  />
+                </div>
                 <h3>専門人材の不足</h3>
                 <p>アノテーション作業は単純作業に見えて慣れや専門性を要する作業です</p>
               </div>
@@ -475,9 +561,6 @@ export default function LaOcaPage() {
                 <p>
                   ”クリックするだけ”でアノテーションを完了させましょう。画像アノテーションに特化したクラウドツールのため、難しい操作や高額な初期コストは一切不要です。
                 </p>
-                <p>
-                  パワフルでドラッグ＆ドロップ機能とアノテーションが内蔵、事前に作られた高品質な教師データを通じて、クラウドサービスを今すぐ体験可能。
-                </p>
                 <a href="/la-oca#contact" className={styles.solutionCta}>
                   <p>今すぐワンクリックを体験する</p>
                   <ArrowRightIcon />
@@ -522,64 +605,54 @@ export default function LaOcaPage() {
               }
             />
             <div className={styles.comparisonScroll}>
-              <div className={styles.comparisonGrid}>
-                {/* ヘッダー行 */}
-                <div />
-                <div className={`${styles.compHeadCell} ${styles.compHeadLaplust}`}>
-                  <img
-                    src={`${ASSET}/NxqgdRVEa1/s-2400x634_v-frms_webp_36d998a3-e883-419e-aa30-f697d086ba12_small.webp`}
-                    alt="LAplust"
-                  />
-                  <p>ワンクリックアノテーション</p>
-                </div>
-                <div className={`${styles.compHeadCell} ${styles.compHeadOther}`}>
-                  <img
-                    src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_8d1be9fb-5e6a-4b4e-a4ca-c0c762fc549f.webp`}
-                    alt=""
-                  />
-                  <p>手作業</p>
-                </div>
-                <div className={`${styles.compHeadCell} ${styles.compHeadOther}`}>
-                  <img
-                    src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_717e80cb-4519-4d0f-904b-748b97dadd71.webp`}
-                    alt=""
-                  />
-                  <p>外注</p>
-                </div>
-                {/* データ行 */}
-                {COMPARISON_ROWS.map((row, i) => {
-                  const last = i === COMPARISON_ROWS.length - 1;
-                  return (
-                    <div style={{ display: 'contents' }} key={row.label}>
-                      <div className={styles.compRowLabel}>{row.label}</div>
-                      <div
-                        className={`${styles.compCell} ${styles.compCellLaplust} ${
-                          last ? styles.compCellLaplustLast : ''
-                        }`}
-                      >
-                        <span className={`${styles.compMark} ${styles.compMarkOrange}`}>
-                          {row.laplust.mark}
-                        </span>
-                        <span>{row.laplust.main}</span>
-                        {row.laplust.note && (
-                          <span className={styles.compNote}>{row.laplust.note}</span>
-                        )}
-                      </div>
-                      <div className={styles.compCell}>
-                        <span className={styles.compMark}>{row.manual.mark}</span>
-                        {row.manual.main && <span>{row.manual.main}</span>}
-                        {row.manual.note && <span className={styles.compNote}>{row.manual.note}</span>}
-                      </div>
-                      <div className={styles.compCell}>
-                        <span className={styles.compMark}>{row.outsource.mark}</span>
-                        <span>{row.outsource.main}</span>
-                        {row.outsource.note && (
-                          <span className={styles.compNote}>{row.outsource.note}</span>
-                        )}
-                      </div>
+              <div className={styles.comparisonTable}>
+                {/* 行ラベル列 */}
+                <div className={styles.compLabelCol}>
+                  {COMP_LABELS.map((label) => (
+                    <div className={styles.compLabelCell} key={label}>
+                      {label}
                     </div>
-                  );
-                })}
+                  ))}
+                </div>
+                {/* ワンクリックアノテーション列 */}
+                <div className={`${styles.compCol} ${styles.compColLap}`}>
+                  <div className={`${styles.compColHead} ${styles.compColHeadLap}`}>
+                    <img
+                      src={`${ASSET}/NxqgdRVEa1/s-2400x634_v-frms_webp_36d998a3-e883-419e-aa30-f697d086ba12_small.webp`}
+                      alt="LAplust"
+                    />
+                    <p>ワンクリックアノテーション</p>
+                  </div>
+                  {COMP_LAPLUST.map((cell, i) => (
+                    <CompCellView cell={cell} key={i} />
+                  ))}
+                </div>
+                {/* 手作業列 */}
+                <div className={styles.compCol}>
+                  <div className={styles.compColHead}>
+                    <img
+                      src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_8d1be9fb-5e6a-4b4e-a4ca-c0c762fc549f.webp`}
+                      alt=""
+                    />
+                    <p>手作業</p>
+                  </div>
+                  {COMP_MANUAL.map((cell, i) => (
+                    <CompCellView cell={cell} key={i} />
+                  ))}
+                </div>
+                {/* 外注列 */}
+                <div className={styles.compCol}>
+                  <div className={styles.compColHead}>
+                    <img
+                      src={`${ASSET}/NxqgdRVEa1/s-64x64_webp_717e80cb-4519-4d0f-904b-748b97dadd71.webp`}
+                      alt=""
+                    />
+                    <p>外注</p>
+                  </div>
+                  {COMP_OUTSOURCE.map((cell, i) => (
+                    <CompCellView cell={cell} key={i} />
+                  ))}
+                </div>
               </div>
             </div>
             <p className={styles.swipeHint}>スワイプできます</p>
@@ -617,7 +690,7 @@ export default function LaOcaPage() {
                 <h3 className={styles.planName}>無料プラン</h3>
                 <p className={styles.planPrice}>
                   <span className={styles.planYen}>￥</span>
-                  <span className={`${styles.planNum} ${styles.planNumAccent}`}>0</span>
+                  <span className={styles.planNum}>0</span>
                 </p>
                 <p className={styles.planPriceNote}>月額</p>
                 <div className={styles.planFeatures}>
@@ -643,7 +716,8 @@ export default function LaOcaPage() {
                 <p className={styles.planPrice}>
                   <span className={styles.planYen}>￥</span>
                   <span className={styles.planNum}>3,980</span>
-                  <span className={styles.planPer}>/月</span>
+                  <span className={styles.planSlash}>/</span>
+                  <span className={styles.planMonth}>月</span>
                 </p>
                 <p className={styles.planPriceNote}>税込</p>
                 <div className={styles.planFeatures}>
@@ -673,7 +747,8 @@ export default function LaOcaPage() {
                 <p className={styles.planPrice}>
                   <span className={styles.planYen}>￥</span>
                   <span className={styles.planNum}>9,980</span>
-                  <span className={styles.planPer}>/月</span>
+                  <span className={styles.planSlash}>/</span>
+                  <span className={styles.planMonth}>月</span>
                 </p>
                 <p className={styles.planPriceNote}>税込</p>
                 <div className={styles.planFeatures}>
@@ -766,9 +841,9 @@ export default function LaOcaPage() {
           </div>
         </section>
 
-        {/* ============ CTAバンド2 ============ */}
+        {/* ============ CTAバンド2（現行は全幅・角丸なし） ============ */}
         <section className={styles.ctaBand} style={{ padding: 0 }}>
-          <div className={styles.ctaBandInner} style={{ borderRadius: 0 }}>
+          <div className={styles.ctaBandInner} style={{ borderRadius: 0, maxWidth: 'none' }}>
             <h2 className={styles.ctaBandTitle}>今すぐワンクリックアノテーションを体験</h2>
             <p className={styles.ctaBandLead}>面倒な手続きゼロ。たった5分で始められます。</p>
             <div className={styles.ctaBandButtons}>
@@ -905,7 +980,7 @@ export default function LaOcaPage() {
 
         {/* ============ 会社情報 ============ */}
         <section className={styles.company}>
-          <div className={styles.container}>
+          <div className={styles.companyContainer}>
             <div className={styles.companyInner}>
               <div className={styles.companyInfo}>
                 <h2 className={styles.companyTitle}>会社情報</h2>
@@ -938,7 +1013,7 @@ export default function LaOcaPage() {
 
       {/* ============ 専用フッター ============ */}
       <footer className={styles.footer}>
-        <div className={styles.container}>
+        <div className={styles.footerInner}>
           <div className={styles.footerFollow}>
             <p>Follow Us</p>
             <div className={styles.footerSns}>
@@ -983,13 +1058,6 @@ export default function LaOcaPage() {
           <p className={styles.footerCopyright}>© 2025 Laplust Corp. All rights reserved. LA-OCA.</p>
         </div>
       </footer>
-
-      {/* ページ上部へ戻る */}
-      <a href="/la-oca#top" className={styles.scrollTop} aria-label="ページ上部へ戻る">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M5 14l7-7 7 7" />
-        </svg>
-      </a>
     </div>
   );
 }

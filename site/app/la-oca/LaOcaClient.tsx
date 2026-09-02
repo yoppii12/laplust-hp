@@ -161,7 +161,7 @@ export function LaOcaTrialForm() {
           id="la-oca-email"
           name="メールアドレス"
           type="email"
-          className="form__input"
+          className={styles.trialInput}
           placeholder="mail@example.com"
           autoComplete="off"
           required
