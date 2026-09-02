@@ -4,7 +4,11 @@
   font-weight: 500;
 }
 
+/* タブはスクロールに追従（現行版のsticky挙動） */
 .tabBar {
+  position: sticky;
+  top: calc(var(--header-height) + 12px); /* 追従ヘッダーと重ならない位置 */
+  z-index: 50;
   display: flex;
   justify-content: center;
   gap: 4px;
