@@ -10,7 +10,12 @@ export default function WorksCarousel({ items }: { items: WorkItem[] }) {
   const track = useRef<HTMLDivElement>(null);
 
   function scroll(dir: 1 | -1) {
-    track.current?.scrollBy({ left: dir * 300, behavior: 'smooth' });
+    const el = track.current;
+    if (!el) return;
+    // 1枚分（カード幅 + gap 24px）ずつ送る
+    const card = el.firstElementChild as HTMLElement | null;
+    const step = card ? card.offsetWidth + 24 : 300;
+    el.scrollBy({ left: dir * step, behavior: 'smooth' });
   }
 
   return (

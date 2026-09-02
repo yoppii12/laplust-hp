@@ -21,14 +21,15 @@ export default function FaqAccordion({ items }: { items: FaqItem[] }) {
               aria-expanded={open}
               onClick={() => setOpenIndex(open ? null : i)}
             >
-              <span className={styles.faqQ}>Q.</span>
+              {/* 現行は1件目のみ「Q.」、2件目以降は「Q」表記 */}
+              <span className={styles.faqQ}>{i === 0 ? 'Q.' : 'Q'}</span>
               <span className={styles.faqQuestion}>{item.q}</span>
               <svg
                 viewBox="0 0 24 24"
                 aria-hidden="true"
                 className={open ? styles.faqArrowOpen : styles.faqArrow}
               >
-                <path d="M7 14l5-5 5 5z" fill="currentColor" />
+                <path d="M6 15l6-6 6 6z" fill="currentColor" />
               </svg>
             </button>
             {open && (
