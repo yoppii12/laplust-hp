@@ -3,6 +3,9 @@ slug: "agrigpt"
 title: "スーパー農家 トミさん/AgriGPT"
 date: 2025-11-02
 category: other
+categories: []
+sortIndex: 22
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1080_5b214a3d-ac76-4508-a8a5-b252411781b2.webp"
 description: "概要スーパー農家である「トミさん」が農業・家庭菜園を行う上での栽培・病害・経営・販売促進・商品開発に関するお困りごとに回答します。OpenAI社が開発・提供する生成系AIを農業特化向けにカスタマイズし... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1080_5b214a3d-ac76-4508-a8a5-b252411781b2.webp"
 ---

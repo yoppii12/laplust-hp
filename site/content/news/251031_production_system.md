@@ -3,6 +3,9 @@ slug: "production_system"
 title: "【工場業務改革】生産実績収集システム"
 date: 2025-10-31
 category: other
+categories: []
+sortIndex: 30
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1366_3e549101-4b3e-44a9-9250-0b2efb1d159f.webp"
 description: "概要生産実績を収集する業務のデジタルトランスフォーメーションを支援し、改善活動に必要な生産実績データの収集に掛る時間の削減に貢献します。課題工場の現状が（工程進捗・各作業員のサイクルタイム）把握できず... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1366_3e549101-4b3e-44a9-9250-0b2efb1d159f.webp"
 ---

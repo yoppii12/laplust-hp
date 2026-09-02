@@ -3,6 +3,9 @@ slug: "yvtpxe-z"
 title: "今話題の「生成AI」について、弊社の原崎が講師を担当するセミナーが長崎市役所で開催されます。"
 date: 2023-06-14
 category: event
+categories: [event]
+sortIndex: 90
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_1ea1b4da-59d6-416d-9bdd-5957a96447c7.png"
 description: "特別セミナー「AIがあなたの生活を変える!?いま知っておくべき生成AI」「そもそもAIってなに？」という疑問から、いま話題の生成AIを利用していくうえでのメリット・デメリット、あなたの生活に影響を与え... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_1ea1b4da-59d6-416d-9bdd-5957a96447c7.png"
 ---

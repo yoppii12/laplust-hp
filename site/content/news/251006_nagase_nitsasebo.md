@@ -3,6 +3,9 @@ slug: "nagase_nitsasebo"
 title: "ナガセインテグレックスと佐世保高専、LAplust、３者共同でAI画像解析ソリューション「PICMO BOX」を開発"
 date: 2025-10-06
 category: company
+categories: [company]
+sortIndex: 38
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_487830d9-dc68-483a-8f74-cd5429cfac91.png"
 description: "概要　動画像解析AIの研究開発ならびに画像解析AI構築ツールLA-Eyeの提供を行う株式会社LAplust*1(本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust(ラプラス))は、株... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_487830d9-dc68-483a-8f74-cd5429cfac91.png"
 ---

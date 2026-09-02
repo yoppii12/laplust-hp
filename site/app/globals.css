@@ -201,29 +201,104 @@ button {
     display: none;
   }
 
-  .site-header__nav.is-open {
-    display: flex;
-    position: absolute;
-    top: var(--header-height);
-    left: 0;
-    right: 0;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0;
-    background: var(--color-base);
-    padding: 8px 24px 24px;
-    box-shadow: 0 8px 16px rgba(23, 26, 49, 0.08);
-  }
-
-  .site-header__nav.is-open a {
-    color: var(--color-main);
-    padding: 12px 0;
-    width: 100%;
-  }
-
   .site-header__burger {
     display: flex;
   }
+}
+
+/* ============================================================
+   モバイル全画面メニュー（現行版準拠）
+   ============================================================ */
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 300; /* 追従ヘッダー(100)・追従タブ(50)より前面 */
+  /* 現行版準拠: 紺色の半透明背景に白文字（下のページがうっすら透ける） */
+  background: rgba(23, 26, 49, 0.9);
+  color: #fff;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* メニュー内のロゴは白版を使用 */
+.mobile-menu .site-header__logo {
+  background-image: url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp');
+}
+
+.mobile-menu__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  padding: 0 24px;
+  flex-shrink: 0;
+}
+
+.mobile-menu__close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  background: var(--color-main);
+}
+
+.mobile-menu__close svg {
+  width: 18px;
+  height: 18px;
+  stroke: #fff;
+  stroke-width: 2;
+  fill: none;
+}
+
+.mobile-menu__nav {
+  display: flex;
+  flex-direction: column;
+  width: min(400px, 88%);
+  margin-left: auto;
+  padding: 24px 24px 48px 0;
+}
+
+.mobile-menu__nav > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  font-family: var(--font-en);
+  font-size: 16px;
+  color: #fff;
+}
+
+.mobile-menu__nav > a svg {
+  width: 8px;
+  height: 12px;
+  stroke: #fff;
+  stroke-width: 1.5;
+  fill: none;
+}
+
+.mobile-menu__sns {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.mobile-menu__sns svg {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.mobile-menu__logo {
+  height: 40px;
+  margin-top: 32px;
+  background: url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp')
+    no-repeat center / contain;
 }
 
 /* ============================================================
@@ -251,7 +326,8 @@ button {
 
 .site-footer__follow p {
   font-family: var(--font-en);
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .site-footer__sns {
@@ -282,7 +358,7 @@ button {
 .site-footer__nav a {
   font-family: var(--font-en);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .site-footer__bottom {
@@ -387,12 +463,18 @@ button {
   opacity: 0.8;
 }
 
-/* カテゴリタブ（News / Company 共通の丸型タブ） */
+/* カテゴリタブ（News / Company 共通の丸型タブ。現行実測: 12px 40px・16px・radius 32px）
+   スクロールに追従し、非アクティブはホバーで#D9D9D9にフェード */
 .tab-bar {
+  position: sticky;
+  top: calc(var(--header-height) + 12px);
+  z-index: 50;
   display: flex;
   justify-content: center;
+  width: fit-content;
+  max-width: 100%;
   margin: 32px auto 0;
-  max-width: 800px;
+  padding: 4px;
   border: 1px solid var(--color-border);
   border-radius: 999px;
   background: #fff;
@@ -400,19 +482,31 @@ button {
 }
 
 .tab-bar a {
-  flex: 1;
-  text-align: center;
-  padding: 12px 28px;
-  border-radius: 999px;
+  padding: 12px 40px;
+  border-radius: 32px;
   font-family: var(--font-en);
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.15;
   white-space: nowrap;
   color: var(--color-main);
+  transition: background-color 0.3s cubic-bezier(0.4, 0.4, 0, 1),
+    color 0.3s cubic-bezier(0.4, 0.4, 0, 1);
+}
+
+.tab-bar a:hover:not(.is-active) {
+  background: var(--color-gray-light);
+  color: #333;
 }
 
 .tab-bar a.is-active {
   background: var(--color-main);
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .tab-bar a {
+    padding: 10px 20px;
+  }
 }
 
 /* ニュースカード */
@@ -519,9 +613,13 @@ button {
   justify-content: center;
   gap: 8px;
   margin: 72px auto;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
   font-family: var(--font-en);
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .home-link svg {
@@ -625,15 +723,23 @@ button {
   line-height: 2;
 }
 
+/* 見出しは現行版の実測値に一致させる（h3のオレンジ帯が現行CMS記事の見出しデザイン） */
 .rich-text h2 {
-  margin: 48px 0 16px;
-  font-size: 24px;
+  margin: 40px 0;
+  border-bottom: 1px solid rgba(23, 26, 49, 0.5);
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
   line-height: 1.6;
 }
 
 .rich-text h3 {
-  margin: 36px 0 12px;
-  font-size: 19px;
+  margin: 40px 0 0;
+  padding-left: 16px;
+  border-left: 8px solid #ff5d23;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   line-height: 1.6;
 }
 

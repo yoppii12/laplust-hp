@@ -3,6 +3,9 @@ slug: "nit-sasebo"
 title: "佐世保工業高等専門学校（独立行政法人国立高等専門学校機構）との共同研究契約の締結について"
 date: 2024-12-24
 category: company
+categories: [company]
+sortIndex: 54
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d73ad93b-13bf-4a53-a923-4b9f316d8a2d.png"
 description: "　株式会社LAplust*1（長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、佐世保工業高等専門学校（独立行政法人国立高等専門学校機構）*2(長崎県佐世保市、以下、佐世保高専)と共... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d73ad93b-13bf-4a53-a923-4b9f316d8a2d.png"
 ---

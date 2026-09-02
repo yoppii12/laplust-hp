@@ -3,6 +3,9 @@ slug: "report_saver"
 title: "【日本全国導入】電波鉄塔点検時の報告書作成工数削減"
 date: 2025-10-31
 category: other
+categories: []
+sortIndex: 31
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1356_b18fc711-6fe5-48b8-8942-196f9d273461.webp"
 description: "概要アナログな紙媒体中心の業務が多く、高齢化が進む日本全国のテレビやラジオ放送所の保全業務のデジタルトランスフォーメーションを支援し、点検管理に係る業務時間を大きく削減しました。課題全国放送ネットワー... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1356_b18fc711-6fe5-48b8-8942-196f9d273461.webp"
 ---

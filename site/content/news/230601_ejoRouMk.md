@@ -3,6 +3,9 @@ slug: "ejoroumk"
 title: "【スーパー農家 トミさん/Agri-GPT】をリリースしました。"
 date: 2023-06-01
 category: company
+categories: [company]
+sortIndex: 92
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_8381336d-d3ef-4470-8a70-9937dccd7417.png"
 description: "「スーパー農家 トミさん」は農業に取り組む方や農業の物流・販売を支える方のお困りごとの相談相手として活用できるサービスです。お手持ちのスマートフォンやPCから、LINE公式アカウントの登録を行うことで... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_8381336d-d3ef-4470-8a70-9937dccd7417.png"
 ---

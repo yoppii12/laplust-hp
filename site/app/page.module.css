@@ -27,25 +27,42 @@
   padding: 0 24px;
 }
 
+/* 現行実測: PC 48px/22px 固定、狭い画面では画面幅に連動して縮小（折返しさせない） */
 .heroTitle {
-  font-size: 46px;
+  font-size: 48px;
   font-weight: 500;
   letter-spacing: 0.08em;
   line-height: 1.9;
+  white-space: nowrap;
 }
 
 .heroSub {
   margin-top: 20px;
   font-family: var(--font-en);
-  font-size: 16px;
+  font-size: 22px;
   letter-spacing: 0.06em;
   line-height: 1.9;
   opacity: 0.9;
+  white-space: nowrap;
 }
 
 @media (max-width: 767px) {
   .heroTitle {
-    font-size: 28px;
+    font-size: 6.4vw;
+  }
+
+  .heroSub {
+    font-size: 2.8vw;
+  }
+}
+
+@media (max-width: 540px) {
+  .heroTitle {
+    font-size: 6.8vw;
+  }
+
+  .heroSub {
+    font-size: 3.2vw;
   }
 }
 
@@ -117,13 +134,13 @@
   margin-top: 24px;
 }
 
-/* 循環図 */
+/* 循環図（下は最初のバンドまで従来どおりの余白を確保） */
 .diagram {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin: 56px auto 0;
+  margin: 56px auto 36px;
   max-width: 900px;
 }
 
@@ -183,10 +200,11 @@
   }
 }
 
-/* プロダクト行（動画に暗幕を掛け、中央に白文字を重ねる。現行実測: 角丸8px） */
+/* プロダクト行（動画に暗幕を掛け、中央に白文字を重ねる。現行実測: 角丸8px）
+   バンド間の間隔はDX支援/アグリテックカードと同じ28pxに統一 */
 .productRow {
   position: relative;
-  margin-top: 64px;
+  margin-top: 28px;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -268,11 +286,12 @@
   color: #fff;
 }
 
-/* LA-Eye 紹介バンド */
+/* LA-Eye 紹介バンド（プロダクト2バンドと同じ16:9で縦幅を統一） */
 .laeyeBand {
   position: relative;
-  margin-top: 64px;
-  padding: 96px 64px;
+  margin-top: 28px;
+  aspect-ratio: 16 / 9;
+  padding: 32px 64px;
   border-radius: 8px;
   overflow: hidden;
   background-color: var(--color-main);
@@ -282,6 +301,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
 }
 

@@ -3,6 +3,9 @@ slug: "iotzqamu"
 title: "CIC Tokyoで開催されたNEO DEJIMA 2024「和華蘭 DAY〜DEEP TECH〜」に弊社の原崎が登壇しました。"
 date: 2024-11-14
 category: event
+categories: [event]
+sortIndex: 61
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_1dd6ddb3-79eb-4183-8d5a-c97c1dcab9c9.png"
 description: "NEO DEJIMA 2024「和華蘭 DAY〜DEEP TECH〜」が2024年9月5日(木)にCIC Tokyoで開催され、弊社の原崎が登壇しました。科学的な発見や革新的な技術に基づいて、世界に大... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_1dd6ddb3-79eb-4183-8d5a-c97c1dcab9c9.png"
 ---

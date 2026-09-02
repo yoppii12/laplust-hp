@@ -3,6 +3,9 @@ slug: "la-eye_release_0-0-7"
 title: "LA-Eye バージョン0.0.7 リリースのお知らせ"
 date: 2025-08-28
 category: technology
+categories: [technology, other]
+sortIndex: 41
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_b8d039f4-01cf-42b0-b978-7f9305dd2072.png"
 description: "平素よりLA-Eyeをご利用いただき、誠にありがとうございます。このたび、LA-Eye バージョン0.0.7をリリースいたします。【概要】本バージョンでは、新機能の追加、不具合の修正、操作性の改善を行... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_b8d039f4-01cf-42b0-b978-7f9305dd2072.png"
 ---

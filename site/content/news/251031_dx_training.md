@@ -3,6 +3,9 @@ slug: "dx_training"
 title: "【即日着手】生産性向上DX研修"
 date: 2025-10-31
 category: other
+categories: []
+sortIndex: 29
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1152_98f0f8e2-ab5e-43cd-a13f-af2eaebd0daf.webp"
 description: "概要自社のDX化を進め、費用対効果を高めるために必要な知識や具体的なツール活用術をお伝えします。ITやDXに関して詳しくない初心者の方でも受講してご満足いただけるよう事前の業務課題をヒアリングを通して... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1152_98f0f8e2-ab5e-43cd-a13f-af2eaebd0daf.webp"
 ---

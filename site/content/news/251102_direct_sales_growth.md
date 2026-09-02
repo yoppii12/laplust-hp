@@ -3,6 +3,9 @@ slug: "direct_sales_growth"
 title: "【導入実績No1】庭先直売所の売上向上サービス"
 date: 2025-11-02
 category: other
+categories: []
+sortIndex: 24
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1536_28527e63-be23-41bd-a2e0-cfc9e9b523d0.webp"
 description: "概要新型感染症の影響で3密を避けた農家がが営む直売所が好評となっています。庭先の直売所カメラと誰でもアクセスできるウェブサイトで売れ行きを可視化します。欠品を防ぎ農家さんの売上向上と消費者の買い逃しを... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1536_28527e63-be23-41bd-a2e0-cfc9e9b523d0.webp"
 ---

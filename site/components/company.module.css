@@ -4,7 +4,11 @@
   font-weight: 500;
 }
 
+/* タブはスクロールに追従（現行版のsticky挙動） */
 .tabBar {
+  position: sticky;
+  top: calc(var(--header-height) + 12px); /* 追従ヘッダーと重ならない位置 */
+  z-index: 50;
   display: flex;
   justify-content: center;
   gap: 4px;
@@ -17,10 +21,18 @@
 }
 
 .tabBar a {
-  padding: 8px 32px;
-  border-radius: 999px;
+  padding: 12px 40px; /* 現行実測 */
+  border-radius: 32px;
   font-size: 16px;
+  line-height: 1.15;
   white-space: nowrap;
+  transition: background-color 0.3s cubic-bezier(0.4, 0.4, 0, 1),
+    color 0.3s cubic-bezier(0.4, 0.4, 0, 1);
+}
+
+.tabBar a:hover:not(.isActive) {
+  background: var(--color-gray-light);
+  color: #333;
 }
 
 .tabBar a.isActive {

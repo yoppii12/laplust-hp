@@ -3,6 +3,9 @@ slug: "dx_seminar"
 title: "「製造業DXセミナー（7月8日開催）」講演のお知らせ"
 date: 2025-06-25
 category: event
+categories: [event, company]
+sortIndex: 46
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_de4392a0-6c55-4b18-919f-fbedb608e6be.png"
 description: "株式会社LAplust（ラプラス）（本社：長崎県長崎市、代表取締役社長 田中 宏樹）は、2025年7月8日(火)に、長崎市のCO-DEJIMAで開催される「製造業DXセミナー」で講演いたします。本セミ... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_de4392a0-6c55-4b18-919f-fbedb608e6be.png"
 ---

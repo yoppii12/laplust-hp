@@ -3,6 +3,9 @@ slug: "eudlxpbw"
 title: "LAplustインターンシップに参加して"
 date: 2024-10-11
 category: other
+categories: [other]
+sortIndex: 62
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_62f7221d-271d-49fb-9ac8-4902e84e544b.png"
 description: "佐世保高専 専攻科1年 村上匠私はLAplustのインターンシップ参加を通して、LAplustで行われている業務チーム開発の基礎技術実践的なAI開発について学ぶことができました。本稿では、私がインター... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_62f7221d-271d-49fb-9ac8-4902e84e544b.png"
 ---
