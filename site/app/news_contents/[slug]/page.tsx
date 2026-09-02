@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import SiteHeader from '@/components/SiteHeader';
 import SiteFooter from '@/components/SiteFooter';
-import HomeLink from '@/components/HomeLink';
+import BackLink from '@/components/BackLink';
 import { getAllNews, getNewsBySlug } from '@/lib/news';
 import styles from './article.module.css';
 
@@ -111,12 +111,7 @@ export default async function NewsArticle({
             </div>
           </div>
 
-          <div style={{ textAlign: 'center', marginTop: 64 }}>
-            <Link href="/news" className="btn-pill">
-              News一覧へ
-            </Link>
-          </div>
-          <HomeLink />
+          <BackLink fallback={`/category/${post.category}`} />
         </div>
       </main>
       <SiteFooter />
