@@ -6,3 +6,6 @@ out/
 .env.local
 .DS_Store
 *.log
+
+# Claudeエージェントの作業ディレクトリ
+.claude/worktrees/
