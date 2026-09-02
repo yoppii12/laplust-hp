@@ -3,6 +3,9 @@ slug: "la_smartagri"
 title: "東京型スマート農業研究開発プラットフォームが主催するWeb講演会に登壇しました。"
 date: 2026-07-07
 category: event
+categories: [company, event]
+sortIndex: 6
+cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_2e755476-68a1-4691-adcf-641c194af967.png"
 description: "2026年6月29日（月）に東京型スマート農業研究開発プラットフォームが主催する令和8年度第1回Web講演会が、「～AI技術活用の最前線～スマート農業における導入・実践事例の紹介」のテーマで開催されま... "
 ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_2e755476-68a1-4691-adcf-641c194af967.png"
 ---

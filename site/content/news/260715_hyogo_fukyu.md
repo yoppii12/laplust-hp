@@ -3,6 +3,9 @@ slug: "hyogo_fukyu"
 title: "兵庫県改良普及職員協議会主催の研修会に登壇しました。"
 date: 2026-07-15
 category: event
+categories: [company, event]
+sortIndex: 4
+cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_20b72b0c-bac1-4d7a-bb15-b86dd567e97c.png"
 description: "2026年7月9日（木）に兵庫県改良普及職員協議会が主催する研修会が、兵庫県立のじぎく会館で開催され、弊社の取締役の原崎が登壇しました。農業普及の現場ではAI技術の習得が途上であり、若手への暗黙知継承... "
 ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_20b72b0c-bac1-4d7a-bb15-b86dd567e97c.png"
 ---

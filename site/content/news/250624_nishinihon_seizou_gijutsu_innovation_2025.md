@@ -3,6 +3,9 @@ slug: "nishinihon_seizou_gijutsu_innovation_2025"
 title: "「西日本製造技術イノベーション2025」出展のお知らせ"
 date: 2025-06-24
 category: event
+categories: [company, event]
+sortIndex: 47
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_faf0281c-0e74-486c-8125-2564cdb7c3f5.png"
 description: "株式会社LAplust（ラプラス）（本社：長崎県長崎市、代表取締役社長 田中 宏樹）は、2025年7月2日(水)～7月4日(金)に、西日本総合展示場で開催される「西日本製造技術イノベーション2025」... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_faf0281c-0e74-486c-8125-2564cdb7c3f5.png"
 ---

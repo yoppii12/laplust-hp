@@ -3,6 +3,9 @@ slug: "ai_camera"
 title: "【開発中】稼働実績収集AIカメラ"
 date: 2025-10-31
 category: other
+categories: []
+sortIndex: 28
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-6000x3497_v-frms_webp_b6e0ecfb-2aac-47f1-85c9-d18ee9800308.jpg"
 description: "Comming Soon・・・Pich Deck hereTime Manager_LAplust PichDeck.pdf "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-6000x3497_v-frms_webp_b6e0ecfb-2aac-47f1-85c9-d18ee9800308.jpg"
 ---

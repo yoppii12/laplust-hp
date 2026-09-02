@@ -3,6 +3,9 @@ slug: "ogsdjqfd"
 title: "フィールドワーカーズ社と協働でLAplust Eyeを用いたマダニ種判別AIを出展"
 date: 2024-11-21
 category: event
+categories: [event]
+sortIndex: 60
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_749b82f8-baae-40b3-bee1-dbe1c4435691.png"
 description: "株式会社LAplustは株式会社フィールドワーカーズとともに協働で進めるマダニ種判別AIの展示を保健医療システム・政策に関する世界最大規模の国際シンポジウム「HSR2024」にて行いました。世界的な公... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_749b82f8-baae-40b3-bee1-dbe1c4435691.png"
 ---

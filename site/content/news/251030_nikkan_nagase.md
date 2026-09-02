@@ -3,6 +3,9 @@ slug: "nikkan_nagase"
 title: "日刊工業新聞に記事が掲載されました"
 date: 2025-10-30
 category: company
+categories: [company]
+sortIndex: 32
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_6ad86505-bb08-4ca8-b8d0-fa1a23b1b765.png"
 description: "　2025年10月30日の日刊工業新聞に弊社が開発に携わった精密研削向けソフトPICMO BOX」の発売について、紹介記事が掲載されましたのでお知らせいたします。　弊社は、株式会社ナガセインテグレック... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_6ad86505-bb08-4ca8-b8d0-fa1a23b1b765.png"
 ---

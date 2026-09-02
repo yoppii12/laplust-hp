@@ -3,6 +3,9 @@ slug: "dx_report"
 title: "DX推進に関するレポート"
 date: 2025-10-31
 category: other
+categories: []
+sortIndex: 26
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1032x374_v-fs_webp_365598aa-2504-4213-b14b-5931ccc97577.png"
 description: "昨今のデジタル技術は、国内外のあらゆる産業に対して、その形態やあり方に大きな変化をもたらしています。当レポートは、デジタル技術がもたらす影響を再認識し、当社の実施するDX推進の目的や経営戦略などの当社... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1032x374_v-fs_webp_365598aa-2504-4213-b14b-5931ccc97577.png"
 ---

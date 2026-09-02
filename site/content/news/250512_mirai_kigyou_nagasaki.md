@@ -3,6 +3,9 @@ slug: "mirai_kigyou_nagasaki"
 title: "長崎県庁と十八親和銀行が主催する\"ミライ企業Nagasaki\"にて基調講演を実施"
 date: 2025-05-12
 category: event
+categories: [company, event]
+sortIndex: 49
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_44ee925f-d0dd-4a23-a3b2-150b0210b5a6.jpg"
 description: "2025年2月24日、ミライ企業Nagasakiにて弊社の原崎が基調講演にて登壇しました。長崎県庁にて自社開発を進めてリリースした「LA-Eye」のDX活用事例の紹介や県内外の企業との協業によって得ら... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_44ee925f-d0dd-4a23-a3b2-150b0210b5a6.jpg"
 ---

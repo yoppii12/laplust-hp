@@ -3,6 +3,9 @@ slug: "oz-rajfc"
 title: "STARTUP KYUSHU 2024のスタートアップピッチコンテストに弊社の原崎が登壇しました。"
 date: 2024-11-22
 category: event
+categories: [event]
+sortIndex: 59
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_af86a58f-15bf-4f08-9420-3e04a9b61731.png"
 description: "九州のスタートアップシーンを盛り上げるための交流イベントの「STARTUP KYUSHU 2024」が2024年10月11日(金)と12日(土)の2日間にわたりに福岡市の唐泊VILLAGEで開催され、... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_af86a58f-15bf-4f08-9420-3e04a9b61731.png"
 ---

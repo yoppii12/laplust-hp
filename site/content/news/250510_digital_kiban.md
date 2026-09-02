@@ -3,6 +3,9 @@ slug: "digital_kiban"
 title: "NTTコミュニケーションズとMizlinx、ながさき地域政策研究所、LAplust、五島市との連携を経て4社協働の技術実証に成功"
 date: 2025-05-10
 category: company
+categories: [company]
+sortIndex: 50
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d06b05be-3124-4d55-b0e3-649381305239.png"
 description: "株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、株式会社MizLinx(以下 MizLinx)、公益財団法人ながさき地域政策研究所(以... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d06b05be-3124-4d55-b0e3-649381305239.png"
 ---

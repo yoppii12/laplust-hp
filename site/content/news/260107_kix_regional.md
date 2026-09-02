@@ -3,6 +3,9 @@ slug: "kix_regional"
 title: "【九州経済連合会四季報 2026年 冬号掲載】経団連と九経連が共催した\"KIX-Regional in Fukuoka\"に当社の原崎が登壇"
 date: 2026-01-07
 category: event
+categories: [event, company]
+sortIndex: 17
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_3e5e0ad6-64f0-453e-9e22-d49a41eed540.png"
 description: "日本経済団体連合会（経団連）と九州経済連合会（九経連）は10月7日に、スタートアップとの協業を成功させる新手法「ベンチャークライアントモデル」をテーマに、ピッチ・ネットワーキングイベント「KIX-Re... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_3e5e0ad6-64f0-453e-9e22-d49a41eed540.png"
 ---

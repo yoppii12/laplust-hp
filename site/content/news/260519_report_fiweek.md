@@ -3,6 +3,9 @@ slug: "report_fiweek"
 title: "出展レポート 関西ファクトリーイノベーションWeek 2026"
 date: 2026-05-19
 category: event
+categories: [company, event]
+sortIndex: 9
+cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_fbee87aa-9f43-497a-8ad1-ddeb3bfe98d4.png"
 description: "2026年5月13日（水）〜5月15日（金）にかけて、インテックス大阪（大阪市住之江区）で開催された「関西ファクトリーイノベーションWeek 2026」に出展いたしました。本展示会は、西日本エリア最大... "
 ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_fbee87aa-9f43-497a-8ad1-ddeb3bfe98d4.png"
 ---

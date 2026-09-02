@@ -3,6 +3,9 @@ slug: "nagasaki-kadai"
 title: "長崎市で開催されたイベントに弊社の原崎が登壇を行い、NBC長崎放送に取り上げていただきました。"
 date: 2025-12-09
 category: event
+categories: [event, company]
+sortIndex: 19
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_460a9494-5a0c-4c85-92d9-169a04e0600c.png"
 description: "長崎の地域課題を解決しようと、企業や団体がアイデアを出し合うイベントが長崎市で開催され、弊社の原崎が登壇いたしました。画像×動画×AI解析の研究開発を行い、製造業や農業、生産業といった社会課題の解決に... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_460a9494-5a0c-4c85-92d9-169a04e0600c.png"
 ---

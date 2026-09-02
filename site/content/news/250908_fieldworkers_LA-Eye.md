@@ -3,6 +3,9 @@ slug: "fieldworkers_la-eye"
 title: "フィールドワーカーズ社によるLA-Eyeを活用した「マダニ同定AI」の発表"
 date: 2025-09-08
 category: company
+categories: [event, company]
+sortIndex: 40
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_23509d27-96b3-4017-aa4a-faec1cab206b.png"
 description: "　フィールドワーカーズ社は、ダニおよびダニ媒介性疾患をテーマとする国際シンポジウム「2nd Southeast Asia Ticks and Tick-borne Diseases Symposium... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_23509d27-96b3-4017-aa4a-faec1cab206b.png"
 ---

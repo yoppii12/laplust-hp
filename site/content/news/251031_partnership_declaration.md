@@ -3,6 +3,9 @@ slug: "partnership_declaration"
 title: "パートナーシップ構築宣言"
 date: 2025-10-31
 category: other
+categories: []
+sortIndex: 25
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x740_03080a55-eeaa-4804-a7a3-9c7248629380.webp"
 description: "当社は、サプライチェーンの取引先の皆様や価値創造を図る事業者の皆様との連携・共存共栄を進めることで、新たなパートナーシップを構築するため、以下の項目に重点的に取り組むことを宣言します。下記より、宣言に... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x740_03080a55-eeaa-4804-a7a3-9c7248629380.webp"
 ---

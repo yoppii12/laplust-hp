@@ -30,7 +30,7 @@ export default async function CategoryPage({
 }) {
   const { slug } = await params;
   if (!CATEGORIES.includes(slug)) notFound();
-  const news = getAllNews().filter((n) => slug === 'k04markw' || n.category === slug);
+  const news = getAllNews().filter((n) => slug === 'k04markw' || n.categories.includes(slug));
   return (
     <>
       <SiteHeader />

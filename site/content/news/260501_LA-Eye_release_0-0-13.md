@@ -3,6 +3,9 @@ slug: "la-eye_release_0-0-13"
 title: "LA-Eye バージョン0.0.13 リリースのお知らせ"
 date: 2026-05-01
 category: technology
+categories: [technology, other]
+sortIndex: 11
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_cd53510b-d457-49eb-978b-b9077a797640.png"
 description: "平素よりLA-Eyeをご利用いただき、誠にありがとうございます。このたび、LA-Eye バージョン0.0.13をリリースいたします。【概要】本バージョンでは、不具合の修正、その他改善を行いました。【更... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_cd53510b-d457-49eb-978b-b9077a797640.png"
 ---

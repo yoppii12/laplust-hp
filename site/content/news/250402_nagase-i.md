@@ -3,6 +3,9 @@ slug: "nagase-i"
 title: "ナガセインテグレックスとLAplust、業務提携契約を締結"
 date: 2025-04-02
 category: company
+categories: [company]
+sortIndex: 52
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_ccae9577-cb07-4989-881d-9c4aa16bf558.png"
 description: "　画像解析を行う先端AIの商品化と社会実装を行う株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、株式会社ナガセインテグレックス&nbs... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_ccae9577-cb07-4989-881d-9c4aa16bf558.png"
 ---

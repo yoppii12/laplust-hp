@@ -3,6 +3,9 @@ slug: "tpokcayt"
 title: "未来を切り拓く！「AI特別セミナー」で弊社の原崎が登壇します。"
 date: 2024-02-06
 category: event
+categories: [event]
+sortIndex: 76
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_73960c1d-4e47-4a05-901f-f0b0bffba27d.png"
 description: "昨今急速に発展する AI（生成AI）技術について、業種ごとの活用事例や、AI活用の必要性について、さまざまな角度でお話しします。弊社LAplustはAIの専門企業として登壇し、AI技術の活用事例をお伝... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_73960c1d-4e47-4a05-901f-f0b0bffba27d.png"
 ---

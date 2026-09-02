@@ -3,6 +3,9 @@ slug: "report_nishinihon_seizou_gijutsu_innovation_2025"
 title: "出展レポート 西日本製造技術イノベーション2025"
 date: 2025-07-07
 category: event
+categories: [company, event]
+sortIndex: 43
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_2581fe92-2ef3-4df8-8ab9-6bed6ad82de1.png"
 description: "2025年7月2日（水）〜7月4日（金）にかけて、西日本総合展示場（福岡県北九州市）で開催された「西日本製造技術イノベーション2025」に出展いたしました。本展示会は、西日本エリア最大級の製造業向け展... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_2581fe92-2ef3-4df8-8ab9-6bed6ad82de1.png"
 ---

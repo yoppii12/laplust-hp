@@ -3,6 +3,9 @@ slug: "250704_nishinihon_seizou_gijutsu_innovation_2025"
 title: "「西日本製造技術イノベーション2025」出展 ご来場の御礼"
 date: 2025-07-04
 category: event
+categories: [company, event]
+sortIndex: 44
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_bb98e9d3-4287-4ffc-8595-330f78fdb8e6.png"
 description: "2025年7月4日このたびは、2025年7月2日より開催されました「西日本製造技術イノベーション2025」の当社ブースに多数ご来場いただき、誠にありがとうございました。おかげさまで、会期中は多くのお客... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_bb98e9d3-4287-4ffc-8595-330f78fdb8e6.png"
 ---

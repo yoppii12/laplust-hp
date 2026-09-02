@@ -3,6 +3,9 @@ slug: "cqtcqzlx"
 title: "PTZカメラをコントロールしてみた　Python × VAPIX"
 date: 2024-02-20
 category: other
+categories: [other]
+sortIndex: 75
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_eb175d4f-6955-4273-b6cc-4d9ada940788.png"
 description: "皆様、こんにちは。はじめまして。2024年2月よりLAplustに入社しました中村です。今回は私の入社時の研修課題について紹介したいと思います。研修課題は「PTZカメラをコントロールする」でした。社内... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_eb175d4f-6955-4273-b6cc-4d9ada940788.png"
 ---

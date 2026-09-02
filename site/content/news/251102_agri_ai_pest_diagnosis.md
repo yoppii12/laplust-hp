@@ -3,6 +3,9 @@ slug: "agri_ai_pest_diagnosis"
 title: "【利用者数No1】病害虫診断AIアグリアイ"
 date: 2025-11-02
 category: other
+categories: []
+sortIndex: 21
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1365_1422db45-c31d-4119-86b0-f76a4de766af.webp"
 description: "概要葉や茎の画像から病害虫名称の候補を推定するAIエンジン開発・提供しています。すぐに利用できるように基本アプリケーションとの組み合わせでの提供も可能です。プレスリリースはコチラ（詳細な情報を記載して... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1365_1422db45-c31d-4119-86b0-f76a4de766af.webp"
 ---

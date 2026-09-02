@@ -3,6 +3,9 @@ slug: "shindan_nagasaki"
 title: "研修登壇のご報告｜中小企業のデジタル化支援"
 date: 2025-10-24
 category: event
+categories: [company, event]
+sortIndex: 33
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_01c5f416-63e7-4e0b-8b97-c68ebcec1ea0.png"
 description: "□ 概要長崎県中小企業診断士協会様よりご依頼をいただき、当社の原崎/取締役 /COOが 県内外 約80名の中小企業診断士の皆様を対象に、資格更新研修（理論政策更新研修）の講師を務めました。開催日時：2... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_01c5f416-63e7-4e0b-8b97-c68ebcec1ea0.png"
 ---

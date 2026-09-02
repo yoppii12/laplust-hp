@@ -3,6 +3,9 @@ slug: "akashio"
 title: "長崎県五島市の実海水データをもとに有害赤潮プランクトン検出の機械学習を実施ー長崎モデルの実現を目指すー"
 date: 2026-07-31
 category: company
+categories: [company]
+sortIndex: 2
+cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-870x453_v-fs_webp_4f8116ca-bd53-4bbc-a6ba-ed8f5de7a493.png"
 description: "株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は長崎県五島の実海水データをもとに赤潮プランクトン検出の機械学習を実施したことをお知らせし... "
 ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-870x453_v-fs_webp_4f8116ca-bd53-4bbc-a6ba-ed8f5de7a493.png"
 ---
