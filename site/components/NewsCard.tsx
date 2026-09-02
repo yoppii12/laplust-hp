@@ -18,7 +18,9 @@ export default function NewsCard({ item }: { item: NewsMeta }) {
   return (
     <Link href={`/news_contents/${item.slug}`} className="news-card">
       <div className="news-card__thumb">
-        {item.ogImage ? <img src={item.ogImage} alt="" loading="lazy" /> : null}
+        {(item.cover || item.ogImage) && (
+          <img src={item.cover || item.ogImage} alt="" loading="lazy" />
+        )}
       </div>
       <div className="news-card__body">
         <p className="news-card__category">{CATEGORY_LABEL[item.category] ?? item.category}</p>

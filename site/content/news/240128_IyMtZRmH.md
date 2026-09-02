@@ -3,6 +3,9 @@ slug: "iymtzrmh"
 title: "長崎県農林技術開発センターにて「農業における生成AI活用の可能性」をテーマに弊社の原崎が登壇しました。"
 date: 2024-01-28
 category: event
+categories: [event]
+sortIndex: 79
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_a1365027-5985-4a9b-b3ad-5c7f11f19428.png"
 description: "弊社の原崎が「農業における生成AI活用の可能性」をテーマに登壇しました。長崎県農林技術開発センターより寄せられた日頃の業務における具体的な課題に対して、自社開発するプロダクトやOpenAI社のChat... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_a1365027-5985-4a9b-b3ad-5c7f11f19428.png"
 ---

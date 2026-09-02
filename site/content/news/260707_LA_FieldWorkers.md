@@ -3,6 +3,9 @@ slug: "la_fieldworkers"
 title: "AI画像解析プラットフォーム「LA-Eye」を活用したマダニ種判別に関する研究論文が「長崎県生物学会誌」に掲載"
 date: 2026-07-07
 category: company
+categories: [company]
+sortIndex: 5
+cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_c0121a4c-0923-4b9a-815e-47d4c3bc0556.png"
 description: "株式会社LAplust（以下、LAplust）が開発・提供するAI画像解析プラットフォーム「LA-Eye」を活用した研究成果が、「長崎県生物学会誌 No.98（2026年発行）」に掲載されましたことを... "
 ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_c0121a4c-0923-4b9a-815e-47d4c3bc0556.png"
 ---

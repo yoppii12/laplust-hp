@@ -3,6 +3,9 @@ slug: "ai_workshop"
 title: "「生成AI実践 ワークショップ」～明日から使える！GPTによる業務改善と生産性向上～ 講演のお知らせ"
 date: 2026-02-08
 category: event
+categories: [company, event]
+sortIndex: 15
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2560x1340_v-frms_webp_a856275b-3bb8-4435-8dad-5a358d69ba18.png"
 description: "2026年2月26日(木)に佐世保工業高等専門学校で開催される「生成AI実践 ワークショップ」 ～文書/分析/発想まで～に弊社の取締役の原崎が登壇いたします。本セミナーは、生成AI「GPT」を活用し，... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2560x1340_v-frms_webp_a856275b-3bb8-4435-8dad-5a358d69ba18.png"
 ---

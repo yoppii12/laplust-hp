@@ -3,6 +3,9 @@ slug: "bmqlvabp"
 title: "長崎新聞に弊社が参加した「ベンチャープラザ in 台湾 Plus」の紹介記事が掲載されました。"
 date: 2023-12-21
 category: event
+categories: [event, company]
+sortIndex: 80
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_b46f539c-2178-4b33-aa64-ba6c187d42cf.png"
 description: "2023年12月20日の長崎新聞に弊社が参加した「ベンチャープラザ in 台湾 Plus」の紹介記事が掲載されましたのでお知らせいたします。ふくおかフィナンシャルグループ（福岡市、FFG）と十八親和銀... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_b46f539c-2178-4b33-aa64-ba6c187d42cf.png"
 ---

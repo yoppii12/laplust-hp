@@ -3,6 +3,9 @@ slug: "shimz_sojitz"
 title: "清水建設と双日九州、LAplust、3社協働で画像解析AIの技術実証"
 date: 2025-10-15
 category: company
+categories: [company]
+sortIndex: 35
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_34d4a733-048e-4e61-8b5b-0c2bf7ca8472.png"
 description: "　株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は清水建設株式会社*2（本社：東京都中央区、以下、清水建設）と双日九州株式会社*3（本社... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_34d4a733-048e-4e61-8b5b-0c2bf7ca8472.png"
 ---

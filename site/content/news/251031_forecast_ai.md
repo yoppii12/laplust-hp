@@ -3,6 +3,9 @@ slug: "forecast_ai"
 title: "短期変動予測AI"
 date: 2025-10-31
 category: other
+categories: []
+sortIndex: 27
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_b4e1ec17-08cb-43c3-b34b-a9154632256e.webp"
 description: "概要AIを用いた投資商品の開発を行いたいというご要望にお応えするため、LAplustで保有するAIアルゴリズム(機械学習基盤LA++ ラプラ)を金融分野へと応用*した事例です。高度な数学的手法を用いて... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_b4e1ec17-08cb-43c3-b34b-a9154632256e.webp"
 ---

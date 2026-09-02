@@ -3,6 +3,9 @@ slug: "nagasaki-urepo"
 title: "AI画像解析プラットフォーム「LA-Eye」を活用したマダニ種判別に関する研究論文が「長崎大学学術研究成果リポジトリ」に掲載"
 date: 2026-07-29
 category: company
+categories: [company]
+sortIndex: 3
+cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_c0121a4c-0923-4b9a-815e-47d4c3bc0556.png"
 description: "2026年7月7日にリリース掲載いたしました株式会社LAplust（以下、LAplust）が開発・提供するAI画像解析プラットフォーム「LA-Eye」を活用した研究成果が、「長崎大学学術研究成果リポジ... "
 ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_c0121a4c-0923-4b9a-815e-47d4c3bc0556.png"
 ---

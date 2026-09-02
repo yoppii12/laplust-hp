@@ -3,6 +3,9 @@ slug: "fisa_nisa"
 title: "FISA(福岡)・NISA(長崎)交流連携協定締結記念式典に当社の原崎が登壇"
 date: 2026-03-10
 category: event
+categories: [company, event]
+sortIndex: 13
+cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_77798718-ec78-44f9-848e-b2b533924c95.png"
 description: "一般社団法人福岡県情報サービス産業協会(FISA)と一般社団法人長崎県情報産業協会(NISA)は、令和8年3月3日(火)に、地域経済の高度化とIT産業の持続的発展を目的として、交流連携協定締結記念式典... "
 ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_77798718-ec78-44f9-848e-b2b533924c95.png"
 ---

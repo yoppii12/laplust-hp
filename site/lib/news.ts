@@ -15,9 +15,12 @@ export type NewsMeta = {
   slug: string;
   title: string;
   date: string; // YYYY-MM-DD
-  category: string;
+  category: string; // 記事ページ表示用の主カテゴリ
+  categories: string[]; // 一覧フィルタ用（現行CMSでは1記事が複数カテゴリに所属）
   description: string;
   ogImage?: string;
+  cover?: string; // 一覧カード用サムネイル（現行CMSのcoverフィールド）
+  sortIndex?: number; // 現行サイトの掲載順（publishedAt降順）。同日記事の並び再現用
 };
 
 export type NewsPost = NewsMeta & { html: string };
@@ -35,11 +38,18 @@ export function getAllNews(): NewsMeta[] {
         title: data.title ?? '',
         date: toDateString(data.date),
         category: data.category ?? 'other',
+        categories: data.categories ?? [data.category ?? 'other'],
         description: data.description ?? '',
         ogImage: data.ogImage,
+        cover: data.cover,
+        sortIndex: data.sortIndex,
       };
     })
-    .sort((a, b) => (a.date < b.date ? 1 : -1));
+    // 日付降順、同日内は現行サイトの掲載順（sortIndex昇順）
+    .sort((a, b) => {
+      if (a.date !== b.date) return a.date < b.date ? 1 : -1;
+      return (a.sortIndex ?? 0) - (b.sortIndex ?? 0);
+    });
 }
 
 export function getNewsBySlug(slug: string): NewsPost | null {
@@ -55,8 +65,11 @@ export function getNewsBySlug(slug: string): NewsPost | null {
         title: data.title ?? '',
         date: toDateString(data.date),
         category: data.category ?? 'other',
+        categories: data.categories ?? [data.category ?? 'other'],
         description: data.description ?? '',
         ogImage: data.ogImage,
+        cover: data.cover,
+        sortIndex: data.sortIndex,
         html: marked.parse(content) as string,
       };
     }

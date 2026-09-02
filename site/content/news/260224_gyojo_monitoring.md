@@ -3,6 +3,9 @@ slug: "gyojo_monitoring"
 title: "「Wi-Fi HaLow」などを活用した漁場モニタリングに関する実証実験に成功"
 date: 2026-02-24
 category: company
+categories: [company]
+sortIndex: 14
+cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_3efea728-605b-48eb-9cbf-74741a04084e.png"
 description: "株式会社MizLinx(以下 MizLinx)、株式会社LAplust(ラプラス、以下 LAplust)、公益財団法人ながさき地域政策研究所(以下 ながさき地域政策研究所)、NTTドコモビジネス株式会... "
 ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_3efea728-605b-48eb-9cbf-74741a04084e.png"
 ---

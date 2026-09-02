@@ -3,6 +3,9 @@ slug: "hotalux"
 title: "ホタルクスとLAplust、ゴキブリ自動カウントによるIPM実施の省力化に向けた画像解析AIの応用"
 date: 2024-09-11
 category: company
+categories: [company]
+sortIndex: 63
+cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_520f47e9-cc35-4e4c-8303-97d774f4e1b3.png"
 description: "株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、株式会社ホタルクス*2（本社：東京都港区、執行役員　柳橋 歩、以下、ホタルクス）と協働... "
 ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_520f47e9-cc35-4e4c-8303-97d774f4e1b3.png"
 ---

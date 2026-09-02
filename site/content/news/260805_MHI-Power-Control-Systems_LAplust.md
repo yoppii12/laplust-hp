@@ -3,6 +3,9 @@ slug: "mhi-power-control-systems_laplust"
 title: "MHIパワーコントロールシステムズとLAplust、協働で画像解析AIの技術実証"
 date: 2026-08-05
 category: company
+categories: [company]
+sortIndex: 1
+cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d91c39ef-2a3f-4c2e-9653-0c0edfcbdc97.png"
 description: "　株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は株式会社MHIパワーコントロールシステムズ*2（本社：神奈川県横浜市、以下、MHIパワ... "
 ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d91c39ef-2a3f-4c2e-9653-0c0edfcbdc97.png"
 ---

@@ -319,7 +319,8 @@ button {
 
 .site-footer__follow p {
   font-family: var(--font-en);
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .site-footer__sns {
@@ -350,7 +351,7 @@ button {
 .site-footer__nav a {
   font-family: var(--font-en);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .site-footer__bottom {
@@ -455,12 +456,18 @@ button {
   opacity: 0.8;
 }
 
-/* カテゴリタブ（News / Company 共通の丸型タブ） */
+/* カテゴリタブ（News / Company 共通の丸型タブ。現行実測: 12px 40px・16px・radius 32px）
+   スクロールに追従し、非アクティブはホバーで#D9D9D9にフェード */
 .tab-bar {
+  position: sticky;
+  top: calc(var(--header-height) + 12px);
+  z-index: 50;
   display: flex;
   justify-content: center;
+  width: fit-content;
+  max-width: 100%;
   margin: 32px auto 0;
-  max-width: 800px;
+  padding: 4px;
   border: 1px solid var(--color-border);
   border-radius: 999px;
   background: #fff;
@@ -468,19 +475,31 @@ button {
 }
 
 .tab-bar a {
-  flex: 1;
-  text-align: center;
-  padding: 12px 28px;
-  border-radius: 999px;
+  padding: 12px 40px;
+  border-radius: 32px;
   font-family: var(--font-en);
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.15;
   white-space: nowrap;
   color: var(--color-main);
+  transition: background-color 0.3s cubic-bezier(0.4, 0.4, 0, 1),
+    color 0.3s cubic-bezier(0.4, 0.4, 0, 1);
+}
+
+.tab-bar a:hover:not(.is-active) {
+  background: var(--color-gray-light);
+  color: #333;
 }
 
 .tab-bar a.is-active {
   background: var(--color-main);
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .tab-bar a {
+    padding: 10px 20px;
+  }
 }
 
 /* ニュースカード */
@@ -588,8 +607,8 @@ button {
   gap: 8px;
   margin: 72px auto;
   font-family: var(--font-en);
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .home-link svg {
