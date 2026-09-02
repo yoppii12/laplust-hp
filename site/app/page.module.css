@@ -63,8 +63,14 @@
   font-size: 14px;
 }
 
+.heroBtn {
+  transition: background-color 0.3s cubic-bezier(0.4, 0.4, 0, 1),
+    color 0.3s cubic-bezier(0.4, 0.4, 0, 1);
+}
+
 .heroBtn:hover {
-  opacity: 0.85;
+  background: var(--color-main);
+  color: #fff;
 }
 
 .heroScroll {
@@ -177,64 +183,12 @@
   }
 }
 
-/* プロダクト行（全幅動画の上にテキストカードをオーバーレイ表示） */
+/* プロダクト行（動画に暗幕を掛け、中央に白文字を重ねる。現行実測: 角丸8px） */
 .productRow {
   position: relative;
   margin-top: 64px;
-}
-
-.productCard {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  z-index: 1;
-  width: 380px;
-  max-width: 42%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 56px 48px;
-  background: var(--color-main);
-  color: #fff;
-}
-
-.productRowReverse .productCard {
-  left: auto;
-  right: 0;
-}
-
-.productCardTitle {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.7;
-}
-
-.productCardKana {
-  margin-top: 4px;
-  font-size: 12px;
-  opacity: 0.7;
-}
-
-.productCardDesc {
-  margin-top: 20px;
-  font-size: 14px;
-  line-height: 2;
-}
-
-.productCardBtn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 32px;
-  min-width: 148px;
-  padding: 10px 28px;
-  border-radius: 999px;
-  background: #fff;
-  color: var(--color-main);
-  font-family: var(--font-en);
-  font-size: 13px;
-  align-self: flex-start;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .productVideo {
@@ -245,17 +199,73 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  display: block;
+}
+
+.productOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 32px;
+  background: rgba(23, 26, 49, 0.45);
+  color: #fff;
+}
+
+.productTitle {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.productKana {
+  margin-top: 4px;
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.productDesc {
+  margin-top: 24px;
+  max-width: 640px;
+  font-size: 16px;
+  line-height: 2;
+  text-align: left;
 }
 
 @media (max-width: 767px) {
-  /* モバイルはオーバーレイをやめて縦積み */
-  .productCard {
-    position: static;
-    transform: none;
-    width: 100%;
-    max-width: none;
-    padding: 40px 24px;
+  .productTitle {
+    font-size: 22px;
   }
+
+  .productDesc {
+    font-size: 13px;
+  }
+}
+
+/* 白ピルボタン（ホバーで白→紺にフェード。現行実測: transition 0.3s） */
+.whiteBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  min-width: 148px;
+  padding: 10px 28px;
+  border-radius: 32px;
+  background: #fff;
+  color: var(--color-main);
+  font-family: var(--font-en);
+  font-size: 13px;
+  transition: background-color 0.3s cubic-bezier(0.4, 0.4, 0, 1),
+    color 0.3s cubic-bezier(0.4, 0.4, 0, 1);
+}
+
+.whiteBtn:hover {
+  background: var(--color-main);
+  color: #fff;
 }
 
 /* LA-Eye 紹介バンド */
@@ -263,6 +273,8 @@
   position: relative;
   margin-top: 64px;
   padding: 96px 64px;
+  border-radius: 8px;
+  overflow: hidden;
   background-color: var(--color-main);
   background-size: cover;
   background-position: center;
@@ -271,6 +283,18 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.laeyeBand::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(23, 26, 49, 0.45);
+}
+
+.laeyeBand > * {
+  position: relative;
+  z-index: 1;
 }
 
 .laeyeBandTitle {
@@ -353,7 +377,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 8px;
   overflow: hidden;
 }
 
@@ -384,15 +408,5 @@
 }
 
 .techBandBtn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 32px;
-  min-width: 148px;
-  padding: 10px 28px;
-  border-radius: 999px;
-  background: #fff;
-  color: var(--color-main);
-  font-family: var(--font-en);
-  font-size: 13px;
+  composes: whiteBtn;
 }

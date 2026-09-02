@@ -120,39 +120,35 @@ export default function Home() {
 
             {/* プロダクト: ワンクリックアノテーション */}
             <div className={styles.productRow} data-reveal>
-              <div className={styles.productCard}>
-                <h3 className={styles.productCardTitle}>
-                  LAplust
-                  <br />
-                  ワンクリックアノテーション
-                </h3>
-                <p className={styles.productCardKana}>ラプラスワンクリックアノテーション</p>
-                <p className={styles.productCardDesc}>
-                  画像アノテーションに掛る作業時間を99％削減し、同時に教師データの品質を大幅に改善し精度向上に貢献
-                </p>
-                <Link href="/la-oca" className={styles.productCardBtn}>
-                  View more
-                </Link>
-              </div>
               <div className={styles.productVideo}>
                 <LazyVideo src={ASSETS.ocaVideo} />
+              </div>
+              <div className={styles.productOverlay}>
+                <h3 className={styles.productTitle}>LAplustワンクリックアノテーション</h3>
+                <p className={styles.productKana}>ラプラスワンクリックアノテーション</p>
+                <p className={styles.productDesc}>
+                  画像アノテーションに掛る作業時間を99％削減し、同時に教師データの品質を大幅に改善し精度向上に貢献
+                </p>
+                <Link href="/la-oca" className={styles.whiteBtn}>
+                  View more
+                </Link>
               </div>
             </div>
 
             {/* プロダクト: LA-Eye/不良品判定 */}
-            <div className={`${styles.productRow} ${styles.productRowReverse}`} data-reveal>
-              <div className={styles.productCard}>
-                <h3 className={styles.productCardTitle}>LA-Eye/不良品判定</h3>
-                <p className={styles.productCardKana}>エル エーアイ</p>
-                <p className={styles.productCardDesc}>
-                  LA-Eyeとエッジコンピュータを連動。位置ずれしても、反射しても正しく判定。不良品の排出まで自動化し省人化もサポート。
-                </p>
-                <Link href="/la-eye" className={styles.productCardBtn}>
-                  View more
-                </Link>
-              </div>
+            <div className={styles.productRow} data-reveal>
               <div className={styles.productVideo}>
                 <LazyVideo src={ASSETS.laeyeVideo} />
+              </div>
+              <div className={styles.productOverlay}>
+                <h3 className={styles.productTitle}>LA-Eye/不良品判定</h3>
+                <p className={styles.productKana}>エル エーアイ</p>
+                <p className={styles.productDesc}>
+                  LA-Eyeとエッジコンピュータを連動。位置ずれしても、反射しても正しく判定。不良品の排出まで自動化し省人化もサポート。
+                </p>
+                <Link href="/la-eye" className={styles.whiteBtn}>
+                  View more
+                </Link>
               </div>
             </div>
 
@@ -171,7 +167,7 @@ export default function Home() {
                 href="https://laplust.notion.site/LA-Eye-259c08e5f34c80a6affbf5e959f0367a"
                 target="_blank"
                 rel="noopener"
-                className={styles.productCardBtn}
+                className={styles.whiteBtn}
               >
                 View more
               </a>

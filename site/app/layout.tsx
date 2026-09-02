@@ -30,7 +30,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     // フォント変数は:rootで参照するため<html>側に付与する（bodyだと--font-en解決時に未定義になる）
     <html lang="ja" className={`${poppins.variable} ${notoSansJp.variable}`}>
-      <body>{children}</body>
+      <body>
+        {/* 画像・動画の配信元へ事前接続して初期表示を高速化（React19が<head>へ巻き上げる） */}
+        <link rel="preconnect" href="https://storage.googleapis.com" crossOrigin="" />
+        <link rel="dns-prefetch" href="https://storage.googleapis.com" />
+        {children}
+      </body>
     </html>
   );
 }
