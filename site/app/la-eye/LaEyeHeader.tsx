@@ -10,12 +10,12 @@ const LOGO_WHITE =
   'https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp';
 
 const NAV = [
-  { href: '/LA-Eye#about', label: 'LA-Eyeとは' },
-  { href: '/LA-Eye#comparison', label: '他製品との比較' },
-  { href: '/LA-Eye#features', label: 'サービス特徴' },
-  { href: '/LA-Eye#works', label: '導入事例' },
-  { href: '/LA-Eye#flow', label: 'ご利用の流れ' },
-  { href: '/LA-Eye#faq', label: 'よくある質問' },
+  { href: '/la-eye#about', label: 'LA-Eyeとは' },
+  { href: '/la-eye#comparison', label: '他製品との比較' },
+  { href: '/la-eye#features', label: 'サービス特徴' },
+  { href: '/la-eye#works', label: '導入事例' },
+  { href: '/la-eye#flow', label: 'ご利用の流れ' },
+  { href: '/la-eye#faq', label: 'よくある質問' },
 ];
 
 function MailIcon() {
@@ -45,11 +45,11 @@ function DownloadIcon() {
 function Cta() {
   return (
     <>
-      <Link href="/LA-Eye/contact" className={styles.headerContact}>
+      <Link href="/la-eye/contact" className={styles.headerContact}>
         <MailIcon />
         <p>お問い合わせ</p>
       </Link>
-      <a href="/LA-Eye#request" className={styles.headerRequest}>
+      <a href="/la-eye#request" className={styles.headerRequest}>
         <DownloadIcon />
         <p>資料請求</p>
       </a>
@@ -67,7 +67,7 @@ export default function LaEyeHeader() {
     <>
       {/* スクロール時に現れる固定ヘッダー（白 / 濃色ロゴ） */}
       <header className={styles.headerFixed}>
-        <Link href="/LA-Eye" className={styles.headerLogo}>
+        <Link href="/la-eye" className={styles.headerLogo}>
           <img src={LOGO_DARK} alt="LAplust" />
         </Link>
         <button
@@ -94,7 +94,7 @@ export default function LaEyeHeader() {
 
       {/* ページ先頭の透過ヘッダー（白ロゴ / 白テキスト） */}
       <header className={styles.headerTop}>
-        <Link href="/LA-Eye" className={styles.headerLogo}>
+        <Link href="/la-eye" className={styles.headerLogo}>
           <img src={LOGO_WHITE} alt="LAplust" />
         </Link>
         <button
@@ -127,10 +127,10 @@ export default function LaEyeHeader() {
               {n.label}
             </a>
           ))}
-          <Link href="/LA-Eye/contact" onClick={() => setOpen(false)}>
+          <Link href="/la-eye/contact" onClick={() => setOpen(false)}>
             お問い合わせ
           </Link>
-          <a href="/LA-Eye#request" onClick={() => setOpen(false)}>
+          <a href="/la-eye#request" onClick={() => setOpen(false)}>
             資料請求
           </a>
         </div>

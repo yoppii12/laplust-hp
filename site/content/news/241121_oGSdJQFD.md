@@ -1,5 +1,5 @@
 ---
-slug: "oGSdJQFD"
+slug: "ogsdjqfd"
 title: "フィールドワーカーズ社と協働でLAplust Eyeを用いたマダニ種判別AIを出展"
 date: 2024-11-21
 category: event

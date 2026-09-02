@@ -38,7 +38,7 @@ export function LaOcaHeader() {
           </a>
         </div>
         <div className={styles.headerButtons}>
-          <Link href="/LA-Eye/contact" className={styles.btnGhost} onClick={close}>
+          <Link href="/la-eye/contact" className={styles.btnGhost} onClick={close}>
             お問い合わせ
           </Link>
           <a href="/la-oca#contact" className={styles.btnOrange} onClick={close}>

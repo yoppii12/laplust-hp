@@ -1,5 +1,5 @@
 ---
-slug: "CqtCQZlx"
+slug: "cqtcqzlx"
 title: "PTZカメラをコントロールしてみた　Python × VAPIX"
 date: 2024-02-20
 category: other

@@ -1,5 +1,5 @@
 ---
-slug: "tPoKCAYT"
+slug: "tpokcayt"
 title: "未来を切り拓く！「AI特別セミナー」で弊社の原崎が登壇します。"
 date: 2024-02-06
 category: event

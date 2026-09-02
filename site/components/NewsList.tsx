@@ -6,7 +6,7 @@ import NewsCard from './NewsCard';
 import type { NewsMeta } from '@/lib/news';
 
 const TABS = [
-  { label: 'All', slug: 'k04mArKW' },
+  { label: 'All', slug: 'k04markw' },
   { label: 'Company', slug: 'company' },
   { label: 'Technology', slug: 'technology' },
   { label: 'Event', slug: 'event' },

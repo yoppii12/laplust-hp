@@ -15,7 +15,7 @@ export default function NewsIndex() {
       <main style={{ paddingTop: 'calc(var(--header-height) + 48px)' }}>
         <div className="container">
           <h1 className="page-title">News</h1>
-          <NewsList items={news} activeCategory="k04mArKW" />
+          <NewsList items={news} activeCategory="k04markw" />
           <HomeLink />
         </div>
       </main>

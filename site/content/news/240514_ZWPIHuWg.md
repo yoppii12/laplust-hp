@@ -1,5 +1,5 @@
 ---
-slug: "ZWPIHuWg"
+slug: "zwpihuwg"
 title: "LAplustの社会課題解決の取り組みが九州経済産業局が実施し公開する「社会のデータ・AI等活用事例動画」に掲載されました。"
 date: 2024-05-14
 category: company

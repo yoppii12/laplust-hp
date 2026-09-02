@@ -1,5 +1,5 @@
 ---
-slug: "fieldworkers_LA-Eye"
+slug: "fieldworkers_la-eye"
 title: "フィールドワーカーズ社によるLA-Eyeを活用した「マダニ同定AI」の発表"
 date: 2025-09-08
 category: company

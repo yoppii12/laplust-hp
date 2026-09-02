@@ -1,5 +1,5 @@
 ---
-slug: "LA-Projectdesign"
+slug: "la-projectdesign"
 title: "月刊「事業構想」に弊社の取り組み記事が掲載"
 date: 2026-09-01
 category: company

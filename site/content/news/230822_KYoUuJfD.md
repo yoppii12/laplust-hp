@@ -1,5 +1,5 @@
 ---
-slug: "KYoUuJfD"
+slug: "kyouujfd"
 title: "長崎県知事と県民が直接対話する「こんな長崎どがんです会」に弊社の原崎が参加し、NIB長崎国際テレビが取り上げました。"
 date: 2023-08-22
 category: event

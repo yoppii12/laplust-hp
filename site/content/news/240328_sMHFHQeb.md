@@ -1,5 +1,5 @@
 ---
-slug: "sMHFHQeb"
+slug: "smhfhqeb"
 title: "技術ブログ執筆サポートのプロンプト紹介"
 date: 2024-03-28
 category: other

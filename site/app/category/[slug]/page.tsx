@@ -6,8 +6,8 @@ import NewsList from '@/components/NewsList';
 import HomeLink from '@/components/HomeLink';
 import { getAllNews } from '@/lib/news';
 
-// k04mArKW は現行サイトの「All」カテゴリのslug（URL維持のためそのまま使用）
-const CATEGORIES = ['k04mArKW', 'company', 'technology', 'event', 'other'];
+// k04markw は現行サイトの「All」カテゴリのslug（URL維持のためそのまま使用）
+const CATEGORIES = ['k04markw', 'company', 'technology', 'event', 'other'];
 
 export function generateStaticParams() {
   return CATEGORIES.map((slug) => ({ slug }));
@@ -19,7 +19,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const label = slug === 'k04mArKW' ? 'All' : slug.charAt(0).toUpperCase() + slug.slice(1);
+  const label = slug === 'k04markw' ? 'All' : slug.charAt(0).toUpperCase() + slug.slice(1);
   return { title: `News - ${label}` };
 }
 
@@ -30,7 +30,7 @@ export default async function CategoryPage({
 }) {
   const { slug } = await params;
   if (!CATEGORIES.includes(slug)) notFound();
-  const news = getAllNews().filter((n) => slug === 'k04mArKW' || n.category === slug);
+  const news = getAllNews().filter((n) => slug === 'k04markw' || n.category === slug);
   return (
     <>
       <SiteHeader />

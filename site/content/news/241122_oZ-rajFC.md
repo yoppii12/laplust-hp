@@ -1,5 +1,5 @@
 ---
-slug: "oZ-rajFC"
+slug: "oz-rajfc"
 title: "STARTUP KYUSHU 2024のスタートアップピッチコンテストに弊社の原崎が登壇しました。"
 date: 2024-11-22
 category: event

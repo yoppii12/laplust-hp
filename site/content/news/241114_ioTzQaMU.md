@@ -1,5 +1,5 @@
 ---
-slug: "ioTzQaMU"
+slug: "iotzqamu"
 title: "CIC Tokyoで開催されたNEO DEJIMA 2024「和華蘭 DAY〜DEEP TECH〜」に弊社の原崎が登壇しました。"
 date: 2024-11-14
 category: event

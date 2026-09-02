@@ -1,5 +1,5 @@
 ---
-slug: "LA_FieldWorkers"
+slug: "la_fieldworkers"
 title: "AI画像解析プラットフォーム「LA-Eye」を活用したマダニ種判別に関する研究論文が「長崎県生物学会誌」に掲載"
 date: 2026-07-07
 category: company

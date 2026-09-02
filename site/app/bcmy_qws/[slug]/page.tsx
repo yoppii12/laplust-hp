@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import CompanyContent from '@/components/CompanyContent';
 
 // 現行サイト（Studio CMS）のCompanyページ群のURLをそのまま踏襲する
-const SLUGS = ['1Lp39Toq', 'iTkWpPF3', 'ubDEqaZo'];
+const SLUGS = ['1lp39toq', 'itkwppf3', 'ubdeqazo'];
 
 export function generateStaticParams() {
   return SLUGS.map((slug) => ({ slug }));

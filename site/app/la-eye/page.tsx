@@ -449,11 +449,11 @@ export default function LaEyePage() {
       <section className={styles.ctaBand}>
         <p className={styles.ctaLead}>なぜ『できなかった』が『できる』に変わるのか、</p>
         <p className={styles.ctaTitle}>その特徴と理由をまとめた資料がこちら</p>
-        <a href="/LA-Eye#request" className={styles.ctaButton}>
+        <a href="/la-eye#request" className={styles.ctaButton}>
           <DownloadIcon />
           <p>サービス資料をダウンロードする</p>
         </a>
-        <Link href="/LA-Eye/contact" className={styles.ctaContact}>
+        <Link href="/la-eye/contact" className={styles.ctaContact}>
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" strokeWidth="2" />
             <path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" strokeWidth="2" />
@@ -593,7 +593,7 @@ export default function LaEyePage() {
 
       {/* 上へ戻る */}
       <div className={styles.toTop}>
-        <a href="/LA-Eye" aria-label="ページ上部へ戻る">
+        <a href="/la-eye" aria-label="ページ上部へ戻る">
           <span />
           <span />
         </a>
@@ -622,11 +622,11 @@ export default function LaEyePage() {
           </div>
           <div className={styles.footerDivider} />
           <nav className={styles.footerNav}>
-            <a href="/LA-Eye#solution">機能</a>
-            <a href="/LA-Eye#price">料金</a>
-            <a href="/LA-Eye#faq">よくある質問</a>
-            <a href="/LA-Eye#results">導入事例</a>
-            <a href="/LA-Eye#contact">お問い合わせ</a>
+            <a href="/la-eye#solution">機能</a>
+            <a href="/la-eye#price">料金</a>
+            <a href="/la-eye#faq">よくある質問</a>
+            <a href="/la-eye#results">導入事例</a>
+            <a href="/la-eye#contact">お問い合わせ</a>
           </nav>
           <div className={styles.footerDivider} />
           <div className={styles.footerBottom}>

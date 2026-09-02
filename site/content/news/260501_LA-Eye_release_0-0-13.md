@@ -1,5 +1,5 @@
 ---
-slug: "LA-Eye_release_0-0-13"
+slug: "la-eye_release_0-0-13"
 title: "LA-Eye バージョン0.0.13 リリースのお知らせ"
 date: 2026-05-01
 category: technology

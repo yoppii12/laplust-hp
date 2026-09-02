@@ -1,5 +1,5 @@
 ---
-slug: "LA-Eye_release_0-0-7"
+slug: "la-eye_release_0-0-7"
 title: "LA-Eye バージョン0.0.7 リリースのお知らせ"
 date: 2025-08-28
 category: technology

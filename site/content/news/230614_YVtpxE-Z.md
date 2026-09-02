@@ -1,5 +1,5 @@
 ---
-slug: "YVtpxE-Z"
+slug: "yvtpxe-z"
 title: "今話題の「生成AI」について、弊社の原崎が講師を担当するセミナーが長崎市役所で開催されます。"
 date: 2023-06-14
 category: event

@@ -1,5 +1,5 @@
 ---
-slug: "Akashio"
+slug: "akashio"
 title: "長崎県五島市の実海水データをもとに有害赤潮プランクトン検出の機械学習を実施ー長崎モデルの実現を目指すー"
 date: 2026-07-31
 category: company

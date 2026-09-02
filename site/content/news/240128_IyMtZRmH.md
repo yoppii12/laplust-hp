@@ -1,5 +1,5 @@
 ---
-slug: "IyMtZRmH"
+slug: "iymtzrmh"
 title: "長崎県農林技術開発センターにて「農業における生成AI活用の可能性」をテーマに弊社の原崎が登壇しました。"
 date: 2024-01-28
 category: event

@@ -1,5 +1,5 @@
 ---
-slug: "ejoRouMk"
+slug: "ejoroumk"
 title: "【スーパー農家 トミさん/Agri-GPT】をリリースしました。"
 date: 2023-06-01
 category: company

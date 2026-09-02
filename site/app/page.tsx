@@ -144,7 +144,7 @@ export default function Home() {
                 <p className={styles.productCardDesc}>
                   LA-Eyeとエッジコンピュータを連動。位置ずれしても、反射しても正しく判定。不良品の排出まで自動化し省人化もサポート。
                 </p>
-                <Link href="/LA-Eye" className={styles.productCardBtn}>
+                <Link href="/la-eye" className={styles.productCardBtn}>
                   View more
                 </Link>
               </div>

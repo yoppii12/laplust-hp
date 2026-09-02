@@ -1,5 +1,5 @@
 ---
-slug: "LA_smartagri"
+slug: "la_smartagri"
 title: "東京型スマート農業研究開発プラットフォームが主催するWeb講演会に登壇しました。"
 date: 2026-07-07
 category: event

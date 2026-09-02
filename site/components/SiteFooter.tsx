@@ -2,7 +2,7 @@ import Link from 'next/link';
 import ScrollTopButton from './ScrollTopButton';
 
 const NAV_ITEMS = [
-  { label: 'Company', href: '/bcmY_qWs/1Lp39Toq' },
+  { label: 'Company', href: '/bcmy_qws/1lp39toq' },
   { label: 'Business', href: '/#business' },
   { label: 'News', href: '/news' },
   { label: 'Tech Blog', href: 'https://note.com/laplust/', external: true },

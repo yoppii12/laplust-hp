@@ -496,7 +496,7 @@ export default function LaOcaPage() {
                 はじめての方も安心。まずは無料でお試しいただけます。
               </p>
               <div className={styles.ctaBandButtons}>
-                <Link href="/LA-Eye/contact" className={styles.ctaWhite}>
+                <Link href="/la-eye/contact" className={styles.ctaWhite}>
                   お問い合わせ
                 </Link>
                 <a href="/la-oca#contact" className={styles.ctaOrange}>
@@ -661,7 +661,7 @@ export default function LaOcaPage() {
                   ))}
                 </div>
                 <div className={styles.planButton}>
-                  <Link href="/LA-Eye/contact" className={styles.planBtnDark}>
+                  <Link href="/la-eye/contact" className={styles.planBtnDark}>
                     お申し込み
                   </Link>
                 </div>
@@ -694,7 +694,7 @@ export default function LaOcaPage() {
                   ))}
                 </div>
                 <div className={styles.planButton}>
-                  <Link href="/LA-Eye/contact" className={styles.planBtnDark}>
+                  <Link href="/la-eye/contact" className={styles.planBtnDark}>
                     お申し込み
                   </Link>
                 </div>
@@ -720,7 +720,7 @@ export default function LaOcaPage() {
                   ))}
                 </div>
                 <div className={styles.planButton}>
-                  <Link href="/LA-Eye/contact" className={styles.planBtnDark}>
+                  <Link href="/la-eye/contact" className={styles.planBtnDark}>
                     お問い合わせ
                   </Link>
                 </div>
@@ -772,7 +772,7 @@ export default function LaOcaPage() {
             <h2 className={styles.ctaBandTitle}>今すぐワンクリックアノテーションを体験</h2>
             <p className={styles.ctaBandLead}>面倒な手続きゼロ。たった5分で始められます。</p>
             <div className={styles.ctaBandButtons}>
-              <Link href="/LA-Eye/contact" className={styles.ctaWhite}>
+              <Link href="/la-eye/contact" className={styles.ctaWhite}>
                 お問い合わせ
               </Link>
               <a href="/la-oca#contact" className={styles.ctaOrange}>

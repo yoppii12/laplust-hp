@@ -1,5 +1,5 @@
 ---
-slug: "BmQLVABP"
+slug: "bmqlvabp"
 title: "長崎新聞に弊社が参加した「ベンチャープラザ in 台湾 Plus」の紹介記事が掲載されました。"
 date: 2023-12-21
 category: event

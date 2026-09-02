@@ -1,5 +1,5 @@
 ---
-slug: "MHI-Power-Control-Systems_LAplust"
+slug: "mhi-power-control-systems_laplust"
 title: "MHIパワーコントロールシステムズとLAplust、協働で画像解析AIの技術実証"
 date: 2026-08-05
 category: company

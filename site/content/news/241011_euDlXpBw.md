@@ -1,5 +1,5 @@
 ---
-slug: "euDlXpBw"
+slug: "eudlxpbw"
 title: "LAplustインターンシップに参加して"
 date: 2024-10-11
 category: other

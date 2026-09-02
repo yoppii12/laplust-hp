@@ -38,7 +38,7 @@ const MEMBERS = [
   },
 ];
 
-// tabs: /company 内アンカー or /bcmY_qWs/* ページ間リンク（現行サイトのURL構造を踏襲）
+// tabs: /company 内アンカー or /bcmy_qws/* ページ間リンク（現行サイトのURL構造を踏襲）
 const TAB_SETS = {
   company: [
     { label: '経営方針', href: '/company#management', key: 'management' },
@@ -46,9 +46,9 @@ const TAB_SETS = {
     { label: 'メンバー', href: '/company#member', key: 'member' },
   ],
   bcm: [
-    { label: '経営方針', href: '/bcmY_qWs/1Lp39Toq/#management', key: '1Lp39Toq' },
-    { label: '会社情報', href: '/bcmY_qWs/iTkWpPF3/#information', key: 'iTkWpPF3' },
-    { label: 'メンバー', href: '/bcmY_qWs/ubDEqaZo/#member', key: 'ubDEqaZo' },
+    { label: '経営方針', href: '/bcmy_qws/1lp39toq/#management', key: '1lp39toq' },
+    { label: '会社情報', href: '/bcmy_qws/itkwppf3/#information', key: 'itkwppf3' },
+    { label: 'メンバー', href: '/bcmy_qws/ubdeqazo/#member', key: 'ubdeqazo' },
   ],
 } as const;
 
