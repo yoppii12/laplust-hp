@@ -29,36 +29,42 @@ const LOGOS = [
 const COMPARISON = [
   {
     item: '判定方式',
+    mark: 'single',
     icon: 'triangle',
     generic: 'OK品との差分でNGを検出',
     laeye: '不良の特徴（キズ・汚れ・欠けなど）を直接学習',
   },
   {
     item: '整列の必要性',
+    mark: 'single',
     icon: 'cross',
     generic: '位置や向きのズレに弱い',
     laeye: '整列不要で向きや位置の違いに強い',
   },
   {
     item: '照明条件の影響',
+    mark: 'double',
     icon: 'cross',
     generic: '光の加減で誤判定が出やすい',
     laeye: '照明の影響を受けにくく昼でも夜でも誤判定なし',
   },
   {
     item: '装置構成',
+    mark: 'double',
     icon: 'triangle',
     generic: 'カメラ・照明・整列機構などが必要',
     laeye: 'カメラ＋AI解析だけで後付け設置も簡単',
   },
   {
     item: 'センサ選択',
+    mark: 'double',
     icon: 'cross',
     generic: '専用カメラが前提',
     laeye: '見たいものに合わせてWebカメラ／顕微鏡／レントゲンなど選択',
   },
   {
     item: '多品種対応',
+    mark: 'double',
     icon: 'triangle',
     generic: '機器設定や照明の調整に時間がかかる',
     laeye: '一度設定してしまえば柔軟に対応',
@@ -356,8 +362,9 @@ export default function LaEyePage() {
                     <p>{row.generic}</p>
                   </div>
                   <div className={styles.compLaeye}>
-                    <span className={styles.compDouble} aria-label="◎">
-                      <span />
+                    {/* 現行実測: 判定方式・整列の必要性は〇、それ以外は◎ */}
+                    <span className={styles.compDouble} aria-label={row.mark === 'single' ? '〇' : '◎'}>
+                      {row.mark === 'double' && <span />}
                     </span>
                     <p>{row.laeye}</p>
                   </div>
