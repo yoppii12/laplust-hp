@@ -47,6 +47,8 @@ function doPost(e) {
     let sheet = ss.getSheetByName(formName);
     if (!sheet) {
       sheet = ss.insertSheet(formName);
+      // 全列を書式「テキスト」にする（電話番号の先頭0が数値解釈で消えるのを防ぐ）
+      sheet.getRange(1, 1, sheet.getMaxRows(), columns.length + 2).setNumberFormat('@');
       sheet.appendRow(['受信日時', ...columns, '送信元ページ']);
       sheet.getRange(1, 1, 1, columns.length + 2).setFontWeight('bold');
       sheet.setFrozenRows(1);
