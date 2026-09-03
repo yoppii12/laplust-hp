@@ -5,9 +5,9 @@ date: 2025-05-12
 category: event
 categories: [company, event]
 sortIndex: 49
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_44ee925f-d0dd-4a23-a3b2-150b0210b5a6.jpg"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_44ee925f-d0dd-4a23-a3b2-150b0210b5a6.jpg"
 description: "2025年2月24日、ミライ企業Nagasakiにて弊社の原崎が基調講演にて登壇しました。長崎県庁にて自社開発を進めてリリースした「LA-Eye」のDX活用事例の紹介や県内外の企業との協業によって得ら... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_44ee925f-d0dd-4a23-a3b2-150b0210b5a6.jpg"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_44ee925f-d0dd-4a23-a3b2-150b0210b5a6.jpg"
 ---
 
 2025年2月24日、ミライ企業Nagasakiにて弊社の原崎が基調講演にて登壇しました。長崎県庁にて自社開発を進めてリリースした「LA-Eye」のDX活用事例の紹介や県内外の企業との協業によって得られた成果等を交え、長崎で起業する意義、これからスタートアップとして起業する皆様に向けてのエールなどをお伝えしました。

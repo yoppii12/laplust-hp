@@ -5,9 +5,9 @@ date: 2024-10-11
 category: other
 categories: [other]
 sortIndex: 62
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_62f7221d-271d-49fb-9ac8-4902e84e544b.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_62f7221d-271d-49fb-9ac8-4902e84e544b.png"
 description: "佐世保高専 専攻科1年 村上匠私はLAplustのインターンシップ参加を通して、LAplustで行われている業務チーム開発の基礎技術実践的なAI開発について学ぶことができました。本稿では、私がインター... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_62f7221d-271d-49fb-9ac8-4902e84e544b.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_62f7221d-271d-49fb-9ac8-4902e84e544b.png"
 ---
 
 佐世保高専 専攻科1年 村上匠
@@ -44,7 +44,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 (2)動画が入力された場合、動画の各フレームに対して物体検出処理を実行する機能(追加機能)の追加実装  
 (3)追加機能に対するテストコードの実装
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x551_v-fs_webp_0536104c-5376-4ce7-bc64-fe8051a8227f.png)
+![](/assets/cms/NxqgdRVEa1/s-1024x551_v-fs_webp_0536104c-5376-4ce7-bc64-fe8051a8227f.png)
 
 機能概略図
 
@@ -72,11 +72,11 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 時間的な制約から全ての工程を完了することは困難に思えましたが、最終的には、根気とメンターの方々のサポートのお陰で**予定していた全ての実装を終える**ことができました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-548x464_webp_5935b16d-ff82-4e16-81e5-f62b920e8bb5.png)
+![](/assets/cms/NxqgdRVEa1/s-548x464_webp_5935b16d-ff82-4e16-81e5-f62b920e8bb5.png)
 
 メンター陣によるサポート
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-842x513_v-fs_webp_966901ee-4617-4ca0-a143-bcbc6c1fdd29.png)
+![](/assets/cms/NxqgdRVEa1/s-842x513_v-fs_webp_966901ee-4617-4ca0-a143-bcbc6c1fdd29.png)
 
 実装対象の概要理解
 
@@ -544,11 +544,11 @@ Python コード (2)
             return float(self.current_index + 1) / self.data_len
     
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-444x383_webp_ddddc83a-5419-41ba-be4a-9668a9f34465.png)
+![](/assets/cms/NxqgdRVEa1/s-444x383_webp_ddddc83a-5419-41ba-be4a-9668a9f34465.png)
 
 成果物の一部抜粋 UI上でもわかりやすく表現
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-546x427_webp_174af930-6a20-4ea0-820b-d12aea1be843.png)
+![](/assets/cms/NxqgdRVEa1/s-546x427_webp_174af930-6a20-4ea0-820b-d12aea1be843.png)
 
 メンター陣に見守られながらの成果発表
 
@@ -621,7 +621,7 @@ pythonコード(2)より一部抜粋
 
 業務時間外も終始和やかな雰囲気で、技術要素に関する議論のみならず自分の考えを言語化することの重要性について指導いただいたり、高専トークに花を咲かせる場面もありました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x768_v-fs_webp_bb5348e5-8a9b-4a79-930d-af2579a1f7d4.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1024x768_v-fs_webp_bb5348e5-8a9b-4a79-930d-af2579a1f7d4.jpg)
 
 皆さんとランチ
 
@@ -635,7 +635,7 @@ LAplustのインターンシップは、技術に関する**興味を持ち、�
 
 LAplustの「実践的AI開発インターンシップ」へのはじめてのインターン生として佐世保高専から村上さんをお迎えしました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x631_v-fs_webp_789de81e-739b-4661-8fe9-ef4d746754ff.png)
+![](/assets/cms/NxqgdRVEa1/s-1024x631_v-fs_webp_789de81e-739b-4661-8fe9-ef4d746754ff.png)
 
 村上さんの仕事ぶりをみて**よい意味でメンター陣の想定を裏切っていただきチーム一同驚き**でした。私が村上さんの仕事ぶりを見て感じたことを下記に示します。
 
@@ -643,11 +643,11 @@ LAplustの「実践的AI開発インターンシップ」へのはじめての�
 -   メンター陣より与えられた業務にて、動画解析の実装方針に関する会話のなかで、村上さんが考えた設計方針についての**必要なライブラリの情報を自ら収集し「このように進めた方がいいと思います。」という提案を実施**いただきました。1コーディングだけではなく設計方針に関する提案をいただきました。これは**「目的意識/課題意識」を強くもって業務を遂行し、自分事として思考している証**だと思います。「目的意識/課題意識」を前提に置いた思考プロセスや思考習慣はあらゆる場面で汎用的に活用できる能力です。
 -   **機械学習に関する深い理解とそれらを具体的なコードに落とし込む知恵**をお持ちで想定よりも多くの業務を進めていただくだけでなく、**弊社のプロダクトに寄与する「実践的なＡＩ開発」も実施いただきメンターのレビューをクリアし「プロダクトに採用」させていただきました。**AIの開発を専門に行うメンター陣も学びになりました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x460_v-fs_webp_43555db4-239e-4ef0-b1e8-ac545b41cd57.png)
+![](/assets/cms/NxqgdRVEa1/s-1024x460_v-fs_webp_43555db4-239e-4ef0-b1e8-ac545b41cd57.png)
 
 上記のことからLAplustより修了証を発行しました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1248x1770_v-fms_webp_bb501dbd-3af2-45a4-adb9-09d552359a44.png)
+![](/assets/cms/NxqgdRVEa1/s-1248x1770_v-fms_webp_bb501dbd-3af2-45a4-adb9-09d552359a44.png)
 
 慣れない環境でどんどん新しい知識のインプットがあり、それをとめどなくアウトプットするというハードな開発業務を通したインターンでしたがLAplustとしても実益ある時間でした。  
 本当におつかれさまでした。

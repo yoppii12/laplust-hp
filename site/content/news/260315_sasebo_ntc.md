@@ -5,9 +5,9 @@ date: 2026-03-15
 category: event
 categories: [company, event]
 sortIndex: 12
-cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_e459d55c-32ee-45ec-abd0-f3fdca5ce1a3.png"
+cover: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_e459d55c-32ee-45ec-abd0-f3fdca5ce1a3.png"
 description: "令和８年２月２６日（木）、西九州テクノコンソーシアム（NTC）及び佐世保工業高等専門学校との共催にて、会員企業および教職員を対象とした「令和７年度人材育成セミナー」が開催されました。今回のセミナーでは... "
-ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_e459d55c-32ee-45ec-abd0-f3fdca5ce1a3.png"
+ogImage: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_e459d55c-32ee-45ec-abd0-f3fdca5ce1a3.png"
 ---
 
 令和８年２月２６日（木）、西九州テクノコンソーシアム（NTC）及び佐世保工業高等専門学校との共催にて、会員企業および教職員を対象とした「令和７年度人材育成セミナー」が開催されました。

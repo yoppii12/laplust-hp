@@ -5,9 +5,9 @@ date: 2026-08-05
 category: company
 categories: [company]
 sortIndex: 1
-cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d91c39ef-2a3f-4c2e-9653-0c0edfcbdc97.png"
+cover: "/assets/design/NxqgdRVEa1/s-1920x1005_v-frms_webp_d91c39ef-2a3f-4c2e-9653-0c0edfcbdc97.png"
 description: "　株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は株式会社MHIパワーコントロールシステムズ*2（本社：神奈川県横浜市、以下、MHIパワ... "
-ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d91c39ef-2a3f-4c2e-9653-0c0edfcbdc97.png"
+ogImage: "/assets/design/NxqgdRVEa1/s-1920x1005_v-frms_webp_d91c39ef-2a3f-4c2e-9653-0c0edfcbdc97.png"
 ---
 
 　株式会社LAplust（ラプラス）\*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は株式会社MHIパワーコントロールシステムズ\*2（本社：神奈川県横浜市、以下、MHIパワーコントロールシステムズ）と協働で、端子配線後の画像から指摘箇所をAIで検出する技術実証を実施したことをお知らせします。
@@ -56,17 +56,17 @@ MHIパワーコントロールシステムズ 担当部署のコメント
 ](https://laplust.com/)LAplustは製造業/農業分野に対して生産現場を根底から支えるAIを開発します。  
 LAplustのミッションは「真の知能を実装し、社会活動を根底から支える」ことです。10年以上の動画像に特化したAIの開発経験とノウハウ、最新の画像AI関連の研究論文から学び得た本質的かつ実用的なAIアルゴリズムの目利きと利活用、複数のAIを組み合わせ維持/運用/更新をシームレスに実現する内製技術基盤(CTI:Core Tech Interface)を活用することで開発コスト・期間を最小化しお客様に最善の価値を「継続的に」提供します。
 
-![](https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-495x145_webp_a4355c06-b5c1-4a50-a58b-a0027a4a962a.jpg)
+![](/assets/design/NxqgdRVEa1/s-495x145_webp_a4355c06-b5c1-4a50-a58b-a0027a4a962a.jpg)
 
 \*2  
 株式会社MHIパワーコントロールシステムズ  
 MHIパワーコントロールシステムズは前身の会社時代も含めると30年を超える長きにわたり、発電プラントや様々な機器向けの制御システムを提供するメーカーとして世界中のインフラの発展に貢献してきました。プラントや機器の制御技術をコア・コンピタンスとし、IoT・AIを活用した各設備の運転状況の見える化、ビッグデータの解析、デマンド予測、あるいはOTセキュリティ対策など、最新のデジタル技術を駆使した『トータルソリューション』を展開しています。技術力向上と設計品質向上への努力を惜しまず、お客様から共感と信頼を得て、社会に貢献し続ける会社を目指しています。  
 [https://power.mhi.com/jp/group/cs/](https://power.mhi.com/jp/group/cs/)
 
-![](https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-641x317_v-fs_webp_8518bf72-9949-4956-b6a2-8419489b9723.png)
+![](/assets/design/NxqgdRVEa1/s-641x317_v-fs_webp_8518bf72-9949-4956-b6a2-8419489b9723.png)
 
 \*3  
 LA-Eye(エルエーアイ)　([概要はコチラ](https://laplust.notion.site/LA-Eye-259c08e5f34c80a6affbf5e959f0367a))  
 画像解析AI構築ソフトウェアLA-Eye(エルエーアイ, 2023年9月リリース)は利用者の目的に合わせた画像解析AIを構築できます。お客様の課題に合わせた操作画面のカスタマイズやお客様ブランド（ODM開発）での提供も可能です。画像解析AIの構築・現場導入において必要な業務の手間を大きく引き下げ、検証から運用までのトータルコストと時間を最小化します。
 
-![](https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-966x283_v-fs_webp_56b3829b-996a-434f-a6e0-e0808a7e69d6.jpg)
+![](/assets/design/NxqgdRVEa1/s-966x283_v-fs_webp_56b3829b-996a-434f-a6e0-e0808a7e69d6.jpg)

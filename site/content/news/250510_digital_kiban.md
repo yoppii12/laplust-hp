@@ -5,9 +5,9 @@ date: 2025-05-10
 category: company
 categories: [company]
 sortIndex: 50
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d06b05be-3124-4d55-b0e3-649381305239.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_d06b05be-3124-4d55-b0e3-649381305239.png"
 description: "株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、株式会社MizLinx(以下 MizLinx)、公益財団法人ながさき地域政策研究所(以... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_d06b05be-3124-4d55-b0e3-649381305239.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_d06b05be-3124-4d55-b0e3-649381305239.png"
 ---
 
 株式会社LAplust（ラプラス）\*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、株式会社MizLinx(以下 MizLinx)、公益財団法人ながさき地域政策研究所(以下 ながさき地域政策研究所)、NTTコミュニケーションズ株式会社(以下 NTT Com)は4社協働で、長崎県五島市と連携し「水中映像を軸とした洋上IoT/AIプラットフォーム構築による持続可能な漁業の実現」を目的としたガンガゼ※1の生息域ヒートマップおよび藻場※2の生育状況確認の実証実験(以下 本実証実験)に成功しました。  
@@ -15,11 +15,11 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 実証現場　五島市岐宿町水之浦湾周辺
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1399x483_v-fms_webp_eb2d45e3-e30d-474f-9790-2e25939e2995.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1399x483_v-fms_webp_eb2d45e3-e30d-474f-9790-2e25939e2995.jpg)
 
 設置作業の様子
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1429x763_v-fms_webp_5d94056d-d288-444f-91ef-1ed4b56f79a7.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1429x763_v-fms_webp_5d94056d-d288-444f-91ef-1ed4b56f79a7.jpg)
 
 実証について
 
@@ -35,14 +35,14 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 水中撮影を行うときのイメージ
 
-![水中撮影を行うときのイメージ](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-861x667_v-fs_webp_87b29775-2fd2-496d-8c62-257aac776897.jpg)
+![水中撮影を行うときのイメージ](/assets/cms/NxqgdRVEa1/s-861x667_v-fs_webp_87b29775-2fd2-496d-8c62-257aac776897.jpg)
 
 次に、LAplustが開発する画像認識AIを用いて撮影した動画を解析します。  
 これによりガンガゼの特定とその生息域をヒートマップ表示を同時に行うことに成功しました。
 
 ガンガゼヒートマップ（開発：LAplust）
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1108x558_v-fs_webp_9af545ba-f77c-4f0f-9c5c-f46bbeaf807b.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1108x558_v-fs_webp_9af545ba-f77c-4f0f-9c5c-f46bbeaf807b.jpg)
 
 潜水計画時に、潜水の場所が絞れることができ、潜水回数の削減とガンガゼ探索時間の短縮が見込まれるとともに、磯焼け対策を実施する面積を広げることが可能になります。本成果はガンガゼ駆除を行うチームとも共有し意見交換を行いました。次回の実証ではガンガゼ生息域を可視化した上で、駆除にいく本ヒートマップの利用者自身がどこにいるのか位置情報を表示する予定です。さらなる利便性の向上に取り組みます。
 
@@ -54,23 +54,23 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 学習に用いたデータの例
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1366x385_v-fms_webp_0aa3467b-52ee-4af8-83ba-e54cd2000458.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1366x385_v-fms_webp_0aa3467b-52ee-4af8-83ba-e54cd2000458.jpg)
 
 人の目で見てもわかりづらい対象物も検出  
 左：元データ、右：AI検出箇所表示データ
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1329x372_v-fms_webp_ad413a83-2cc0-48d7-9137-a405ef7f4fe0.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1329x372_v-fms_webp_ad413a83-2cc0-48d7-9137-a405ef7f4fe0.jpg)
 
 障害物に隠れたガンガゼも検出
 
 LA-Eyeで構築したAIモデルがガンガゼを検出した様子の一例  
 適切な検出ができることを確認
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1294x721_v-fms_webp_d9d6906e-d035-43b3-9814-9f862a373cd9.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1294x721_v-fms_webp_d9d6906e-d035-43b3-9814-9f862a373cd9.jpg)
 
 学習時のLA-Eyeの画面（順調に学習が進捗している）
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1075x714_v-fs_webp_67d93b2c-20d7-4d32-9a42-9be2e946375a.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1075x714_v-fs_webp_67d93b2c-20d7-4d32-9a42-9be2e946375a.jpg)
 
 mAP=0.4前後となり良好な結果が得られた。一方で、一部誤検出・過検出・誤分類も確認されたため、実用化を目指し、改善に向けた具体的な方策を立て対応を進める見通し。
 
@@ -103,7 +103,7 @@ NTTコミュニケーションズ
 
 現場で一緒に作業を行い課題を確認
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1062x955_v-fs_webp_cec3d609-cdc3-4247-97cc-cf1539ba5453.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1062x955_v-fs_webp_cec3d609-cdc3-4247-97cc-cf1539ba5453.jpg)
 
 LAplustの原崎が現場のご担当者とともにガンガゼ駆除を実施させていただきました。自ら課題を経験し肌身で感じ、実感することを大切にしています。また、実証実施時の機材設置時のサポート等を行うことで現場利用する時の使い勝手も一緒に体験しプロダクトへのフィードバックを行いました。
 
@@ -120,27 +120,27 @@ LAplustの原崎が現場のご担当者とともにガンガゼ駆除を実施�
 ※8：「LA-Eye（エルエーアイ）」とは、LAplustが開発した、少量の学習データでユーザーの目的に特化した高精度な動画像解析AIモデルを作成できるソフトウェアです。利用者の目的に合わせた画像解析AIを構築できます。お客様の課題に合わせた操作画面のカスタマイズやお客様ブランド（ロゴの変更等）での提供も可能です。画像解析AIの構築・現場導入において必要な業務の手間を大きく引き下げ、検証から運用までのトータルコストと時間を最小化します。  
 [https://laplust.com/LA-Eye](https://laplust.com/LA-Eye)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1051x495_v-fs_webp_fa44b69f-e40f-4493-bb65-14940100118d.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1051x495_v-fs_webp_fa44b69f-e40f-4493-bb65-14940100118d.jpg)
 
 株式会社MizLinx（ミズリンクス）  
 [https://mizlinx.com/](https://mizlinx.com/)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-541x132_webp_0459dc36-d1bf-4b5a-bc47-0396a3481c4b.jpg)
+![](/assets/cms/NxqgdRVEa1/s-541x132_webp_0459dc36-d1bf-4b5a-bc47-0396a3481c4b.jpg)
 
 NTTコミュニケーションズ株式会社  
 [https://www.ntt.com/index.html](https://www.ntt.com/index.html)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-580x151_webp_7155e203-d917-4ed7-a5ac-2459f821abb1.jpg)
+![](/assets/cms/NxqgdRVEa1/s-580x151_webp_7155e203-d917-4ed7-a5ac-2459f821abb1.jpg)
 
 公益財団法人ながさき地域政策研究所  
 [https://think-nagasaki.studio.site/](https://think-nagasaki.studio.site/)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-595x81_webp_36af261b-b164-4cc8-9a81-85b683c351b9.jpg)
+![](/assets/cms/NxqgdRVEa1/s-595x81_webp_36af261b-b164-4cc8-9a81-85b683c351b9.jpg)
 
 五島市  
 [https://www.city.goto.nagasaki.jp/](https://www.city.goto.nagasaki.jp/)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-351x115_webp_2f2f648b-8b91-4254-9c35-531177ce281d.jpg)
+![](/assets/cms/NxqgdRVEa1/s-351x115_webp_2f2f648b-8b91-4254-9c35-531177ce281d.jpg)
 
 \*1  
 株式会社LAplust(ラプラス)  
@@ -148,4 +148,4 @@ NTTコミュニケーションズ株式会社
 LAplustは製造業/農業分野に対して生産現場を根底から支えるAIを開発します。  
 LAplustのミッションは「真の知能を実装し、社会活動を根底から支える」ことです。10年以上の動画像に特化したAIの開発経験とノウハウ、最新の画像AI関連の研究論文から学び得た本質的かつ実用的なAIアルゴリズムの目利きと利活用、複数のAIを組み合わせ維持/運用/更新をシームレスに実現する内製技術基盤(CTI:Core Tech Interface)を活用することで開発コスト・期間を最小化しお客様に最善の価値を「継続的に」提供します。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-637x199_v-fs_webp_4e59597a-d34e-4b50-b200-0bc8e552b4f4.jpg)
+![](/assets/cms/NxqgdRVEa1/s-637x199_v-fs_webp_4e59597a-d34e-4b50-b200-0bc8e552b4f4.jpg)

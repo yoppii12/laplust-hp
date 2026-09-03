@@ -895,7 +895,7 @@
 .scrollGuideIcon {
   width: 100px;
   height: 100px;
-  background: url('https://storage.googleapis.com/studio-design-asset-files/projects/65qmDRB9OV/s-300x300_webp_e1c35799-a213-45fd-9332-266712335bb7.webp')
+  background: url('/assets/design/65qmDRB9OV/s-300x300_webp_e1c35799-a213-45fd-9332-266712335bb7.webp')
     center / contain no-repeat;
 }
 
@@ -1879,7 +1879,7 @@
 .footerLogo {
   width: 183px;
   height: 48px;
-  background: url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x634_v-frms_webp_36d998a3-e883-419e-aa30-f697d086ba12_small.webp')
+  background: url('/assets/design/NxqgdRVEa1/s-2400x634_v-frms_webp_36d998a3-e883-419e-aa30-f697d086ba12_small.webp')
     no-repeat center / contain;
 }
 

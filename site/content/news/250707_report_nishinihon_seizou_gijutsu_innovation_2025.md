@@ -5,9 +5,9 @@ date: 2025-07-07
 category: event
 categories: [company, event]
 sortIndex: 43
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_2581fe92-2ef3-4df8-8ab9-6bed6ad82de1.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_2581fe92-2ef3-4df8-8ab9-6bed6ad82de1.png"
 description: "2025年7月2日（水）〜7月4日（金）にかけて、西日本総合展示場（福岡県北九州市）で開催された「西日本製造技術イノベーション2025」に出展いたしました。本展示会は、西日本エリア最大級の製造業向け展... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_2581fe92-2ef3-4df8-8ab9-6bed6ad82de1.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_2581fe92-2ef3-4df8-8ab9-6bed6ad82de1.png"
 ---
 
 2025年7月2日（水）〜7月4日（金）にかけて、西日本総合展示場（福岡県北九州市）で開催された「西日本製造技術イノベーション2025」に出展いたしました。
@@ -16,7 +16,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 弊社LAplustブースには**約100組**の皆さまにお立ち寄りいただき、盛況のうちに終了いたしました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-3925x3024_v-frms_webp_6bf5501a-a0b1-435f-807e-798f5378e35a.jpg)
+![](/assets/cms/NxqgdRVEa1/s-3925x3024_v-frms_webp_6bf5501a-a0b1-435f-807e-798f5378e35a.jpg)
 
 ### ■ LAplustブース 来場者数と業界構成
 
@@ -37,7 +37,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 ### **不良を直接学習するAIによる「高精度画像解析デモ」**
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-949x581_v-fs_webp_56d66fdd-c6c6-49fd-9288-c1805eecba42.png)
+![](/assets/cms/NxqgdRVEa1/s-949x581_v-fs_webp_56d66fdd-c6c6-49fd-9288-c1805eecba42.png)
 
 LAplustが提供する画像解析AIは、一般的なOK品学習とは異なり、**実際の不良データを学習**。そのため、不良パターンの検出に強く、**誤判定の削減と現場への信頼性向上**を実現します。
 

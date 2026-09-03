@@ -5,9 +5,9 @@ date: 2025-11-07
 category: technology
 categories: [technology, other]
 sortIndex: 20
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_fb06cfe2-88ff-4f57-a83c-089b40acce04.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_fb06cfe2-88ff-4f57-a83c-089b40acce04.png"
 description: "平素よりLA-Eyeをご利用いただき、誠にありがとうございます。このたび、LA-Eye バージョン0.0.12をリリースいたします。【概要】本バージョンでは、不具合の修正を行いました。【更新内容】不具... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_fb06cfe2-88ff-4f57-a83c-089b40acce04.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_fb06cfe2-88ff-4f57-a83c-089b40acce04.png"
 ---
 
 平素よりLA-Eyeをご利用いただき、誠にありがとうございます。  

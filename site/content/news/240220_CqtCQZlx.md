@@ -5,9 +5,9 @@ date: 2024-02-20
 category: other
 categories: [other]
 sortIndex: 75
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_eb175d4f-6955-4273-b6cc-4d9ada940788.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_eb175d4f-6955-4273-b6cc-4d9ada940788.png"
 description: "皆様、こんにちは。はじめまして。2024年2月よりLAplustに入社しました中村です。今回は私の入社時の研修課題について紹介したいと思います。研修課題は「PTZカメラをコントロールする」でした。社内... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_eb175d4f-6955-4273-b6cc-4d9ada940788.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_eb175d4f-6955-4273-b6cc-4d9ada940788.png"
 ---
 
 皆様、こんにちは。はじめまして。  
@@ -51,7 +51,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 PTZ（パン・チルト・ズーム）カメラは、広範囲をカバーし、遠隔操作で画角を調整できるため、セキュリティ、イベントの撮影、会議のライブストリーミングなど、多岐にわたる用途で重宝されています。しかし、その機能をフルに活用するためには、カメラを正確にコントロールする技術が不可欠です。また、PTZカメラを使用する上では、GDPR（一般データ保護規則）などのデータ保護法規制の遵守が求められます。カメラを通じて収集されるデータが個人を特定可能な情報を含む場合、その取り扱いには細心の注意が必要です。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1800x2400_v-frms_webp_67edefbe-d3cb-42a7-8fb7-c4203ae5c5cf.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1800x2400_v-frms_webp_67edefbe-d3cb-42a7-8fb7-c4203ae5c5cf.jpg)
 
 実際に使用したPTZカメラ
 
@@ -63,7 +63,7 @@ Pythonはそのシンプルさで初心者にとっても学びやすく、ま�
 
 この記事を通じて、PTZカメラとVAPIXの基礎から始め、Pythonを使って実際にカメラをコントロールする方法までを学んでいきます。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2400x1800_v-frms_webp_a18d1b4f-9668-44fe-94a8-053304b16842.jpg)
+![](/assets/cms/NxqgdRVEa1/s-2400x1800_v-frms_webp_a18d1b4f-9668-44fe-94a8-053304b16842.jpg)
 
 PCとPTZカメラ
 
@@ -73,7 +73,7 @@ PCとPTZカメラ
 
 Pythonは、その読みやすさと柔軟性で知られるプログラミング言語です。初心者からプロフェッショナルまで幅広い開発者に愛用されており、ウェブ開発、データ分析、人工知能など、多岐にわたる分野で活用されています。このセクションでは、Pythonの基本的な環境設定から、プログラミングの基礎概念までを簡単に紹介します。これは、後にPTZカメラを制御するためのスクリプトを書く際の基盤となります。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-795x723_v-fs_webp_f40a34ba-05c6-414c-a023-5d80b512249c.png)
+![](/assets/cms/NxqgdRVEa1/s-795x723_v-fs_webp_f40a34ba-05c6-414c-a023-5d80b512249c.png)
 
 ### **■Pythonのインストール**
 
@@ -138,7 +138,7 @@ PythonでHTTPリクエストを送信するには、requestsライブラリが�
 
 私はここでつまづきました、、汗　Basic認証だと思ってプログラミングし、「何故動かない？」となり解決に時間を費やしました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-786x786_v-fs_webp_aac3034a-6156-4469-9ca1-ca44cbf17790.png)
+![](/assets/cms/NxqgdRVEa1/s-786x786_v-fs_webp_aac3034a-6156-4469-9ca1-ca44cbf17790.png)
 
 Digest認証とは、HTTPで定義される認証方式の一つであり、Basic認証の平文で「ユーザーID」と「パスワード」を送信してしまう欠点を改善し、ハッシュ化して送信するため、Basic認証よりもセキュリティー性が高くなっています。
 

@@ -5,9 +5,9 @@ date: 2024-01-28
 category: event
 categories: [event]
 sortIndex: 79
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_a1365027-5985-4a9b-b3ad-5c7f11f19428.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_a1365027-5985-4a9b-b3ad-5c7f11f19428.png"
 description: "弊社の原崎が「農業における生成AI活用の可能性」をテーマに登壇しました。長崎県農林技術開発センターより寄せられた日頃の業務における具体的な課題に対して、自社開発するプロダクトやOpenAI社のChat... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_a1365027-5985-4a9b-b3ad-5c7f11f19428.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_a1365027-5985-4a9b-b3ad-5c7f11f19428.png"
 ---
 
 弊社の原崎が「農業における生成AI活用の可能性」をテーマに登壇しました。  
@@ -27,4 +27,4 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 ◇物体検出エンジン【LAplust Eye】  
 [https://laplust-eye.studio.site](https://laplust-eye.studio.site)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1535x960_v-fms_webp_fe898ce2-e9c7-4070-8408-3bddd9957b04.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1535x960_v-fms_webp_fe898ce2-e9c7-4070-8408-3bddd9957b04.jpg)

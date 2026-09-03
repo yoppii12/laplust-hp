@@ -5,9 +5,9 @@ date: 2025-12-30
 category: event
 categories: [event, company]
 sortIndex: 18
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_f2d0002c-d6c3-4ff0-952b-5e046ad4129e.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_f2d0002c-d6c3-4ff0-952b-5e046ad4129e.png"
 description: "長崎県の次代を担う高校生が、在籍している高校やふるさと長崎のよりよい未来を自分事として考える機会を創り出すことを目的に、第2回 Nagasaki Leaders Meetingが2025 年 12月 ... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_f2d0002c-d6c3-4ff0-952b-5e046ad4129e.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_f2d0002c-d6c3-4ff0-952b-5e046ad4129e.png"
 ---
 
 長崎県の次代を担う高校生が、在籍している高校やふるさと長崎のよりよい未来を自分事として考える機会を創り出すことを目的に、第2回 Nagasaki Leaders Meetingが2025 年 12月 25日（木）に長崎県庁で開催され、弊社の中村が社会人メンターとして参加しました。

@@ -5,9 +5,9 @@ date: 2024-09-11
 category: company
 categories: [company]
 sortIndex: 63
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_520f47e9-cc35-4e4c-8303-97d774f4e1b3.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_520f47e9-cc35-4e4c-8303-97d774f4e1b3.png"
 description: "株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、株式会社ホタルクス*2（本社：東京都港区、執行役員　柳橋 歩、以下、ホタルクス）と協働... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_520f47e9-cc35-4e4c-8303-97d774f4e1b3.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_520f47e9-cc35-4e4c-8303-97d774f4e1b3.png"
 ---
 
 株式会社LAplust（ラプラス）\*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、株式会社ホタルクス\*2（本社：東京都港区、執行役員　柳橋 歩、以下、ホタルクス）と協働で、ビル内のサーバや冷凍庫の熱交換部にて小型カメラで撮影した画像からゴキブリ（成虫・幼体）をAIで検出する技術実証を実施したことをお知らせします。
@@ -19,7 +19,7 @@ IPM（総合的有害生物管理）は、ビル管理において重要な考�
 
 現場に小型カメラを設置し画像を取得
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1273x433_v-fms_webp_8142bd99-0d34-4703-8203-31102969350e.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1273x433_v-fms_webp_8142bd99-0d34-4703-8203-31102969350e.jpg)
 
 実証について
 
@@ -37,7 +37,7 @@ IPM（総合的有害生物管理）は、ビル管理において重要な考�
 学習に用いたデータ  
 左：成虫4匹、右：幼体3匹,成虫2匹
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1186x375_v-fs_webp_8f3e95a9-7bb7-49a3-a225-dc8d4f376d95.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1186x375_v-fs_webp_8f3e95a9-7bb7-49a3-a225-dc8d4f376d95.jpg)
 
 解決策  
 LA-Eye（エルエーアイ）\*3で構築した画像解析AIによるゴキブリの検出や自動カウントを行い、IPMに則ったモニタリングを自動化することで防除適期の判断、防除の効果測定を自動化する。
@@ -48,11 +48,11 @@ LA-Eyeを用いてサーバや厨房機器に設置した小型カメラによ�
 LA-Eyeで構築したAIモデルがゴキブリを検出した様子の一例  
 それぞれ適切な検出ができることを確認（一部、見落し有）
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-877x862_v-fs_webp_74c45d3d-6623-4d02-b5b6-84bce09db0ea.jpg)
+![](/assets/cms/NxqgdRVEa1/s-877x862_v-fs_webp_74c45d3d-6623-4d02-b5b6-84bce09db0ea.jpg)
 
 学習時のLA-Eyeの画面（順調に学習が進捗している）
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1081x666_v-fs_webp_4ec25d1a-89fb-4456-8ad2-7ec4f365ecbe.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1081x666_v-fs_webp_4ec25d1a-89fb-4456-8ad2-7ec4f365ecbe.jpg)
 
 mAP=0.24前後となり、実用にはまだ達していないという結果を示し、今後の追加学習で十分な精度の伸びしろがあることが確認できた。
 
@@ -71,18 +71,18 @@ mAP=0.24前後となり、実用にはまだ達していないという結果を
 LAplustは製造業/農業分野に対して生産現場を根底から支えるAIを開発します。  
 LAplustのミッションは「真の知能を実装し、社会活動を根底から支える」ことです。10年以上の動画像に特化したAIの開発経験とノウハウ、最新の画像AI関連の研究論文から学び得た本質的かつ実用的なAIアルゴリズムの目利きと利活用、複数のAIを組み合わせ維持/運用/更新をシームレスに実現する内製技術基盤(CTI:Core Tech Interface)を活用することで開発コスト・期間を最小化しお客様に最善の価値を「継続的に」提供します。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-637x199_v-fs_webp_bcc9f60c-7dd8-4e73-8e18-a346ce8a067a.jpg)
+![](/assets/cms/NxqgdRVEa1/s-637x199_v-fs_webp_bcc9f60c-7dd8-4e73-8e18-a346ce8a067a.jpg)
 
 \*2  
 ホタルクス株式会社  
 [https://www.hotalux.com/](https://www.hotalux.com/)  
 ビジネスや生活のさまざまなシーンを明るく快適な光で照らし、働く人と暮らす人の当たり前の日常を守り続けます。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-655x250_v-fs_webp_1593ef09-bcf0-4e8d-ad3c-93fc2d892c29.jpg)
+![](/assets/cms/NxqgdRVEa1/s-655x250_v-fs_webp_1593ef09-bcf0-4e8d-ad3c-93fc2d892c29.jpg)
 
 \*3  
 LA-Eye(エルエーアイ)  
 [https://laplust.com/LA-Eye](https://laplust.com/LA-Eye)  
 画像解析AI構築ソフトウェアLA-Eye(エルエーアイ, 2023年9月リリース)は利用者の目的に合わせた画像解析AIを構築できます。お客様の課題に合わせた操作画面のカスタマイズやお客様ブランド（ロゴの変更等）での提供も可能です。画像解析AIの構築・現場導入において必要な業務の手間を大きく引き下げ、検証から運用までのトータルコストと時間を最小化します。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1051x495_v-fs_webp_ca0e0942-2fb2-47bb-b217-34eac03f0e26.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1051x495_v-fs_webp_ca0e0942-2fb2-47bb-b217-34eac03f0e26.jpg)

@@ -5,9 +5,9 @@ date: 2026-02-08
 category: event
 categories: [company, event]
 sortIndex: 15
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2560x1340_v-frms_webp_a856275b-3bb8-4435-8dad-5a358d69ba18.png"
+cover: "/assets/cms/NxqgdRVEa1/s-2560x1340_v-frms_webp_a856275b-3bb8-4435-8dad-5a358d69ba18.png"
 description: "2026年2月26日(木)に佐世保工業高等専門学校で開催される「生成AI実践 ワークショップ」 ～文書/分析/発想まで～に弊社の取締役の原崎が登壇いたします。本セミナーは、生成AI「GPT」を活用し，... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2560x1340_v-frms_webp_a856275b-3bb8-4435-8dad-5a358d69ba18.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-2560x1340_v-frms_webp_a856275b-3bb8-4435-8dad-5a358d69ba18.png"
 ---
 
 2026年2月26日(木)に佐世保工業高等専門学校で開催される「生成AI実践 ワークショップ」 ～文書/分析/発想まで～に弊社の取締役の原崎が登壇いたします。
@@ -30,4 +30,4 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 皆様のご来場を心よりお待ちしております。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-877x1243_v-fms_webp_69a8f2a6-a747-47d1-b475-9d0f626be19c.jpg)
+![](/assets/cms/NxqgdRVEa1/s-877x1243_v-fms_webp_69a8f2a6-a747-47d1-b475-9d0f626be19c.jpg)

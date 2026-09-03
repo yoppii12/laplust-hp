@@ -4,7 +4,7 @@ import ScrollReveal from './ScrollReveal';
 import SiteFooter from './SiteFooter';
 import styles from './company.module.css';
 
-const GCS = 'https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1';
+const GCS = '/assets/design/NxqgdRVEa1';
 
 const MEMBERS = [
   {

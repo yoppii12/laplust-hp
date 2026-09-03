@@ -5,9 +5,9 @@ date: 2023-06-14
 category: event
 categories: [event]
 sortIndex: 90
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_1ea1b4da-59d6-416d-9bdd-5957a96447c7.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_1ea1b4da-59d6-416d-9bdd-5957a96447c7.png"
 description: "特別セミナー「AIがあなたの生活を変える!?いま知っておくべき生成AI」「そもそもAIってなに？」という疑問から、いま話題の生成AIを利用していくうえでのメリット・デメリット、あなたの生活に影響を与え... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_1ea1b4da-59d6-416d-9bdd-5957a96447c7.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_1ea1b4da-59d6-416d-9bdd-5957a96447c7.png"
 ---
 
 特別セミナー「AIがあなたの生活を変える!?いま知っておくべき生成AI」
@@ -25,4 +25,4 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 ※申し込みは先着順となっております。下記のリンク先よりお早めにお申し込みください。  
 [https://www.city.nagasaki.lg.jp/shimin/193010/193011/p040487.html](https://www.city.nagasaki.lg.jp/shimin/193010/193011/p040487.html)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-670x948_v-fs_webp_7443c8fa-600e-4528-9aef-130435f7f57b.jpg)
+![](/assets/cms/NxqgdRVEa1/s-670x948_v-fs_webp_7443c8fa-600e-4528-9aef-130435f7f57b.jpg)

@@ -5,9 +5,9 @@ date: 2025-10-31
 category: other
 categories: []
 sortIndex: 29
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1152_98f0f8e2-ab5e-43cd-a13f-af2eaebd0daf.webp"
+cover: "/assets/cms/NxqgdRVEa1/s-2048x1152_98f0f8e2-ab5e-43cd-a13f-af2eaebd0daf.webp"
 description: "概要自社のDX化を進め、費用対効果を高めるために必要な知識や具体的なツール活用術をお伝えします。ITやDXに関して詳しくない初心者の方でも受講してご満足いただけるよう事前の業務課題をヒアリングを通して... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1152_98f0f8e2-ab5e-43cd-a13f-af2eaebd0daf.webp"
+ogImage: "/assets/cms/NxqgdRVEa1/s-2048x1152_98f0f8e2-ab5e-43cd-a13f-af2eaebd0daf.webp"
 ---
 
 ### 概要
@@ -38,7 +38,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 ### 講師紹介　ーCOO 原崎 芳加ー
 
-![講師 COO 原崎 芳加さんの写真](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-512x560_e61df8d1-e480-4684-9c78-79a505b5f4b5.webp)
+![講師 COO 原崎 芳加さんの写真](/assets/cms/NxqgdRVEa1/s-512x560_e61df8d1-e480-4684-9c78-79a505b5f4b5.webp)
 
 製造業100社への改善提案を経験。
 

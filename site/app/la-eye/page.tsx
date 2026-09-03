@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     'LA-Eye（エルエーアイ）とエッジコンピュータを連動。位置ずれしても、反射しても正しく判定。不良品の排出まで自動化し省人化もサポート。',
 };
 
-const ASSET = 'https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1';
-const CMS = 'https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1';
+const ASSET = '/assets/design/NxqgdRVEa1';
+const CMS = '/assets/cms/NxqgdRVEa1';
 
 // 導入企業ロゴ（現行サイトはCMS由来のカルーセル）
 const LOGOS = [
@@ -578,7 +578,7 @@ export default function LaEyePage() {
             </div>
             <Link href="/" className={styles.companyLink}>
               <p>詳しくはこちら</p>
-              <img src="https://storage.googleapis.com/studio-design-asset-files/projects/d7Wl5jmDOV/s-48x54_webp_6bae1fe3-6326-4f0a-bf45-dffe170650dd.webp" alt="" />
+              <img src="/assets/design/d7Wl5jmDOV/s-48x54_webp_6bae1fe3-6326-4f0a-bf45-dffe170650dd.webp" alt="" />
             </Link>
           </div>
           <div className={styles.companyMap}>

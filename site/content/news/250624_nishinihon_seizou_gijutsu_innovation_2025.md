@@ -5,9 +5,9 @@ date: 2025-06-24
 category: event
 categories: [company, event]
 sortIndex: 47
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_faf0281c-0e74-486c-8125-2564cdb7c3f5.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_faf0281c-0e74-486c-8125-2564cdb7c3f5.png"
 description: "株式会社LAplust（ラプラス）（本社：長崎県長崎市、代表取締役社長 田中 宏樹）は、2025年7月2日(水)～7月4日(金)に、西日本総合展示場で開催される「西日本製造技術イノベーション2025」... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_faf0281c-0e74-486c-8125-2564cdb7c3f5.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_faf0281c-0e74-486c-8125-2564cdb7c3f5.png"
 ---
 
 株式会社LAplust（ラプラス）（本社：長崎県長崎市、代表取締役社長 田中 宏樹）は、2025年7月2日(水)～7月4日(金)に、西日本総合展示場で開催される「西日本製造技術イノベーション2025」に出展いたします。
@@ -29,11 +29,11 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 ・自社専用の画像解析AIツールLA-Eye(エルエーアイ)の展示
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2894x1659_v-frms_webp_4ed24024-c210-40dd-a142-fd054df98851.png)
+![](/assets/cms/NxqgdRVEa1/s-2894x1659_v-frms_webp_4ed24024-c210-40dd-a142-fd054df98851.png)
 
 ・LA-Eyeで生成された学習モデルを使用したデモンストレーション2種類の実施(個数を数える、不良品の検出)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1302x750_v-fms_webp_c7169640-c508-4f49-b0e3-7643966fdb32.png)
+![](/assets/cms/NxqgdRVEa1/s-1302x750_v-fms_webp_c7169640-c508-4f49-b0e3-7643966fdb32.png)
 
 担当スタッフによる個別相談も随時承りますので、ぜひ当社ブースまでお立ち寄りください。  
 皆様のご来場を心よりお待ちしております。

@@ -5,9 +5,9 @@ date: 2025-11-02
 category: other
 categories: []
 sortIndex: 24
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1536_28527e63-be23-41bd-a2e0-cfc9e9b523d0.webp"
+cover: "/assets/cms/NxqgdRVEa1/s-2048x1536_28527e63-be23-41bd-a2e0-cfc9e9b523d0.webp"
 description: "概要新型感染症の影響で3密を避けた農家がが営む直売所が好評となっています。庭先の直売所カメラと誰でもアクセスできるウェブサイトで売れ行きを可視化します。欠品を防ぎ農家さんの売上向上と消費者の買い逃しを... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1536_28527e63-be23-41bd-a2e0-cfc9e9b523d0.webp"
+ogImage: "/assets/cms/NxqgdRVEa1/s-2048x1536_28527e63-be23-41bd-a2e0-cfc9e9b523d0.webp"
 ---
 
 ### 概要
@@ -28,17 +28,17 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 直売所に設置した直売所カメラから直売所の様子が撮影される「見えベジ」を体験できます。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x711_821bb04a-aed7-4feb-8b58-1d1ff4586b0b.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x711_821bb04a-aed7-4feb-8b58-1d1ff4586b0b.webp)
 
 直売所のカメラは**プライバシーに配慮するため人が映っていないときだけ撮影する**ようにしています。
 
 屋外でも安価に利用できるよう工夫を施しています。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-299x251_c9ba84dd-1e82-4945-8f0f-a69aa218fb80.webp)
+![](/assets/cms/NxqgdRVEa1/s-299x251_c9ba84dd-1e82-4945-8f0f-a69aa218fb80.webp)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-926x472_e9a1dbb5-c5fa-43b4-8ab9-f743602992f3.webp)
+![](/assets/cms/NxqgdRVEa1/s-926x472_e9a1dbb5-c5fa-43b4-8ab9-f743602992f3.webp)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-885x945_96a4a537-0a6f-468f-9649-ed3873e997a1.webp)
+![](/assets/cms/NxqgdRVEa1/s-885x945_96a4a537-0a6f-468f-9649-ed3873e997a1.webp)
 
 ### 効果
 
@@ -86,9 +86,9 @@ JA東京みらい殿
 
 実際に動作している様子を「見えベジ」からご確認いただけます。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1365_1aebcf61-a4b6-48aa-8557-0dadbcece530.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1365_1aebcf61-a4b6-48aa-8557-0dadbcece530.webp)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-481x358_63cb3dbb-b683-4b4e-913f-d8126119fe2f.webp)
+![](/assets/cms/NxqgdRVEa1/s-481x358_63cb3dbb-b683-4b4e-913f-d8126119fe2f.webp)
 
 参考:JA東京みらい殿設置イメージ
 
@@ -102,13 +102,13 @@ LAplustは、消費者が直売所で販売されている農作物の映像を�
 
 直売サービスと売上の向上を目指す新たなビジネスモデルの一つとして取り上げられました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_5dbe0710-3d09-4f87-9464-8d360f27431f.webp)
+![](/assets/cms/NxqgdRVEa1/s-1280x720_5dbe0710-3d09-4f87-9464-8d360f27431f.webp)
 
 `Tokyoインフォメーション`
 
 [Tokyoインフォメーション（地上波放送）](https://www.youtube.com/@tokyomx)に取り上げていただきました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x574_2ea2085e-bbc9-4f31-9309-8991ca26839e.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x574_2ea2085e-bbc9-4f31-9309-8991ca26839e.webp)
 
 `東京都報道発表`
 
@@ -120,20 +120,20 @@ LAplustは、消費者が直売所で販売されている農作物の映像を�
 
 日本農業新聞に掲載いただきました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-957x249_46350992-31b4-4a0f-833c-235404d4f4cc.webp)
+![](/assets/cms/NxqgdRVEa1/s-957x249_46350992-31b4-4a0f-833c-235404d4f4cc.webp)
 
 `JA東京みどり`
 
 JA東京みどりの「[広報誌 みどり](https://ja-tokyomidori.or.jp/newsletter/119/einou.html)」に取り上げていただきました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-512x238_7c1b3335-97b8-4988-9087-01a96518cf8d.webp)
+![](/assets/cms/NxqgdRVEa1/s-512x238_7c1b3335-97b8-4988-9087-01a96518cf8d.webp)
 
 `My Tokyo`
 
 東京都が運営するMy Tokyoに掲載いただきました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-868x690_081a82d5-132d-43a3-976f-1fdf0cbbc0dd.webp)
+![](/assets/cms/NxqgdRVEa1/s-868x690_081a82d5-132d-43a3-976f-1fdf0cbbc0dd.webp)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1106x656_fabac142-8469-4af3-b5d0-cf565ef73a6d.webp)
+![](/assets/cms/NxqgdRVEa1/s-1106x656_fabac142-8469-4af3-b5d0-cf565ef73a6d.webp)
 
 お問合せは[コチラ](https://laplust.com/contact/)
