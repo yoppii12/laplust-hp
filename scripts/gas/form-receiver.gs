@@ -144,6 +144,15 @@ function doPost(e) {
   }
 }
 
+// 権限承認＆自動返信の動作確認用: エディタでこの関数を選んで「実行」すると、
+// 承認ダイアログが表示され、承認後にNOTIFY_EMAIL宛へテストメールが届く
+function testAutoReply() {
+  GmailApp.sendEmail(NOTIFY_EMAIL, '【テスト】自動返信の権限確認', 'エイリアス送信の権限確認テストです。このメールが届いていれば設定完了です。', {
+    from: REPLY_FROM,
+    name: REPLY_NAME,
+  });
+}
+
 // 動作確認用（ブラウザでWebアプリURLを開いたとき）
 function doGet() {
   return jsonResponse({ ok: true, message: 'form receiver is running' });
