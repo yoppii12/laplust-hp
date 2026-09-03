@@ -1053,9 +1053,88 @@
   pointer-events: none;
 }
 
+/* 840px以下 実測: 横スクロールせず3列を画面内に収める（項目列20%） */
 @media (max-width: 840px) {
   .comparison {
     padding: 64px 0 72px;
+  }
+
+  .compTable {
+    min-width: 0;
+  }
+
+  .compHeadRow,
+  .compRow {
+    grid-template-columns: 20% 40% 40%;
+  }
+
+  .compItem {
+    font-size: 16px;
+  }
+
+  .compLaeyeFrame {
+    width: 40%;
+  }
+}
+
+/* 540px以下 実測: 項目列は幅40pxの縦書き（writing-mode: vertical-rl） */
+@media (max-width: 540px) {
+  .compHeadRow,
+  .compRow {
+    grid-template-columns: 40px 1fr 1fr;
+  }
+
+  .compItem {
+    writing-mode: vertical-rl;
+    min-height: 0;
+    padding: 12px 8px;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+  }
+
+  .compHeadGeneric {
+    min-height: 64px;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .compHeadLaeye {
+    min-height: 64px;
+    padding: 12px;
+    font-size: 20px;
+  }
+
+  .compGeneric,
+  .compLaeye {
+    padding: 12px 10px;
+  }
+
+  .compGeneric p,
+  .compLaeye p {
+    font-size: 13px;
+  }
+
+  .compLaeye p {
+    font-weight: 500;
+  }
+
+  .compGeneric img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .compDouble {
+    width: 26px;
+    height: 26px;
+  }
+
+  .compDouble span {
+    width: 14px;
+    height: 14px;
+  }
+
+  .compLaeyeFrame {
+    width: calc((100% - 40px) / 2);
   }
 }
 
