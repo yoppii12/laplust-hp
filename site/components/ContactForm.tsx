@@ -2,18 +2,16 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-
-// 送信先: Netlify Functions（→ Google Sheets 連携。要件定義書8-3節）
-const ENDPOINT = '/.netlify/functions/contact';
+import { submitForm } from '@/lib/submitForm';
 
 export default function ContactForm({
-  formName,
   typeOptions,
   serviceOptions,
   requireCompany = false,
   requireTel = false,
 }: {
-  formName: string;
+  // 記録先はGAS側で「お問い合わせ」シートに統一（送信元はpage列で判別）
+  formName?: string;
   typeOptions: string[];
   // サービス選択ラジオ（LA-Eye用フォームのみ）
   serviceOptions?: string[];
@@ -35,12 +33,9 @@ export default function ContactForm({
     setError('');
     setStatus('sending');
     try {
-      const res = await fetch(ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ form: formName, ...data }),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      // /contact と /la-eye/contact で同じ「お問い合わせ」シートに記録する
+      // （送信元は page 列と該当サービス列で判別できる）
+      await submitForm('お問い合わせ', data);
       setStatus('done');
       form.reset();
     } catch {
