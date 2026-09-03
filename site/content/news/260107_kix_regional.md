@@ -5,9 +5,9 @@ date: 2026-01-07
 category: event
 categories: [event, company]
 sortIndex: 17
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_3e5e0ad6-64f0-453e-9e22-d49a41eed540.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_3e5e0ad6-64f0-453e-9e22-d49a41eed540.png"
 description: "日本経済団体連合会（経団連）と九州経済連合会（九経連）は10月7日に、スタートアップとの協業を成功させる新手法「ベンチャークライアントモデル」をテーマに、ピッチ・ネットワーキングイベント「KIX-Re... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_3e5e0ad6-64f0-453e-9e22-d49a41eed540.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_3e5e0ad6-64f0-453e-9e22-d49a41eed540.png"
 ---
 
 日本経済団体連合会（経団連）と九州経済連合会（九経連）は10月7日に、スタートアップとの協業を成功させる新手法「ベンチャークライアントモデル」をテーマに、ピッチ・ネットワーキングイベント「KIX-Regional in Fukuoka」を福岡市内で開催しました。
@@ -22,6 +22,6 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 こちらは九州経済連合会四季報 2026年 冬号に掲載されました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-508x456_webp_decc596a-629a-4456-a5fd-7b76c3d2d041.jpg)
+![](/assets/cms/NxqgdRVEa1/s-508x456_webp_decc596a-629a-4456-a5fd-7b76c3d2d041.jpg)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-510x670_v-fs_webp_8e3c29b8-17f9-4623-9a34-a5c437ea4036.jpg)
+![](/assets/cms/NxqgdRVEa1/s-510x670_v-fs_webp_8e3c29b8-17f9-4623-9a34-a5c437ea4036.jpg)

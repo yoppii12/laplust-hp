@@ -5,9 +5,9 @@ date: 2025-11-02
 category: other
 categories: []
 sortIndex: 22
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1080_5b214a3d-ac76-4508-a8a5-b252411781b2.webp"
+cover: "/assets/cms/NxqgdRVEa1/s-1920x1080_5b214a3d-ac76-4508-a8a5-b252411781b2.webp"
 description: "概要スーパー農家である「トミさん」が農業・家庭菜園を行う上での栽培・病害・経営・販売促進・商品開発に関するお困りごとに回答します。OpenAI社が開発・提供する生成系AIを農業特化向けにカスタマイズし... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1080_5b214a3d-ac76-4508-a8a5-b252411781b2.webp"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1920x1080_5b214a3d-ac76-4508-a8a5-b252411781b2.webp"
 ---
 
 ### 概要
@@ -30,7 +30,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 また、**新規に就農した生産者ははじめての経験ばかりで日々迫りくる課題に戸惑う**場面も少なくありません。課題を解決しないままでいると最悪の場合、その年一年間売り上げが得られないなんてこともあり得ます。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x683_b52d8a41-320a-4393-9c2b-701fad043d0c.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x683_b52d8a41-320a-4393-9c2b-701fad043d0c.webp)
 
 ### 解決策
 
@@ -38,47 +38,47 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 > 農業の始め方を相談したり・・・ プロの農家のトミさんが親身に回答！
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1762_eba25042-d545-4649-b4b4-607806c4ed5c.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1762_eba25042-d545-4649-b4b4-607806c4ed5c.webp)
 
 > 収穫までに困ったことがあったら・・・ いつでも丁寧に教えてくれるから安心！
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1671_7de46034-8c51-4fc2-9173-c5ea9eaed087.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1671_7de46034-8c51-4fc2-9173-c5ea9eaed087.webp)
 
 > 食害の対策を聞いてみたり・・・ 病害虫の知識も豊富なトミさん！
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1722_cfd0d64d-4716-4a0d-92a3-b60012140363.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1722_cfd0d64d-4716-4a0d-92a3-b60012140363.webp)
 
 > 農作物の病気を誰かに相談したい・・・ 原因や対策から収量改善までトミさんがアドバイス！
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1708_74b4cb47-eaf2-434a-9d50-3d781218e3c3.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1708_74b4cb47-eaf2-434a-9d50-3d781218e3c3.webp)
 
 > 農業に関する知識を深めたり・・・ トミさんから分かりやすく学べます！
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1726_a7718d7d-86af-4af6-9a34-c6f777f4cd0e.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1726_a7718d7d-86af-4af6-9a34-c6f777f4cd0e.webp)
 
 > 申請手続きが難しくて分からない・・・ トミさんが手続きの手伝いもします！
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1699_3f1e3bcc-eb9c-4ee8-91d6-4c3c5dcc11b5.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1699_3f1e3bcc-eb9c-4ee8-91d6-4c3c5dcc11b5.webp)
 
 > 病気の予防方法について尋ねたり・・・ トミさんは予防のプロでもあります！
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1988_8a969fbd-4638-4d21-9c25-33cd971a6aec.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1988_8a969fbd-4638-4d21-9c25-33cd971a6aec.webp)
 
 > 販売単価を上げる方法を聞いてみたり・・・ トミさんの経験から儲かる経営を後押し！
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1934_f4d4f7c1-d50a-4f99-9c0a-91275ece6224.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1934_f4d4f7c1-d50a-4f99-9c0a-91275ece6224.webp)
 
 > 新規就農におけるヒントを得たり・・・ トミさんは新規就農者の気持ちもわかります。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1977_1cb272f9-ec05-4ad5-9a08-c18a31853932.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1977_1cb272f9-ec05-4ad5-9a08-c18a31853932.webp)
 
 > 新商品開発の指針を得たり・・・ 商品企画の進め方にも助言できるトミさん。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1991_60ada190-52ff-467a-92ef-f9a1e5af0a7c.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1991_60ada190-52ff-467a-92ef-f9a1e5af0a7c.webp)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1977_a717acd0-5b58-4ea1-94bc-0dc1cfec436c.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1977_a717acd0-5b58-4ea1-94bc-0dc1cfec436c.webp)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1977_e5d2475f-4625-4176-8113-d8cd5e711384.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1977_e5d2475f-4625-4176-8113-d8cd5e711384.webp)
 
 ### はじめ方
 
@@ -86,11 +86,11 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 ②[**こちらをクリック**](https://lin.ee/TQOpJN2)するか、スマートフォンのカメラでQRコードを読み取り**「追加」**をクリックします。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1080_471c67f9-2881-4050-957c-9f5fa0f8cb99.webp)
+![](/assets/cms/NxqgdRVEa1/s-1920x1080_471c67f9-2881-4050-957c-9f5fa0f8cb99.webp)
 
 ③これで準備が整いました！トミさんからメッセージが届くので**「トミさん、初めまして！」**と挨拶してみましょう！
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x1746_437e73bd-4001-4db7-8b1e-3fc02e4db964.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x1746_437e73bd-4001-4db7-8b1e-3fc02e4db964.webp)
 
 ### 効果
 
@@ -102,15 +102,15 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 ### メディア掲載
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x577_c75f65b4-3c26-4285-ae32-ca9abc96c24d.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x577_c75f65b4-3c26-4285-ae32-ca9abc96c24d.webp)
 
 **長崎の果樹　2024年5月号掲載**
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-587x619_7c7bea26-9778-47ad-a0e7-863584a91414.webp)
+![](/assets/cms/NxqgdRVEa1/s-587x619_7c7bea26-9778-47ad-a0e7-863584a91414.webp)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-604x897_a1d83105-02be-4522-9bfa-a7a5fad0a693.webp)
+![](/assets/cms/NxqgdRVEa1/s-604x897_a1d83105-02be-4522-9bfa-a7a5fad0a693.webp)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-600x888_5403c723-8c9e-42c3-922d-c217af4a218c.webp)
+![](/assets/cms/NxqgdRVEa1/s-600x888_5403c723-8c9e-42c3-922d-c217af4a218c.webp)
 
 掲載先
 
@@ -162,19 +162,19 @@ Yahoo!ニュース
 
 文法にやや誤りがありますが大枠として適切な回答を行っている状況です。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-529x685_f1acf0de-adf7-4765-b1d3-2be47cae14e7.webp)
+![](/assets/cms/NxqgdRVEa1/s-529x685_f1acf0de-adf7-4765-b1d3-2be47cae14e7.webp)
 
 **②上記の２について適切な品種に関して教えてほしいと依頼**
 
 1,2,3ともっともらしい回答をしてくれましたが実際にはない品種です。このような「でっち上げ」がGPTで発生する事象として確認されています
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-532x621_2127daf1-b5af-4654-beb4-267c11cdc221.webp)
+![](/assets/cms/NxqgdRVEa1/s-532x621_2127daf1-b5af-4654-beb4-267c11cdc221.webp)
 
 **③さらに回答の誤りを指摘したうえで、再度、生育率の良い玉ねぎの品種について質問**
 
 こちらについても品種に誤りがありました。もっともらしい回答をしている点に注意が必要です。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-530x627_c0399c4a-c1ed-49bf-a7e4-ae7ef18fc4c2.webp)
+![](/assets/cms/NxqgdRVEa1/s-530x627_c0399c4a-c1ed-49bf-a7e4-ae7ef18fc4c2.webp)
 
 **以上のことから、ご利用上の注意点を十分にご留意の上、ご利用いただけますと幸いです。**
 

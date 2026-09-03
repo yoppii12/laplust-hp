@@ -5,9 +5,9 @@ date: 2026-07-15
 category: event
 categories: [company, event]
 sortIndex: 4
-cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_20b72b0c-bac1-4d7a-bb15-b86dd567e97c.png"
+cover: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_20b72b0c-bac1-4d7a-bb15-b86dd567e97c.png"
 description: "2026年7月9日（木）に兵庫県改良普及職員協議会が主催する研修会が、兵庫県立のじぎく会館で開催され、弊社の取締役の原崎が登壇しました。農業普及の現場ではAI技術の習得が途上であり、若手への暗黙知継承... "
-ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_20b72b0c-bac1-4d7a-bb15-b86dd567e97c.png"
+ogImage: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_20b72b0c-bac1-4d7a-bb15-b86dd567e97c.png"
 ---
 
 2026年7月9日（木）に兵庫県改良普及職員協議会が主催する研修会が、兵庫県立のじぎく会館で開催され、弊社の取締役の原崎が登壇しました。
@@ -28,4 +28,4 @@ ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/Nxqg
 
 などの感想がご参加者から寄せられました。
 
-![](https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2074x634_v-frms_webp_fc38d211-0011-4310-8bb3-358d8fc71c89.png)
+![](/assets/design/NxqgdRVEa1/s-2074x634_v-frms_webp_fc38d211-0011-4310-8bb3-358d8fc71c89.png)

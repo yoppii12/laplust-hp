@@ -471,7 +471,7 @@ export default function TechnologyPage() {
 
         <div className={styles.hero}>
           <img
-            src="https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1920x945_v-frms_webp_9ba5bd3d-7549-4b15-bdb1-0f21fd64ffe5_middle.webp"
+            src="/assets/design/NxqgdRVEa1/s-1920x945_v-frms_webp_9ba5bd3d-7549-4b15-bdb1-0f21fd64ffe5_middle.webp"
             alt="真の知能を実装し、社会活動を根底から支える"
           />
         </div>
@@ -656,7 +656,7 @@ export default function TechnologyPage() {
 
           <figure className={styles.figure}>
             <img
-              src="https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2048x1221_80c3936a-8e6b-485d-a8c8-21c21397eabf.webp"
+              src="/assets/design/NxqgdRVEa1/s-2048x1221_80c3936a-8e6b-485d-a8c8-21c21397eabf.webp"
               alt="Core Tech Interface：DevOpsとMLOpsの構成図"
             />
           </figure>
@@ -851,7 +851,7 @@ export default function TechnologyPage() {
 
           <figure className={styles.figure}>
             <img
-              src="https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-998x562_61d0ca70-ef1e-42e8-bf3e-d7fe84d9b6d3.webp"
+              src="/assets/design/NxqgdRVEa1/s-998x562_61d0ca70-ef1e-42e8-bf3e-d7fe84d9b6d3.webp"
               alt="Core Tech Interfaceの構造：AIモデル学習・アプリ化を支えるLAplustの技術基盤（DevOps/MLOps）"
             />
           </figure>

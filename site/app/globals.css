@@ -102,11 +102,11 @@ button {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center left;
-  background-image: url('https://storage.googleapis.com/studio-design-asset-files/projects/d7Wl5jmDOV/s-245x64_webp_db967eb4-7416-41f0-9308-7fc8458e6c59.webp');
+  background-image: url('/assets/design/d7Wl5jmDOV/s-245x64_webp_db967eb4-7416-41f0-9308-7fc8458e6c59.webp');
 }
 
 .site-header--transparent .site-header__logo {
-  background-image: url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp');
+  background-image: url('/assets/design/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp');
 }
 
 /* メニューはロゴの右隣に左寄せで並べる（現行版準拠） */
@@ -223,7 +223,7 @@ button {
 
 /* メニュー内のロゴは白版を使用 */
 .mobile-menu .site-header__logo {
-  background-image: url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp');
+  background-image: url('/assets/design/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp');
 }
 
 .mobile-menu__head {
@@ -297,7 +297,7 @@ button {
 .mobile-menu__logo {
   height: 40px;
   margin-top: 32px;
-  background: url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp')
+  background: url('/assets/design/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp')
     no-repeat center / contain;
 }
 
@@ -372,7 +372,7 @@ button {
 .site-footer__logo {
   width: 132px;
   height: 35px;
-  background: url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_3e014767-8a79-452d-96d8-a268976b0c55_small.webp')
+  background: url('/assets/design/NxqgdRVEa1/s-2400x635_v-frms_webp_3e014767-8a79-452d-96d8-a268976b0c55_small.webp')
     no-repeat center left / contain;
 }
 

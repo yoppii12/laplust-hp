@@ -5,9 +5,9 @@ date: 2026-09-01
 category: company
 categories: [company]
 sortIndex: 0
-cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_a0bcecc2-94c3-42c4-8e67-20f495627c91.png"
+cover: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_a0bcecc2-94c3-42c4-8e67-20f495627c91.png"
 description: "2026年9月1日に発行された月刊「事業構想」の10月号 に弊社の取り組み記事が掲載されましたのでお知らせいたします。「LAplust 長崎にこだわり、AIで農業改革」というタイトルで、「AI技術を農... "
-ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_a0bcecc2-94c3-42c4-8e67-20f495627c91.png"
+ogImage: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_a0bcecc2-94c3-42c4-8e67-20f495627c91.png"
 ---
 
 2026年9月1日に発行された月刊「事業構想」の10月号 に弊社の取り組み記事が掲載されましたのでお知らせいたします。

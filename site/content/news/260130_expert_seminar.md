@@ -5,9 +5,9 @@ date: 2026-01-30
 category: event
 categories: [event, company]
 sortIndex: 16
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_856deab4-8203-45c1-b4eb-7da81bcb5e9a.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_856deab4-8203-45c1-b4eb-7da81bcb5e9a.png"
 description: "2026年1月23日（金）に長崎県立長崎工業高等学校にて「AIの基本とこれからの未来像」というテーマで、当社の取締役の中村が講義を行いました。長崎工業高等学校では、キャリア教育セミナー事業として、近年... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_856deab4-8203-45c1-b4eb-7da81bcb5e9a.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_856deab4-8203-45c1-b4eb-7da81bcb5e9a.png"
 ---
 
 2026年1月23日（金）に長崎県立長崎工業高等学校にて「AIの基本とこれからの未来像」というテーマで、当社の取締役の中村が講義を行いました。

@@ -5,9 +5,9 @@ date: 2025-04-02
 category: company
 categories: [company]
 sortIndex: 52
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_ccae9577-cb07-4989-881d-9c4aa16bf558.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_ccae9577-cb07-4989-881d-9c4aa16bf558.png"
 description: "　画像解析を行う先端AIの商品化と社会実装を行う株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、株式会社ナガセインテグレックス&nbs... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_ccae9577-cb07-4989-881d-9c4aa16bf558.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_ccae9577-cb07-4989-881d-9c4aa16bf558.png"
 ---
 
 　画像解析を行う先端AIの商品化と社会実装を行う株式会社LAplust（ラプラス）\*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は、株式会社ナガセインテグレックス \*2（本社：岐阜県関市、代表取締役社長 長瀬 幸泰、以下、ナガセインテグレックス）と、共同開発、技術提携を推進することを目的として、業務提携契約を締結いたしましたのでお知らせいたします。
@@ -25,11 +25,11 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 画像解析AI構築ソフトウェアLA-Eye（エルエーアイ、 2023年9月リリース）は利用者の目的に合わせた画像解析AIを構築でき、課題に合わせた画面カスタマイズやODM（ オリジナル・デザイン・マニュファクチャリング）での提供が可能です。画像解析AIの構築・現場導入において必要な業務の手間を大きく引き下げ、検証から運用までのトータルコストと時間を最小化します。  
 　LAplustのミッションは「真の知能を実装し、社会活動を根底から支える」ことです。10年以上の動画像に特化したAIの開発経験とノウハウ、最新の画像AI関連の研究論文から学び得た本質的かつ実用的なAIアルゴリズムの目利きと利活用、複数のAIを組み合わせ維持/運用/更新をシームレスに実現する内製技術基盤（CTI:Core Tech Interface）を活用することで開発コスト・期間を最小化しお客様に最善の価値を「継続的に」提供します。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-637x199_v-fs_webp_526ad2a1-e93a-409c-814a-fcbee80f8699.jpg)
+![](/assets/cms/NxqgdRVEa1/s-637x199_v-fs_webp_526ad2a1-e93a-409c-814a-fcbee80f8699.jpg)
 
 \*2  
 株式会社ナガセインテグレックス  
 [https://www.nagase-i.jp/](https://www.nagase-i.jp/)  
 　ナノメータの面粗さ、サブミクロンの形状精度を実現する超精密研削盤をはじめ、世界最高の精度・能率を追求した工作機械づくりを行うメーカです。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1787x483_v-fms_webp_ad5bce24-22d9-47d2-887e-dc35b4f14e51.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1787x483_v-fms_webp_ad5bce24-22d9-47d2-887e-dc35b4f14e51.jpg)

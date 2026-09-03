@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     '特許出願済みの独自技術で画像アノテーション工数を99％削減。画像アノテーションに特化したクラウドツール「LAplustワンクリックアノテーション」。初期費用ゼロ、簡単操作ですぐに始められます。',
 };
 
-const ASSET = 'https://storage.googleapis.com/studio-design-asset-files/projects';
+const ASSET = '/assets/design';
 
 /* ---------- 小さなSVGアイコン ---------- */
 function ArrowRightIcon() {

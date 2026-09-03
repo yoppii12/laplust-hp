@@ -5,9 +5,9 @@ import Link from 'next/link';
 import styles from './laeye.module.css';
 
 const LOGO_DARK =
-  'https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_3e014767-8a79-452d-96d8-a268976b0c55_small.webp';
+  '/assets/design/NxqgdRVEa1/s-2400x635_v-frms_webp_3e014767-8a79-452d-96d8-a268976b0c55_small.webp';
 const LOGO_WHITE =
-  'https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp';
+  '/assets/design/NxqgdRVEa1/s-2400x635_v-frms_webp_04d41570-87fd-4bd2-9da1-dedd4a19987a_small.webp';
 
 const NAV = [
   { href: '/la-eye#about', label: 'LA-Eyeとは' },

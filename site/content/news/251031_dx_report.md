@@ -5,9 +5,9 @@ date: 2025-10-31
 category: other
 categories: []
 sortIndex: 26
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1032x374_v-fs_webp_365598aa-2504-4213-b14b-5931ccc97577.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1032x374_v-fs_webp_365598aa-2504-4213-b14b-5931ccc97577.png"
 description: "昨今のデジタル技術は、国内外のあらゆる産業に対して、その形態やあり方に大きな変化をもたらしています。当レポートは、デジタル技術がもたらす影響を再認識し、当社の実施するDX推進の目的や経営戦略などの当社... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1032x374_v-fs_webp_365598aa-2504-4213-b14b-5931ccc97577.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1032x374_v-fs_webp_365598aa-2504-4213-b14b-5931ccc97577.png"
 ---
 
 昨今のデジタル技術は、国内外のあらゆる産業に対して、その形態やあり方に大きな変化をもたらしています。当レポートは、デジタル技術がもたらす影響を再認識し、当社の実施するDX推進の目的や経営戦略などの当社の在り方を再定義するものです。
@@ -18,7 +18,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 技術とは想いを形にするための、ひとつの手段にすぎません。どれだけ時代が変わろうとも、社会の主役は人であり、「誰かの役に立ち、支えたい」という願いだと考えています。LAplustは、AI技術をもって、人々の想いの結晶である様々な産業の一助となるべく、日々邁進していきます。
 
-![AI技術イメージ](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1008x646_1670c0c9-8d66-4b8b-94fc-45f1b77ca478.webp)
+![AI技術イメージ](/assets/cms/NxqgdRVEa1/s-1008x646_1670c0c9-8d66-4b8b-94fc-45f1b77ca478.webp)
 
 ## デジタル技術が産業にもたらす効果について
 
@@ -40,8 +40,8 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 **技術領域**
 
-![技術領域組織図](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1451x661_a644e681-2ca2-4f31-8d0a-1bfaa303db47.webp)
+![技術領域組織図](/assets/cms/NxqgdRVEa1/s-1451x661_a644e681-2ca2-4f31-8d0a-1bfaa303db47.webp)
 
 **非技術領域**
 
-![非技術領域組織図](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1453x648_efce32be-59ec-4e00-a893-759bde3dd302.webp)
+![非技術領域組織図](/assets/cms/NxqgdRVEa1/s-1453x648_efce32be-59ec-4e00-a893-759bde3dd302.webp)

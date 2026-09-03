@@ -17,7 +17,7 @@ export function LaOcaHeader() {
     <header className={styles.header}>
       <Link href="/la-oca" className={styles.headerBrand} onClick={close}>
         <img
-          src="https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-240x63_webp_cd594453-5652-4774-93d2-78f773bd04d3.webp"
+          src="/assets/design/NxqgdRVEa1/s-240x63_webp_cd594453-5652-4774-93d2-78f773bd04d3.webp"
           alt="LAplust"
         />
         <span className={styles.headerBrandName}>ワンクリック アノテーション</span>

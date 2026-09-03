@@ -5,22 +5,22 @@ date: 2025-07-02
 category: event
 categories: [company, event]
 sortIndex: 45
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_c689fb13-c5fc-4b93-ae05-b224425a11cb.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_c689fb13-c5fc-4b93-ae05-b224425a11cb.png"
 description: "2025年7月2日株式会社LAplust（ラプラス）（本社：長崎県長崎市、代表取締役社長 田中 宏樹）は、本日より西日本総合展示場で開催される「課題解決EXPO 2025　西日本製造技術イノベーション... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_c689fb13-c5fc-4b93-ae05-b224425a11cb.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x670_v-fms_webp_c689fb13-c5fc-4b93-ae05-b224425a11cb.png"
 ---
 
 2025年7月2日
 
 株式会社LAplust（ラプラス）（本社：長崎県長崎市、代表取締役社長 田中 宏樹）は、本日より西日本総合展示場で開催される「課題解決EXPO 2025　西日本製造技術イノベーション2025」に出展しております。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-4032x3024_v-frms_webp_07230cc5-1c5b-408e-a1b6-d8ccbdc45e16.jpg)
+![](/assets/cms/NxqgdRVEa1/s-4032x3024_v-frms_webp_07230cc5-1c5b-408e-a1b6-d8ccbdc45e16.jpg)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-4032x3024_v-frms_webp_61644007-7fb1-4da2-9ef3-71b3067ddc3a.jpg)
+![](/assets/cms/NxqgdRVEa1/s-4032x3024_v-frms_webp_61644007-7fb1-4da2-9ef3-71b3067ddc3a.jpg)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-4032x3024_v-frms_webp_97565e1f-41f5-462b-95f6-aab526d9717e.jpg)
+![](/assets/cms/NxqgdRVEa1/s-4032x3024_v-frms_webp_97565e1f-41f5-462b-95f6-aab526d9717e.jpg)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-4032x3024_v-frms_webp_67282ce4-4fc0-4c72-baac-27b724d67824.jpg)
+![](/assets/cms/NxqgdRVEa1/s-4032x3024_v-frms_webp_67282ce4-4fc0-4c72-baac-27b724d67824.jpg)
 
 ■出展内容
 

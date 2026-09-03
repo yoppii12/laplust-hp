@@ -5,9 +5,9 @@ date: 2025-10-31
 category: other
 categories: []
 sortIndex: 30
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1366_3e549101-4b3e-44a9-9250-0b2efb1d159f.webp"
+cover: "/assets/cms/NxqgdRVEa1/s-2048x1366_3e549101-4b3e-44a9-9250-0b2efb1d159f.webp"
 description: "概要生産実績を収集する業務のデジタルトランスフォーメーションを支援し、改善活動に必要な生産実績データの収集に掛る時間の削減に貢献します。課題工場の現状が（工程進捗・各作業員のサイクルタイム）把握できず... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1366_3e549101-4b3e-44a9-9250-0b2efb1d159f.webp"
+ogImage: "/assets/cms/NxqgdRVEa1/s-2048x1366_3e549101-4b3e-44a9-9250-0b2efb1d159f.webp"
 ---
 
 ### 概要
@@ -22,13 +22,13 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 生産実績の入力に手間がかかり、都度リアルタイムな入力作業を行うことは実務上難しい。作業の合間にまとめてデータ入力せざるをえない・・・
 
-![作業者イメージ図](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-229x229_1b834503-cc71-43d0-90ec-e7076ced1ef3.webp)
+![作業者イメージ図](/assets/cms/NxqgdRVEa1/s-229x229_1b834503-cc71-43d0-90ec-e7076ced1ef3.webp)
 
 **■経営者視点での課題**
 
 従業員が進めている製造・作業と並行して、実績データを入力してもらうことになってしまいリアルタイムな実績データの収集が難しい・・・
 
-![悩む経営者のイメージ画像](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-512x317_c4980596-8f68-454d-8c5a-abbdafdb80ca.webp)
+![悩む経営者のイメージ画像](/assets/cms/NxqgdRVEa1/s-512x317_c4980596-8f68-454d-8c5a-abbdafdb80ca.webp)
 
 ### 解決策
 
@@ -50,7 +50,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 ※イメージは一例です。
 
-![手元の端末で簡単入力できる専用Webアプリケーション一例イメージ](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-480x1030_f23cb46a-f325-4c75-910b-26143d608867.webp)
+![手元の端末で簡単入力できる専用Webアプリケーション一例イメージ](/assets/cms/NxqgdRVEa1/s-480x1030_f23cb46a-f325-4c75-910b-26143d608867.webp)
 
 ### 効果
 
