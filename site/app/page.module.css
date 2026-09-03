@@ -193,10 +193,43 @@
   margin: 8px 0;
 }
 
+/* 現行実測: スマホでも横並びのまま画面幅に合わせて縮小（vw指定） */
 @media (max-width: 959px) {
   .diagram {
-    flex-direction: column;
-    gap: 24px;
+    gap: 4px;
+    margin: 40px auto 24px;
+  }
+
+  .diagramCircle {
+    width: 24vw;
+    height: 24vw;
+    gap: 2px;
+  }
+
+  .diagramCircleLabel {
+    font-size: 2vw;
+  }
+
+  .diagramCircleTitle {
+    font-size: 3vw;
+  }
+
+  .diagramCenter {
+    min-width: 0;
+    gap: 2px;
+  }
+
+  .diagramCenter p {
+    font-size: 1.8vw;
+  }
+
+  .diagramCenter img {
+    width: 26vw;
+  }
+
+  .diagramLogo {
+    width: 23vw !important;
+    margin: 4px 0;
   }
 }
 
@@ -254,13 +287,32 @@
   text-align: left;
 }
 
+/* 現行実測(スマホ): 動画をカード全面の背景にし、カード高さはコンテンツ主導 */
 @media (max-width: 767px) {
+  .productVideo {
+    position: absolute;
+    inset: 0;
+  }
+
+  .productVideo video {
+    height: 100%;
+    aspect-ratio: auto;
+  }
+
+  .productOverlay {
+    position: relative;
+    inset: auto;
+    padding: 40px 20px;
+  }
+
   .productTitle {
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 1.4;
   }
 
   .productDesc {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.6;
   }
 }
 
@@ -334,6 +386,24 @@
   max-width: 620px;
   font-size: 14px;
   line-height: 2;
+}
+
+/* 現行実測(スマホ): 16:9固定をやめコンテンツ高さ主導（padding 24px） */
+@media (max-width: 767px) {
+  .laeyeBand {
+    aspect-ratio: auto;
+    padding: 40px 24px;
+  }
+
+  .laeyeBandTitle {
+    font-size: 24px;
+  }
+
+  .laeyeBandDesc {
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: left;
+  }
 }
 
 /* 事業リンクカード（DX支援 / アグリテック） */
@@ -429,4 +499,22 @@
 
 .techBandBtn {
   composes: whiteBtn;
+}
+
+/* 現行実測(スマホ): min-height/大パディングを解除しコンテンツ高さ主導 */
+@media (max-width: 767px) {
+  .techBand {
+    min-height: 0;
+    margin-bottom: 64px;
+    padding: 48px 24px;
+  }
+
+  .techBandTitle {
+    font-size: 20px;
+  }
+
+  .techBandDesc {
+    font-size: 12px;
+    line-height: 1.6;
+  }
 }

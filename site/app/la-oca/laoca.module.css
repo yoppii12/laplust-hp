@@ -372,81 +372,6 @@
   background: #000;
 }
 
-/* デスクトップでは非表示（現行サイトと同じくモバイル変形のみ表示） */
-.laEyePromo {
-  display: none;
-}
-
-@media (max-width: 959px) {
-  .laEyePromo {
-    display: block;
-    margin-top: 40px;
-  }
-
-  .laEyeCard {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 20px 24px;
-    border-radius: 8px;
-    background: var(--oca-navy);
-    color: #fff;
-  }
-
-  .laEyeCardName {
-    font-size: 18px;
-    font-weight: 600;
-  }
-
-  .laEyeCardMore {
-    padding: 6px 18px;
-    border: 1px solid #fff;
-    border-radius: 999px;
-    font-size: 13px;
-  }
-
-  .laEyeLead {
-    margin-top: 24px;
-    text-align: center;
-    font-size: 14px;
-    line-height: 2;
-  }
-
-  .laEyeLead strong {
-    font-weight: 700;
-  }
-
-  .laEyeFeatures {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-top: 24px;
-  }
-
-  .laEyeFeature {
-    flex: 1;
-    text-align: center;
-  }
-
-  .laEyeFeatureImg {
-    aspect-ratio: 1 / 1;
-    border-radius: 8px;
-    background: var(--oca-bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--oca-gray);
-    font-size: 13px;
-  }
-
-  .laEyeFeature p {
-    margin-top: 8px;
-    font-size: 14px;
-    font-weight: 700;
-  }
-}
-
 /* ---------- セクション見出し ---------- */
 .sectionHead {
   display: flex;
@@ -685,6 +610,41 @@
   color: var(--oca-gray);
 }
 
+/* 現行の幅帯別変形: リード文2種が基準幅/1140px以下/840px以下/540px以下で交互に切り替わる */
+.solutionLeadB {
+  display: none;
+}
+
+@media (max-width: 1140px) {
+  .solutionLeadA {
+    display: none;
+  }
+
+  .solutionLeadB {
+    display: block;
+  }
+}
+
+@media (max-width: 840px) {
+  .solutionLeadA {
+    display: block;
+  }
+
+  .solutionLeadB {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .solutionLeadA {
+    display: none;
+  }
+
+  .solutionLeadB {
+    display: block;
+  }
+}
+
 .solutionCta {
   display: inline-flex;
   align-items: center;
@@ -723,7 +683,8 @@
   height: 24px;
 }
 
-@media (max-width: 959px) {
+/* 840px以下は1カラム（見出し・リード→画像の順）でCTAボタン非表示（現行実測） */
+@media (max-width: 840px) {
   .solutionInner {
     flex-direction: column;
     gap: 32px;
@@ -732,6 +693,11 @@
   .solutionImg {
     flex: none;
     width: 100%;
+    order: 2;
+  }
+
+  .solutionCta {
+    display: none;
   }
 }
 
@@ -826,9 +792,13 @@
   padding: 80px 0;
 }
 
+.comparisonScrollWrap {
+  position: relative;
+  margin-top: 48px;
+}
+
 .comparisonScroll {
   overflow-x: auto;
-  margin-top: 48px;
   padding-bottom: 8px;
 }
 
@@ -838,12 +808,27 @@
   min-width: 960px;
 }
 
-/* 行ラベル列 */
+/* 行ラベル列（現行準拠: 横スクロール時も残る固定列） */
 .compLabelCol {
+  position: sticky;
+  left: 0;
+  z-index: 2;
   flex: 0 0 240px;
   display: flex;
   flex-direction: column;
-  margin-top: 124px; /* laplust列ヘッダー分 */
+  padding-top: 124px; /* laplust列ヘッダー分。背景で覆い、通過する列を隠す */
+  background: var(--oca-bg);
+}
+
+/* 隣接gap(12px)も背景で覆い、スクロールする列が項目列の縁で隠れるようにする */
+.compLabelCol::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -12px;
+  width: 12px;
+  background: var(--oca-bg);
 }
 
 .compLabelCell {
@@ -861,8 +846,68 @@
   text-align: center;
 }
 
+/* 現行実測: 先頭セル左上・末尾セル左下に角丸（PC 16px / スマホ 12px） */
+.compLabelCell:first-child {
+  border-radius: 16px 0 0 0;
+}
+
 .compLabelCell:last-child {
   border-bottom: none;
+  border-radius: 0 0 0 16px;
+}
+
+/* スマホ幅: 項目列を狭めて見やすく（現行実測 110px / 13px / 角丸12px） */
+@media (max-width: 959px) {
+  .compLabelCol {
+    flex: 0 0 110px;
+  }
+
+  .compLabelCell {
+    padding: 0 8px;
+    font-size: 13px;
+  }
+
+  .compLabelCell:first-child {
+    border-radius: 12px 0 0 0;
+  }
+
+  .compLabelCell:last-child {
+    border-radius: 0 0 0 12px;
+  }
+}
+
+/* スクロールガイダンス（現行準拠: スマホ初回表示時にプラン列側を覆い、横スクロールで消える） */
+.scrollGuide {
+  position: absolute;
+  top: 0;
+  bottom: 8px;
+  left: 122px; /* 項目列110px + 間隔12px */
+  right: 0;
+  z-index: 3;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  transition: opacity 0.3s var(--oca-ease), visibility 0.3s var(--oca-ease);
+}
+
+.scrollGuideIcon {
+  width: 100px;
+  height: 100px;
+  background: url('https://storage.googleapis.com/studio-design-asset-files/projects/65qmDRB9OV/s-300x300_webp_e1c35799-a213-45fd-9332-266712335bb7.webp')
+    center / contain no-repeat;
+}
+
+.scrollGuideHidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (max-width: 959px) {
+  .scrollGuide {
+    display: flex;
+  }
 }
 
 /* データ列 */
@@ -1035,20 +1080,6 @@
   font-weight: 700;
   letter-spacing: 0.03em;
   color: var(--oca-accent);
-}
-
-.swipeHint {
-  display: none;
-  margin-top: 12px;
-  text-align: center;
-  font-size: 12px;
-  color: var(--oca-gray);
-}
-
-@media (max-width: 959px) {
-  .swipeHint {
-    display: block;
-  }
 }
 
 /* ---------- 利用者インタビュー ---------- */
@@ -1255,65 +1286,15 @@
   color: var(--oca-dark);
 }
 
-/* 現行デスクトップでは注記は非表示（モバイル変形のみ） */
-.priceNote {
-  display: none;
-  margin-top: 32px;
-  text-align: center;
-  font-size: 13px;
-  line-height: 1.72;
-  letter-spacing: 0.02em;
-  color: var(--oca-gray);
-}
-
 @media (max-width: 1099px) {
   .priceGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 959px) {
-  .priceNote {
-    display: block;
-  }
-}
-
 @media (max-width: 599px) {
   .priceGrid {
     grid-template-columns: 1fr;
-  }
-}
-
-/* ---------- 実績スタッツ（現行サイト同様、モバイル幅のみ表示） ---------- */
-.stats {
-  display: none;
-}
-
-@media (max-width: 959px) {
-  .stats {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    padding: 48px 24px;
-    background: var(--oca-navy);
-    color: #fff;
-    text-align: center;
-  }
-
-  .statNum {
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-
-  .statNum span {
-    font-size: 18px;
-  }
-
-  .statLabel {
-    margin-top: 4px;
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.8);
   }
 }
 
@@ -1532,79 +1513,6 @@
 @media (max-width: 959px) {
   .resultsGrid {
     grid-template-columns: 1fr;
-  }
-}
-
-/* モバイル専用：詳細版導入事例（現行サイトのモバイル変形） */
-.resultsDetail {
-  display: none;
-}
-
-@media (max-width: 959px) {
-  .resultsDetail {
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    margin-top: 40px;
-  }
-
-  .resultDetailCard {
-    background: #fff;
-    border: 1px solid var(--oca-border);
-    border-radius: 16px;
-    padding: 28px 24px;
-  }
-
-  .resultDetailTags {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    flex-wrap: wrap;
-  }
-
-  .resultDetailCat {
-    padding: 2px 14px;
-    border-radius: 999px;
-    background: var(--oca-navy);
-    color: #fff;
-    font-size: 12px;
-  }
-
-  .resultDetailCompany {
-    font-size: 14px;
-    font-weight: 700;
-  }
-
-  .resultDetailNums {
-    display: flex;
-    gap: 24px;
-    margin-top: 16px;
-  }
-
-  .resultDetailNums dt {
-    font-size: 12px;
-    color: var(--oca-gray);
-  }
-
-  .resultDetailNums dd {
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--oca-accent);
-  }
-
-  .resultDetailBlock {
-    margin-top: 16px;
-  }
-
-  .resultDetailBlock h4 {
-    font-size: 13px;
-    font-weight: 700;
-  }
-
-  .resultDetailBlock p {
-    margin-top: 4px;
-    font-size: 13px;
-    line-height: 1.9;
   }
 }
 

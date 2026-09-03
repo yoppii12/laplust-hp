@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Open_Sans, Lato } from 'next/font/google';
 import { LaOcaHeader, LaOcaFaq, LaOcaTrialForm } from './LaOcaClient';
+import ComparisonScroller from './ComparisonScroller';
 import styles from './laoca.module.css';
 
 // 現行LPの実測フォント（Open Sans / Lato）。このページ配下のみで使用する
@@ -95,39 +96,6 @@ function SectionHead({
       </p>
       <h2 className={styles.sectionTitle}>{title}</h2>
       {lead && <p className={styles.sectionLead}>{lead}</p>}
-    </div>
-  );
-}
-
-/* ---------- モバイル専用 LA-Eye プロモブロック（現行サイトのモバイル変形） ---------- */
-function LaEyePromo() {
-  return (
-    <div className={styles.laEyePromo}>
-      <div className={styles.laEyeCard}>
-        <p className={styles.laEyeCardName}>LAplust Eye</p>
-        <p className={styles.laEyeCardMore}>詳しく見る</p>
-      </div>
-      <p className={styles.laEyeLead}>
-        LAplust Eyeが提供する専用AI構築ツール<strong>LA-Eye（エルエー・アイ）</strong>は、
-        <br />
-        目視判断を行うために必要な機能を手軽に導入でき
-        <br />
-        自社専用の画像解析AIを構築できます
-      </p>
-      <div className={styles.laEyeFeatures}>
-        <div className={styles.laEyeFeature}>
-          <div className={styles.laEyeFeatureImg}>LA-Eye</div>
-          <p>見分ける</p>
-        </div>
-        <div className={styles.laEyeFeature}>
-          <div className={styles.laEyeFeatureImg}>LA-Eye</div>
-          <p>数える</p>
-        </div>
-        <div className={styles.laEyeFeature}>
-          <div className={styles.laEyeFeatureImg}>LA-Eye</div>
-          <p>測る</p>
-        </div>
-      </div>
     </div>
   );
 }
@@ -271,40 +239,6 @@ const RESULT_CARDS = [
   },
 ];
 
-/* ---------- 導入事例（モバイル詳細版：現行サイトのモバイル変形） ---------- */
-const RESULT_DETAILS = [
-  {
-    category: '医療・ヘルスケア',
-    company: '株式会社A',
-    time: '97.2％',
-    cost: '80%',
-    problem:
-      '現場では、大量のデータに対して手作業でアノテーションを行っており、1件あたりの作業に時間がかかっていました。その結果、プロジェクト全体の納期が遅れがちで、品質のバラつきや人件費の増加も課題となっていました。',
-    effect:
-      '作業時間の短縮と人員削減により、アノテーションにかかるコストを従来比80％削減。浮いたリソースを他の業務に充てることで、全体の業務効率が向上しました。',
-  },
-  {
-    category: '製造・工業',
-    company: '株式会社B',
-    time: '98.7％',
-    cost: '75%',
-    problem:
-      'アノテーション作業を行うスタッフごとに基準のばらつきがあり、品質のムラや再提出が頻発しており、プロジェクト全体の進行が遅れることが課題でした。',
-    effect:
-      'ワンクリックアノテーションを導入した結果、社内スタッフのみで即日対応が可能となり、短納期案件の受注率が2倍に増加しました。また、外注費を大幅に削減できたことで、全体の利益率も向上しました。',
-  },
-  {
-    category: '研究・開発',
-    company: '株式会社C',
-    time: '97％',
-    cost: '90%',
-    problem:
-      '従来、膨大な画像データに対して人の手でラベル付けや確認作業を行っており、1件あたりの処理に非常に多くの時間がかかっておりました。そのため、繁忙期には残業や外注が増え、コストと工数の両面で大きな負担となっていました。',
-    effect:
-      'ワンクリックアノテーションを導入したことで、作業時間は従来の約30分の1に短縮されました。外注コストも90％削減でき、さらにラベル付けの精度が統一されたことで、社内の業務効率やパフォーマンスが大幅に向上しました。',
-  },
-];
-
 /* ---------- 利用者の声 ---------- */
 const TESTIMONIALS = [
   {
@@ -432,7 +366,6 @@ export default function LaOcaPage() {
               controls
               playsInline
             />
-            <LaEyePromo />
           </div>
         </section>
 
@@ -558,8 +491,12 @@ export default function LaOcaPage() {
               </div>
               <div className={styles.solutionBody}>
                 <SectionHead label="SOLUTION" title="ワンクリックアノテーションで解決" />
-                <p>
+                {/* 現行の幅帯別変形: リード文が基準幅/1140px以下/840px以下/540px以下で交互に切り替わる */}
+                <p className={styles.solutionLeadA}>
                   ”クリックするだけ”でアノテーションを完了させましょう。画像アノテーションに特化したクラウドツールのため、難しい操作や高額な初期コストは一切不要です。
+                </p>
+                <p className={styles.solutionLeadB}>
+                  パワフルでドラッグ＆ドロップ機能とアノテーションが内蔵、事前に作られた高品質な教師データを通じて、クラウドサービスを今すぐ体験可能。
                 </p>
                 <a href="/la-oca#contact" className={styles.solutionCta}>
                   <p>今すぐワンクリックを体験する</p>
@@ -604,7 +541,7 @@ export default function LaOcaPage() {
                 </>
               }
             />
-            <div className={styles.comparisonScroll}>
+            <ComparisonScroller>
               <div className={styles.comparisonTable}>
                 {/* 行ラベル列 */}
                 <div className={styles.compLabelCol}>
@@ -654,8 +591,7 @@ export default function LaOcaPage() {
                   ))}
                 </div>
               </div>
-            </div>
-            <p className={styles.swipeHint}>スワイプできます</p>
+            </ComparisonScroller>
           </div>
         </section>
 
@@ -671,7 +607,6 @@ export default function LaOcaPage() {
               controls
               playsInline
             />
-            <LaEyePromo />
           </div>
         </section>
 
@@ -801,29 +736,6 @@ export default function LaOcaPage() {
                 </div>
               </div>
             </div>
-            <p className={styles.priceNote}>
-              ※オンプレミス対応やカスタマイズについてご希望の場合はお問い合わせください。
-            </p>
-          </div>
-        </section>
-
-        {/* ============ 実績スタッツ（現行サイト同様モバイルのみ表示） ============ */}
-        <section className={styles.stats}>
-          <div>
-            <p className={styles.statNum}>
-              95<span>%</span>
-            </p>
-            <p className={styles.statLabel}>工数削減率</p>
-          </div>
-          <div>
-            <p className={styles.statNum}>
-              5<span>秒</span>
-            </p>
-            <p className={styles.statLabel}>処理時間</p>
-          </div>
-          <div>
-            <p className={styles.statNum}>複数業界</p>
-            <p className={styles.statLabel}>対応分野</p>
           </div>
         </section>
 
@@ -897,35 +809,6 @@ export default function LaOcaPage() {
               ))}
             </div>
 
-            {/* モバイル詳細版（現行サイトのモバイル変形） */}
-            <div className={styles.resultsDetail}>
-              {RESULT_DETAILS.map((d) => (
-                <div className={styles.resultDetailCard} key={d.company + d.category}>
-                  <div className={styles.resultDetailTags}>
-                    <span className={styles.resultDetailCat}>{d.category}</span>
-                    <span className={styles.resultDetailCompany}>{d.company}</span>
-                  </div>
-                  <dl className={styles.resultDetailNums}>
-                    <div>
-                      <dt>時間短縮率</dt>
-                      <dd>{d.time}</dd>
-                    </div>
-                    <div>
-                      <dt>コスト削減率</dt>
-                      <dd>{d.cost}</dd>
-                    </div>
-                  </dl>
-                  <div className={styles.resultDetailBlock}>
-                    <h4>課題</h4>
-                    <p>{d.problem}</p>
-                  </div>
-                  <div className={styles.resultDetailBlock}>
-                    <h4>導入後の効果</h4>
-                    <p>{d.effect}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </section>
 
