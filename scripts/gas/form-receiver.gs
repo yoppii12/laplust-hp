@@ -12,6 +12,34 @@
 const NOTIFY_EMAIL = 'info@laplust.com'; // 通知先（カンマ区切りで複数可）
 const SEND_NOTIFICATION = true; // 通知メールを送らない場合は false
 
+// 自動返信（訪問者宛ての受付完了メール）
+const SEND_AUTO_REPLY = true;
+const REPLY_FROM = 'info@laplust.com'; // Gmailの「他のメールアドレスから送信」に登録済みのエイリアス
+const REPLY_NAME = '(自動返信)株式会社LAplust';
+const REPLY_SIGNATURE = [
+  '------------------------------------',
+  '株式会社LAplust（ラプラス）',
+  'Mail: info@laplust.com',
+  'Web: https://laplust.com',
+  '------------------------------------',
+].join('\n');
+
+// フォームごとの自動返信文（件名 / 冒頭文）
+const REPLY_TEMPLATES = {
+  'お問い合わせ': {
+    subject: '【株式会社LAplust】お問い合わせを受け付けました',
+    lead: 'この度はお問い合わせいただき、誠にありがとうございます。\n以下の内容で受け付けました。3営業日以内に担当者よりご返答いたします。',
+  },
+  'LA-OCA無料申し込み': {
+    subject: '【株式会社LAplust】無料プランのお申し込みを受け付けました',
+    lead: 'この度はLAplustワンクリックアノテーション無料プランにお申し込みいただき、誠にありがとうございます。\n以下の内容で受け付けました。内容を確認のうえ、担当者よりご連絡いたします。',
+  },
+  'LA-Eye資料請求': {
+    subject: '【株式会社LAplust】資料請求を受け付けました',
+    lead: 'この度はLA-Eyeの資料をご請求いただき、誠にありがとうございます。\n以下の内容で受け付けました。担当者より資料ダウンロードのご案内をお送りしますので、今しばらくお待ちください。',
+  },
+};
+
 // フォームごとのシート名と列の並び（フォーム側の form_name と一致させる）
 const FORMS = {
   'お問い合わせ': [
@@ -58,6 +86,36 @@ function doPost(e) {
     const row = [now, ...columns.map((c) => p[c] || ''), p.page || ''];
     sheet.appendRow(row);
 
+    // 訪問者への自動返信（失敗しても受付自体は成功として扱う）
+    let replyStatus = '無効';
+    const visitorEmail = String(p['メールアドレス'] || '').trim();
+    const template = REPLY_TEMPLATES[formName];
+    if (SEND_AUTO_REPLY && template && visitorEmail) {
+      try {
+        const replyBody = [
+          `${p['お名前'] ? p['お名前'] + ' 様' : 'ご担当者様'}`,
+          '',
+          template.lead,
+          '',
+          '＜ご送信内容＞',
+          ...columns.map((c) => `【${c}】${p[c] || '(未入力)'}`),
+          `受信日時: ${now}`,
+          '',
+          '※本メールはシステムによる自動送信です。',
+          'お心当たりのない場合は、このメールを破棄してください。',
+          '',
+          REPLY_SIGNATURE,
+        ].join('\n');
+        GmailApp.sendEmail(visitorEmail, template.subject, replyBody, {
+          from: REPLY_FROM,
+          name: REPLY_NAME,
+        });
+        replyStatus = '送信済み';
+      } catch (replyErr) {
+        replyStatus = '失敗: ' + String(replyErr);
+      }
+    }
+
     if (SEND_NOTIFICATION && NOTIFY_EMAIL) {
       const body = [
         `HPの「${formName}」フォームに新しい送信がありました。`,
@@ -66,6 +124,7 @@ function doPost(e) {
         '',
         `受信日時: ${now}`,
         `送信元ページ: ${p.page || '-'}`,
+        `自動返信: ${replyStatus}`,
         '',
         `スプレッドシート: ${ss.getUrl()}`,
       ].join('\n');
