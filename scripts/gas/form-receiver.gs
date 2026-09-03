@@ -75,8 +75,6 @@ function doPost(e) {
     let sheet = ss.getSheetByName(formName);
     if (!sheet) {
       sheet = ss.insertSheet(formName);
-      // 全列を書式「テキスト」にする（電話番号の先頭0が数値解釈で消えるのを防ぐ）
-      sheet.getRange(1, 1, sheet.getMaxRows(), columns.length + 2).setNumberFormat('@');
       sheet.appendRow(['受信日時', ...columns, '送信元ページ']);
       sheet.getRange(1, 1, 1, columns.length + 2).setFontWeight('bold');
       sheet.setFrozenRows(1);
@@ -84,7 +82,12 @@ function doPost(e) {
 
     const now = Utilities.formatDate(new Date(), 'Asia/Tokyo', 'yyyy/MM/dd HH:mm:ss');
     const row = [now, ...columns.map((c) => p[c] || ''), p.page || ''];
-    sheet.appendRow(row);
+    // appendRowは書式を無視して数値変換する（電話番号の先頭0が消える）ため、
+    // 行の書式を「テキスト」にしてからsetValuesで書き込む
+    const rowIdx = sheet.getLastRow() + 1;
+    const range = sheet.getRange(rowIdx, 1, 1, row.length);
+    range.setNumberFormat('@');
+    range.setValues([row]);
 
     // 訪問者への自動返信（失敗しても受付自体は成功として扱う）
     let replyStatus = '無効';
