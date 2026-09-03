@@ -2,10 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { submitForm } from '@/lib/submitForm';
 import styles from './laoca.module.css';
-
-// 送信先: Netlify Functions（components/ContactForm.tsx と同じ流儀）
-const ENDPOINT = '/.netlify/functions/contact';
 
 /* ---------- 専用ヘッダー（バーガーメニュー付き） ---------- */
 export function LaOcaHeader() {
@@ -129,12 +127,7 @@ export function LaOcaTrialForm() {
     const data = Object.fromEntries(new FormData(form).entries());
     setStatus('sending');
     try {
-      const res = await fetch(ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ form: 'la-oca', ...data }),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      await submitForm('LA-OCA無料申し込み', data);
       setStatus('done');
       form.reset();
     } catch {

@@ -2,10 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { submitForm } from '@/lib/submitForm';
 import styles from './laeye.module.css';
-
-// 送信先: Netlify Functions（components/ContactForm.tsx と同じ流儀）
-const ENDPOINT = '/.netlify/functions/contact';
 
 // 資料請求フォーム（ヒーロー / Document download の2箇所で再利用）
 export default function RequestForm({ lead }: { lead: React.ReactNode }) {
@@ -17,12 +15,7 @@ export default function RequestForm({ lead }: { lead: React.ReactNode }) {
     const data = Object.fromEntries(new FormData(form).entries());
     setStatus('sending');
     try {
-      const res = await fetch(ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ form: 'la-eye-request', ...data }),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      await submitForm('LA-Eye資料請求', data);
       setStatus('done');
       form.reset();
     } catch {
