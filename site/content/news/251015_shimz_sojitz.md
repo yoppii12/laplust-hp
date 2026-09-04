@@ -5,16 +5,16 @@ date: 2025-10-15
 category: company
 categories: [company]
 sortIndex: 35
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_34d4a733-048e-4e61-8b5b-0c2bf7ca8472.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_34d4a733-048e-4e61-8b5b-0c2bf7ca8472.png"
 description: "　株式会社LAplust（ラプラス）*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は清水建設株式会社*2（本社：東京都中央区、以下、清水建設）と双日九州株式会社*3（本社... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_34d4a733-048e-4e61-8b5b-0c2bf7ca8472.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_34d4a733-048e-4e61-8b5b-0c2bf7ca8472.png"
 ---
 
 　株式会社LAplust（ラプラス）\*1（本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust）は清水建設株式会社\*2（本社：東京都中央区、以下、清水建設）と双日九州株式会社\*3（本社：福岡市中央区、代表取締役社長 泉谷 幸児、以下、双日九州）協働で、施工後の地下ピットにてドローンで撮影した動画から指摘箇所をAIで検出する技術実証を実施したことをお知らせします。
 
 実証現場
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1461x694_v-fms_webp_8c13329c-1605-4711-84ed-269fdb810377.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1461x694_v-fms_webp_8c13329c-1605-4711-84ed-269fdb810377.jpg)
 
                  　地下ピットを飛行するドローンによって撮影した動画データを利用し実証
 
@@ -31,7 +31,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 実証に用いたデータの例  
 初見では見た目で指摘箇所を判断することが難しい画像も含まれる。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1848x340_v-frms_webp_e5f0a06d-2167-4cea-8ee6-f4308930de1f.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1848x340_v-frms_webp_e5f0a06d-2167-4cea-8ee6-f4308930de1f.jpg)
 
                                                        学習に用いたデータ  
     　　左：エフロレッセンス、中央：通気管の養生撤去忘れ、右：設備配管の未施工箇所
@@ -42,16 +42,16 @@ LA-Eye（エルエーアイ）\*4で構築した精密画像解析AIによる物
 解析結果の例  
 LA-Eyeを用いてドローンにより撮影した画像の指摘箇所を検出するための「地下ピット指摘箇所判定AIモデル」を構築し人の目でも見落とす可能性がある指摘箇所を含む複数の画像に対して、適切な指摘箇所判定が行えるか解析を実施した。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1000x465_v-fs_webp_c5c0018b-389c-4779-ac51-53d5095f874e.png)
+![](/assets/cms/NxqgdRVEa1/s-1000x465_v-fs_webp_c5c0018b-389c-4779-ac51-53d5095f874e.png)
 
                             　 様々な画像に対して指摘箇所の検出可能性を多角的に検証
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1393x822_v-fms_webp_3bc0b9c0-2d7b-4144-bfa9-28ba4c7b3048.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1393x822_v-fms_webp_3bc0b9c0-2d7b-4144-bfa9-28ba4c7b3048.jpg)
 
                           　　 LA-Eyeで構築したAIモデルが指摘箇所を検出した様子の一例  
                                        　　それぞれ適切な検出ができることを確認
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2560x1452_v-frms_webp_f781ad81-482a-4bc8-9d09-abadde6af82d.png)
+![](/assets/cms/NxqgdRVEa1/s-2560x1452_v-frms_webp_f781ad81-482a-4bc8-9d09-abadde6af82d.png)
 
                                      　学習時のLA-Eyeの画面（順調に学習が進捗している）
 
@@ -71,24 +71,24 @@ LAplustのミッションは「真の知能を実装し、社会活動を根底�
 
 [https://laplust.com/](https://laplust.com/)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-637x199_v-fs_webp_d7fd7374-4fc6-4515-a68e-7078721afd85.jpg)
+![](/assets/cms/NxqgdRVEa1/s-637x199_v-fs_webp_d7fd7374-4fc6-4515-a68e-7078721afd85.jpg)
 
 \*2  
 清水建設株式会社  
 清水建設の創業は1804（文化元）年。越中富山の大工であった初代清水喜助が江戸・神田鍛冶町で開業したことに始まります。初代喜助が創業当時から目指したのは、「誠心誠意、心を込めて仕事に取り組み、良いものをつくって信頼されること」。そして今、清水建設は、お客様、そして社会のニーズに応えるため、常に新しい知識や技術を追究しています。  
 [https://www.shimz.co.jp/](https://www.shimz.co.jp/)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1066x379_v-fs_webp_38ef3b11-ea07-47d0-b569-cd9384450aea.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1066x379_v-fs_webp_38ef3b11-ea07-47d0-b569-cd9384450aea.jpg)
 
 \*3  
 双日九州株式会社  
 双日九州株式会社は、双日グループの地域密着型総合商社として、地域の皆様と共に発展していきます。  
 [https://www.kyushu.sojitz.com/](https://www.kyushu.sojitz.com/)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1179x229_v-fs_webp_abfe76eb-aa51-49b1-bc07-61500b766641.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1179x229_v-fs_webp_abfe76eb-aa51-49b1-bc07-61500b766641.jpg)
 
 \*4  
 LA-Eye(エルエーアイ)　([専用ページ](https://laplust.notion.site/LA-Eye-259c08e5f34c80a6affbf5e959f0367a))  
 画像解析AI構築ソフトウェアLA-Eye(エルエーアイ, 2023年9月リリース)は利用者の目的に合わせた画像解析AIを構築できます。お客様の課題に合わせた操作画面のカスタマイズやお客様ブランド（ロゴの変更等）での提供も可能です。画像解析AIの構築・現場導入において必要な業務の手間を大きく引き下げ、検証から運用までのトータルコストと時間を最小化します。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1447x421_v-fms_webp_8b499401-af27-4aad-ba6e-919a8c6e221b.jpg)
+![](/assets/cms/NxqgdRVEa1/s-1447x421_v-fms_webp_8b499401-af27-4aad-ba6e-919a8c6e221b.jpg)

@@ -5,9 +5,9 @@ date: 2024-05-14
 category: company
 categories: [company]
 sortIndex: 67
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_82dba784-1a26-4179-b800-402e61703193.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_82dba784-1a26-4179-b800-402e61703193.png"
 description: "LAplustの社会課題解決の取り組みが九州経済産業局が実施し公開する「社会のデータ・AI等活用事例動画」に掲載されました。本動画はCreative Commonsライセンス「CC BY-NC-ND ... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_v-fms_webp_82dba784-1a26-4179-b800-402e61703193.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x720_v-fms_webp_82dba784-1a26-4179-b800-402e61703193.png"
 ---
 
 LAplustの社会課題解決の取り組みが九州経済産業局が実施し公開する「社会のデータ・AI等活用事例動画」に掲載されました。

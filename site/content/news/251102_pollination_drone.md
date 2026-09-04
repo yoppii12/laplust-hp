@@ -5,9 +5,9 @@ date: 2025-11-02
 category: other
 categories: []
 sortIndex: 23
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1113_143c0bb3-4e2f-41a0-83f6-251aadcbacd8.webp"
+cover: "/assets/cms/NxqgdRVEa1/s-2048x1113_143c0bb3-4e2f-41a0-83f6-251aadcbacd8.webp"
 description: "概要ミツバチに代わる非GPS環境で飛行可能な全自動受粉ドローンでいちごなどの自家受粉を行う作物の受粉活動をドローンが起こす風を用いてサポートします。風媒での受粉はすでに日本各地で行われており、高齢化・... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1113_143c0bb3-4e2f-41a0-83f6-251aadcbacd8.webp"
+ogImage: "/assets/cms/NxqgdRVEa1/s-2048x1113_143c0bb3-4e2f-41a0-83f6-251aadcbacd8.webp"
 ---
 
 ### 概要
@@ -39,6 +39,6 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 日本農業新聞の1面に掲載いただきました。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-528x944_da764807-b478-4fd6-99c2-741c668b5c46.webp)
+![](/assets/cms/NxqgdRVEa1/s-528x944_da764807-b478-4fd6-99c2-741c668b5c46.webp)
 
 お問合せは[コチラ](https://laplust.com/contact/)

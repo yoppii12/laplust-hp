@@ -26,14 +26,32 @@ export const metadata: Metadata = {
     '株式会社LAplust（ラプラス）は、動画や画像解析に特化した機械学習/深層学習技術の研究開発を行い、実践知を蓄積し、課題解決するためのプロダクトを社会実装しています。',
 };
 
+const GTM_ID = 'GTM-K28LDCGJ';
+
+// 本番ドメインでのみGTMを読み込む（localhost・NetlifyプレビューURLを計測から除外）
+const GTM_SNIPPET = `(function(){
+if(!/(^|\\.)laplust\\.com$/.test(location.hostname))return;
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_ID}');
+})();`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     // フォント変数は:rootで参照するため<html>側に付与する（bodyだと--font-en解決時に未定義になる）
     <html lang="ja" className={`${poppins.variable} ${notoSansJp.variable}`}>
+      <head>
+        {/* Google Tag Manager */}
+        <script dangerouslySetInnerHTML={{ __html: GTM_SNIPPET }} />
+      </head>
       <body>
-        {/* 画像・動画の配信元へ事前接続して初期表示を高速化（React19が<head>へ巻き上げる） */}
-        <link rel="preconnect" href="https://storage.googleapis.com" crossOrigin="" />
-        <link rel="dns-prefetch" href="https://storage.googleapis.com" />
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
         {children}
       </body>
     </html>

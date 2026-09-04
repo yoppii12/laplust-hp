@@ -5,9 +5,9 @@ date: 2026-07-07
 category: event
 categories: [company, event]
 sortIndex: 6
-cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_2e755476-68a1-4691-adcf-641c194af967.png"
+cover: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_2e755476-68a1-4691-adcf-641c194af967.png"
 description: "2026年6月29日（月）に東京型スマート農業研究開発プラットフォームが主催する令和8年度第1回Web講演会が、「～AI技術活用の最前線～スマート農業における導入・実践事例の紹介」のテーマで開催されま... "
-ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_2e755476-68a1-4691-adcf-641c194af967.png"
+ogImage: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_2e755476-68a1-4691-adcf-641c194af967.png"
 ---
 
 2026年6月29日（月）に東京型スマート農業研究開発プラットフォームが主催する令和8年度第1回Web講演会が、「～AI技術活用の最前線～スマート農業における導入・実践事例の紹介」のテーマで開催されました。
@@ -29,7 +29,7 @@ ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/Nxqg
 
 などのご意見がご参加者から寄せられました。
 
-![](https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1332x942_v-fms_webp_81d2671c-b75c-4388-bb6b-eb7b6ca1bce6.png)
+![](/assets/design/NxqgdRVEa1/s-1332x942_v-fms_webp_81d2671c-b75c-4388-bb6b-eb7b6ca1bce6.png)
 
 **本件の関連リンク**
 

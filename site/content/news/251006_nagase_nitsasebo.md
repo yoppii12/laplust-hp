@@ -5,9 +5,9 @@ date: 2025-10-06
 category: company
 categories: [company]
 sortIndex: 38
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_487830d9-dc68-483a-8f74-cd5429cfac91.png"
+cover: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_487830d9-dc68-483a-8f74-cd5429cfac91.png"
 description: "概要　動画像解析AIの研究開発ならびに画像解析AI構築ツールLA-Eyeの提供を行う株式会社LAplust*1(本社：長崎県長崎市、代表取締役社長 田中 宏樹、以下、LAplust(ラプラス))は、株... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1005_v-frms_webp_487830d9-dc68-483a-8f74-cd5429cfac91.png"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1920x1005_v-frms_webp_487830d9-dc68-483a-8f74-cd5429cfac91.png"
 ---
 
 **概要**
@@ -33,7 +33,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 ●    **LAplust**【画像AI開発・実装で10年以上の実績】  
  　最適なAI選定,活用をサポートしLA-Eyeを研削加工分野向けにカスタマイズを担当
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1920x1072_v-frms_webp_73163a9a-20aa-4f68-8050-9821748d85d5.png)
+![](/assets/cms/NxqgdRVEa1/s-1920x1072_v-frms_webp_73163a9a-20aa-4f68-8050-9821748d85d5.png)
 
 ナガセインテグレックス 担当部署のコメント
 
@@ -52,18 +52,18 @@ LAplustは製造業/農業分野に対して生産現場を根底から支える
 　画像解析AI構築ソフトウェアLA-Eye（エルエーアイ、2023年9月リリース）は利用者の目的に合わせた画像解析AIを構築でき、課題に合わせた画面カスタマイズやODM（オリジナル・デザイン・マニュファクチャリング）での提供が可能です。画像解析AIの構築・現場導入において必要な業務の手間を大きく引き下げ、検証から運用までのトータルコストと時間を最小化します。  
 　LAplustのミッションは「真の知能を実装し、社会活動を根底から支える」ことです。10年以上の動画像に特化したAIの開発経験とノウハウ、最新の画像AI関連の研究論文から学び得た本質的かつ実用的なAIアルゴリズムの目利きと利活用、複数のAIを組み合わせ維持/運用/更新をシームレスに実現する内製技術基盤（CTI:Core Tech Interface）を活用することで開発コスト・期間を最小化しお客様に最善の価値を「継続的に」提供します。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-637x199_v-fs_webp_2bd4401c-eb5b-46da-970f-5cf8f00c7c73.jpg)
+![](/assets/cms/NxqgdRVEa1/s-637x199_v-fs_webp_2bd4401c-eb5b-46da-970f-5cf8f00c7c73.jpg)
 
 \*2  
 株式会社ナガセインテグレックス  
 [https://www.nagase-i.jp/](https://www.nagase-i.jp/)  
 　ナガセインテグレックス株式会社は、ナノメータの面粗さ、サブミクロンの形状精度を実現する超精密研削盤をはじめ、世界最高の精度・能率を追求した工作機械づくりを行うメーカです。1950年の創業以来、超精密研削盤の専業メーカーとして世界トップクラスの技術を提供。長年培った超精密加工技術と独自のノウハウにより、半導体・自動車・航空機・金型など幅広い産業分野に製品を展開してきました。加工精度の限界に挑み続け、ものづくりの発展に貢献します。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-882x219_v-fs_webp_aece8fc3-fd9c-4ebe-8a91-5d90877752c5.jpg)
+![](/assets/cms/NxqgdRVEa1/s-882x219_v-fs_webp_aece8fc3-fd9c-4ebe-8a91-5d90877752c5.jpg)
 
 \*3  
 国立佐世保工業高等専門学校  
 [https://www.sasebo.ac.jp/](https://www.sasebo.ac.jp/)  
 　佐世保工業高等専門学校（佐世保高専）は、長崎県佐世保市に位置する高等教育機関で、実践的な工学教育を通じて産業界に貢献する技術者を育成しています。地域産業や企業との共同研究にも積極的に取り組み、実社会で役立つ技術の創出と人材育成を推進しています。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-890x152_v-fs_webp_ab7d823b-0776-49ae-8745-ca15a9259112.png)
+![](/assets/cms/NxqgdRVEa1/s-890x152_v-fs_webp_ab7d823b-0776-49ae-8745-ca15a9259112.png)

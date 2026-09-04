@@ -272,7 +272,7 @@
   margin-top: -75px; /* 透過ヘッダーの背面に回す（現行と同じ構造） */
   background:
     linear-gradient(rgba(10, 12, 28, 0.35), rgba(10, 12, 28, 0.35)),
-    url('https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-3912x2046_v-frms_webp_ff589077-07d2-445f-a6c2-26507117afb8_regular.webp')
+    url('/assets/design/NxqgdRVEa1/s-3912x2046_v-frms_webp_ff589077-07d2-445f-a6c2-26507117afb8_regular.webp')
       center / cover no-repeat;
   overflow: hidden;
 }

@@ -4,7 +4,5 @@
   command = "npm run build"
   publish = "out"
 
-# Netlify Functions（問い合わせフォーム受信用。要件定義書8-3節）
-# 実装は site/netlify/functions/ に配置する
-[functions]
-  directory = "netlify/functions"
+# フォーム受信は GAS Webアプリ（lib/submitForm.ts）に移行済みのため
+# Netlify Functions は使用しない

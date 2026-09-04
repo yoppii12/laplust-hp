@@ -5,9 +5,9 @@ date: 2026-05-23
 category: company
 categories: [company]
 sortIndex: 8
-cover: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_302cbfe9-d381-48c8-94c7-225410b0dc94.png"
+cover: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_302cbfe9-d381-48c8-94c7-225410b0dc94.png"
 description: "2026年4月27日の電波新聞に弊社の取り組みについて、記事が掲載されましたのでお知らせいたします。福岡県情報サービス産業協会（FISA）と長崎県情報産業協会（NISA）は、福岡市博多区で交流連携協定... "
-ogImage: "https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-1280x670_v-fms_webp_302cbfe9-d381-48c8-94c7-225410b0dc94.png"
+ogImage: "/assets/design/NxqgdRVEa1/s-1280x670_v-fms_webp_302cbfe9-d381-48c8-94c7-225410b0dc94.png"
 ---
 
 2026年4月27日の電波新聞に弊社の取り組みについて、記事が掲載されましたのでお知らせいたします。

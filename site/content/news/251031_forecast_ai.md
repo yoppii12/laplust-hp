@@ -5,9 +5,9 @@ date: 2025-10-31
 category: other
 categories: []
 sortIndex: 27
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_b4e1ec17-08cb-43c3-b34b-a9154632256e.webp"
+cover: "/assets/cms/NxqgdRVEa1/s-1280x720_b4e1ec17-08cb-43c3-b34b-a9154632256e.webp"
 description: "概要AIを用いた投資商品の開発を行いたいというご要望にお応えするため、LAplustで保有するAIアルゴリズム(機械学習基盤LA++ ラプラ)を金融分野へと応用*した事例です。高度な数学的手法を用いて... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1280x720_b4e1ec17-08cb-43c3-b34b-a9154632256e.webp"
+ogImage: "/assets/cms/NxqgdRVEa1/s-1280x720_b4e1ec17-08cb-43c3-b34b-a9154632256e.webp"
 ---
 
 ### 概要
@@ -56,20 +56,20 @@ AIのモデルには深層学習（1次元畳み込みニューラルネット�
 
 **AIを用いた外国為替の短期変動予測モデルのイメージ**
 
-![ヒトの脳の学習の仕組みをプログラムで表したイメージ図](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-958x540_9b32c94b-7f68-4235-b634-352b4375d093.webp)
+![ヒトの脳の学習の仕組みをプログラムで表したイメージ図](/assets/cms/NxqgdRVEa1/s-958x540_9b32c94b-7f68-4235-b634-352b4375d093.webp)
 
-![ヒトが学習するときの情報処理の流れを示す図](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-954x539_97517658-53dc-4bbe-a609-ff5692714180.webp)
+![ヒトが学習するときの情報処理の流れを示す図](/assets/cms/NxqgdRVEa1/s-954x539_97517658-53dc-4bbe-a609-ff5692714180.webp)
 
-![ヒトとAIの学習プロセスの共通点を比較した図](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-954x536_811a1680-f5ad-4cf1-86ed-ca9e9e0fe55f.webp)
+![ヒトとAIの学習プロセスの共通点を比較した図](/assets/cms/NxqgdRVEa1/s-954x536_811a1680-f5ad-4cf1-86ed-ca9e9e0fe55f.webp)
 
-![AIが為替取引の学習から実運用まで進む流れを示したグラフ](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-956x537_120672ba-1e27-40da-a3f2-48f20dbc53db.webp)
+![AIが為替取引の学習から実運用まで進む流れを示したグラフ](/assets/cms/NxqgdRVEa1/s-956x537_120672ba-1e27-40da-a3f2-48f20dbc53db.webp)
 
-![AIが為替データを収集して学習に使用する過程のイメージ](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-951x532_8e61ff5d-f10e-4827-a041-64baaaa67ba5.webp)
+![AIが為替データを収集して学習に使用する過程のイメージ](/assets/cms/NxqgdRVEa1/s-951x532_8e61ff5d-f10e-4827-a041-64baaaa67ba5.webp)
 
-![集めたデータを学習用に整理しデータセット化する工程の図](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-953x535_d96afff1-a612-414e-9e3b-634bad150b26.webp)
+![集めたデータを学習用に整理しデータセット化する工程の図](/assets/cms/NxqgdRVEa1/s-953x535_d96afff1-a612-414e-9e3b-634bad150b26.webp)
 
-![AIが為替取引データを用いて学習する様子を表した図](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-949x528_9865b7e9-25b5-48e7-9a9a-ee12358b1657.webp)
+![AIが為替取引データを用いて学習する様子を表した図](/assets/cms/NxqgdRVEa1/s-949x528_9865b7e9-25b5-48e7-9a9a-ee12358b1657.webp)
 
-![学習したAIが為替データをもとに取引を実行する仕組みの図](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-953x532_66a5fa13-d8f7-4ffd-aaf1-cd5672a68752.webp)
+![学習したAIが為替データをもとに取引を実行する仕組みの図](/assets/cms/NxqgdRVEa1/s-953x532_66a5fa13-d8f7-4ffd-aaf1-cd5672a68752.webp)
 
 お問合せは[コチラ](https://laplust.com/contact/)

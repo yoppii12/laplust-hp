@@ -7,7 +7,7 @@ import LazyVideo from '@/components/LazyVideo';
 import { getAllNews } from '@/lib/news';
 import styles from './page.module.css';
 
-const GCS = 'https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1';
+const GCS = '/assets/design/NxqgdRVEa1';
 
 const ASSETS = {
   heroVideo: `${GCS}/s-1920x1080_576cb1c9-d182-4977-9867-6afddfd3aaac.mp4#t=0.01`,

@@ -5,9 +5,9 @@ date: 2025-11-02
 category: other
 categories: []
 sortIndex: 21
-cover: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1365_1422db45-c31d-4119-86b0-f76a4de766af.webp"
+cover: "/assets/cms/NxqgdRVEa1/s-2048x1365_1422db45-c31d-4119-86b0-f76a4de766af.webp"
 description: "概要葉や茎の画像から病害虫名称の候補を推定するAIエンジン開発・提供しています。すぐに利用できるように基本アプリケーションとの組み合わせでの提供も可能です。プレスリリースはコチラ（詳細な情報を記載して... "
-ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2048x1365_1422db45-c31d-4119-86b0-f76a4de766af.webp"
+ogImage: "/assets/cms/NxqgdRVEa1/s-2048x1365_1422db45-c31d-4119-86b0-f76a4de766af.webp"
 ---
 
 ### 概要
@@ -16,7 +16,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 プレスリリースはコチラ（詳細な情報を記載しています。）
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-802x467_9e738ff1-8aef-497e-b8b2-403870e4e62f.webp)
+![](/assets/cms/NxqgdRVEa1/s-802x467_9e738ff1-8aef-497e-b8b2-403870e4e62f.webp)
 
 ### 課題
 
@@ -30,7 +30,7 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 **APIとして利用しやすい形でご提供しております。**品目・病害種・精度は日々AIが学習を繰り返しアップデートしています。また基本アプリケーションの利用も可能です。基本アプリケーション・APIの仕様・利用料等の詳細は[お問い合わせ](https://laplust.com/contact/)ください。
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-326x468_9d984368-e4ab-46a7-a0fd-4ae45dc86c71.webp)
+![](/assets/cms/NxqgdRVEa1/s-326x468_9d984368-e4ab-46a7-a0fd-4ae45dc86c71.webp)
 
 ### 効果
 
@@ -54,9 +54,9 @@ ogImage: "https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s
 
 ### メディア掲載
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-1024x705_6558a581-1069-475a-9522-4d77e6fc6b7c.webp)
+![](/assets/cms/NxqgdRVEa1/s-1024x705_6558a581-1069-475a-9522-4d77e6fc6b7c.webp)
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-734x518_08e495bf-d437-4081-8257-a185cdb64756.webp)
+![](/assets/cms/NxqgdRVEa1/s-734x518_08e495bf-d437-4081-8257-a185cdb64756.webp)
 
 掲載先
 
@@ -166,4 +166,4 @@ No.
 
 提供元企業：株式会社LAplust
 
-![](https://storage.googleapis.com/studio-cms-assets/projects/NxqgdRVEa1/s-2400x634_v-frms_webp_6d8ba0d3-6b70-46fb-b309-b31b3ca5ff85.png)
+![](/assets/cms/NxqgdRVEa1/s-2400x634_v-frms_webp_6d8ba0d3-6b70-46fb-b309-b31b3ca5ff85.png)

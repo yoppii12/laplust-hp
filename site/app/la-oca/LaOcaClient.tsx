@@ -2,10 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { submitForm } from '@/lib/submitForm';
 import styles from './laoca.module.css';
-
-// 送信先: Netlify Functions（components/ContactForm.tsx と同じ流儀）
-const ENDPOINT = '/.netlify/functions/contact';
 
 /* ---------- 専用ヘッダー（バーガーメニュー付き） ---------- */
 export function LaOcaHeader() {
@@ -17,7 +15,7 @@ export function LaOcaHeader() {
     <header className={styles.header}>
       <Link href="/la-oca" className={styles.headerBrand} onClick={close}>
         <img
-          src="https://storage.googleapis.com/studio-design-asset-files/projects/NxqgdRVEa1/s-240x63_webp_cd594453-5652-4774-93d2-78f773bd04d3.webp"
+          src="/assets/design/NxqgdRVEa1/s-240x63_webp_cd594453-5652-4774-93d2-78f773bd04d3.webp"
           alt="LAplust"
         />
         <span className={styles.headerBrandName}>ワンクリック アノテーション</span>
@@ -129,12 +127,7 @@ export function LaOcaTrialForm() {
     const data = Object.fromEntries(new FormData(form).entries());
     setStatus('sending');
     try {
-      const res = await fetch(ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ form: 'la-oca', ...data }),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      await submitForm('LA-OCA無料申し込み', data);
       setStatus('done');
       form.reset();
     } catch {
