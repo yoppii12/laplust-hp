@@ -5,11 +5,14 @@ import Link from 'next/link';
 import { submitForm } from '@/lib/submitForm';
 
 export default function ContactForm({
+  lead,
   typeOptions,
   serviceOptions,
   requireCompany = false,
   requireTel = false,
 }: {
+  // フォーム上部の案内文（送信完了後は表示しない）
+  lead?: React.ReactNode;
   // 記録先はGAS側で「お問い合わせ」シートに統一（送信元はpage列で判別）
   formName?: string;
   typeOptions: string[];
@@ -53,7 +56,9 @@ export default function ContactForm({
   }
 
   return (
-    <form className="form" onSubmit={onSubmit}>
+    <>
+      {lead && <div style={{ maxWidth: 640, margin: '40px auto 48px' }}>{lead}</div>}
+      <form className="form" onSubmit={onSubmit}>
       {serviceOptions && (
         <div className="form__field">
           <span className="form__label">
@@ -184,6 +189,7 @@ export default function ContactForm({
       <button type="submit" className="btn-pill form__submit" disabled={status === 'sending'}>
         {status === 'sending' ? '送信中…' : '送信'}
       </button>
-    </form>
+      </form>
+    </>
   );
 }
