@@ -144,6 +144,11 @@ function doPost(e) {
   }
 }
 
+// 実行アカウントで差出人に使えるエイリアス一覧を実行ログに表示する
+function logAliases() {
+  Logger.log('利用可能なエイリアス: ' + JSON.stringify(GmailApp.getAliases()));
+}
+
 // 権限承認＆自動返信の動作確認用: エディタでこの関数を選んで「実行」すると、
 // 承認ダイアログが表示され、承認後にNOTIFY_EMAIL宛へテストメールが届く
 function testAutoReply() {
