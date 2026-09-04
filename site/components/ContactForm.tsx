@@ -46,17 +46,32 @@ export default function ContactForm({
     }
   }
 
-  if (status === 'done') {
-    return (
-      <div className="form__status">
-        <p>お問い合わせを受け付けました。</p>
-        <p>3営業日以内に担当者からご返答いたします。</p>
-      </div>
-    );
-  }
-
   return (
     <>
+      {/* 現行版準拠: 完了時はフォームの上に紺色半透過のモーダルを重ねる */}
+      {status === 'done' && (
+        <div className="form-done" role="dialog" aria-modal="true" aria-label="お問い合わせ完了">
+          <div className="form-done__panel">
+            <button
+              type="button"
+              className="form-done__close"
+              aria-label="閉じる"
+              onClick={() => setStatus('idle')}
+            >
+              ×
+            </button>
+            <p className="form-done__title">お問い合わせが完了しました</p>
+            <p className="form-done__lead">
+              このたびは、当社へお問い合わせいただき有難うございます。
+              <br />
+              弊社でお問い合わせ内容を確認の上、3営業日以内にお返事いたします。
+            </p>
+            <Link href="/" className="form-done__btn">
+              TOPページへ
+            </Link>
+          </div>
+        </div>
+      )}
       {lead && <div style={{ maxWidth: 640, margin: '40px auto 48px' }}>{lead}</div>}
       <form className="form" onSubmit={onSubmit}>
       {serviceOptions && (
